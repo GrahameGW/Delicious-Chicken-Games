@@ -1,0 +1,66 @@
+title: MeetingwithAnnie
+tags: 
+colorID: 0
+position: -341,-496
+---
+Annie: So I didn't dream it!
+STAGE: Dissolve to after explanation
+Khalid: ...so yeah. The station is mine now.
+Annie: What are you going to do with it?
+ [[Answer:Sell it for scrap|partItOut]]
+ [[Answer:Nothing|nothing]]
+ [[Answer:Play some tunes|tunes]]
+===
+title: partItOut
+tags: 
+colorID: 0
+position: -584,-132
+---
+Khalid: Not much. Part it out probably, then move on. There’s not much reason for me to stay here.
+Annie: No! You can't!
+Khalid: Uh...yes I can?
+Annie: Look, I know the town isn’t how you remember it. Too many people leaving, and the rest have just stopped caring. But last night, when the radio came back on? Happiest I’ve seen folks since before everything.
+Khalid: Not my job to make other people happy. I’ve gotta make ends meet too. And I can’t afford to keep this place running.
+Annie: We can’t afford to not have it running.
+ [[Answer:MeetingContd|MeetingContd]]
+===
+title: nothing
+tags: 
+colorID: 0
+position: -298,-128
+---
+Khalid: Nothing. It's a bed for tonight, and maybe tomorrow. Then it's on to Duskvale, or maybe Old Louisville.
+Annie: You're not even going to try to keep it running?
+Khalid: Nah. It was a lot of work just to play a few songs. I don't need the hassle.
+Annie: It was more than just a few songs to us. Stay for a bit longer?
+Khalid: I'd rather not. You seem like a nice person, but I have no reason to stay here. I've gotta eat too, and I can't eat airwaves.
+ [[Answer:MeetingContd|MeetingContd]]
+===
+title: tunes
+tags: 
+colorID: 0
+position: -23,-130
+---
+Khalid: Play a few tunes. Find some work. Move on when that dries up.
+Annie: Really? You're gonna stay?
+Khalid: Sure. Not for long though. I'm more of a solo act
+ [[Answer:MeetingContd|MeetingContd]]
+===
+title: MeetingContd
+tags: 
+colorID: 0
+position: -396,164
+---
+Annie: What if I invest in the station?
+Khalid: Huh?
+Annie: I’ve got some money, both my own and a pool to spend on the town. If I cover your expenses, at least to start, would you stay?
+Khalid: It’s not cheap to run something like this. Electricity alone--
+Annie: The town will float you. Just until the Harvest Festival.
+Khalid: ...you can just spend municipal funds? 
+Annie: I don't just own the diner. I'm also the mayor.
+Khalid: I see.
+Annie: The Harvest Festival is in 6 weeks. We were going to cancel...again...but with a radio station we can actually get people excited. Bring everyone together. What do you say?
+Khalid: ...All right. Just until the Festival.
+Annie: Wonderful! I can’t wait. 
+Annie: That’ll help you find your way around. I’m down at the diner. Come find me if you need help or just want a break. I’m sure everyone will be thrilled to meet you.
+===

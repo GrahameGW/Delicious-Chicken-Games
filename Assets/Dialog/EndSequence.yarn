@@ -1,7 +1,7 @@
 title: Start
 tags: 
 colorID: 0
-position: -868,-681
+position: -1878,-304
 ---
 Khalid: Well folks, today's the day. The Harvest Festival is setting up in town, and it's sure to be a fun time.
 Khalid: There's music, food, booze, and even some friendly competition to liven things up.
@@ -11,7 +11,7 @@ Khalid: There's music, food, booze, and even some friendly competition to liven 
 title: Gratitude
 tags: 
 colorID: 0
-position: -993,-426
+position: -1613,-435
 ---
 Khalid: I wanted to take a moment to recognize all the hard work and care that has gone into organizing this event.
 Khalid: Thank you to Mayor Annie and her team, who have worked round the clock to get everything in place.
@@ -23,7 +23,7 @@ Khalid: So thank you for believing in each other and in the goodness to be found
 title: Hype
 tags: 
 colorID: 0
-position: -681,-426
+position: -1623,-190
 ---
 Khalid: Try your hand at Lera's shooting gallery. Have you got the fastest air gun in the county? There's a stuffed pumpkin with your name on it.
 Khalid: Or wolf down some of Annie's world-famous three-berry pie washed down with a big glug of Miss Ruthie's apple cider. I can practically smell the sweet scent of cinnamon from here.
@@ -33,7 +33,7 @@ Khalid: Dancing more your speed? Well, thanks to your efforts Buck and the Boys 
 title: EndofBroadcast
 tags: 
 colorID: 0
-position: -846,-177
+position: -1311,-309
 ---
 Khalid: So take the day off, come down and reacquaint yourself with your community. You won’t want to miss it.
 Annie: Good pitch.
@@ -45,7 +45,7 @@ Khalid: Here's hoping it gets them out to the festival.
 title: AnnieHappy
 tags: 
 colorID: 0
-position: -1063,67
+position: -1010,-529
 ---
 Annie: I'm sure they will. You've done so much for everyone. We've all been looking forward to this for weeks.
  [[Answer:End|End]]
@@ -53,7 +53,7 @@ Annie: I'm sure they will. You've done so much for everyone. We've all been look
 title: AnnieNeutral
 tags: 
 colorID: 0
-position: -834,66
+position: -1016,-302
 ---
 Annie: We should have a decent turnout. Not as big as in better times, but a good foundation for the future.
  [[Answer:End|End]]
@@ -61,7 +61,7 @@ Annie: We should have a decent turnout. Not as big as in better times, but a goo
 title: AnnieUpset
 tags: 
 colorID: 0
-position: -596,62
+position: -1017,-58
 ---
 Annie: I hope so. Your tactics have upset a lot of people. They may stay home out of spite.
  [[Answer:End|End]]
@@ -69,8 +69,47 @@ Annie: I hope so. Your tactics have upset a lot of people. They may stay home ou
 title: End
 tags: 
 colorID: 0
-position: -846,307
+position: -693,-297
 ---
 Khalid: Ready to go?
 Annie: After you.
+ [[Answer:BestFestival|BestFestival]]
+ [[Answer:GoodFestival|GoodFestival]]
+ [[Answer:BadFestival|BadFestival]]
+ [[Answer:WorstFestival|WorstFestival]]
+===
+title: BestFestival
+tags: 
+colorID: 0
+position: -361,-586
+---
+The Harvest Festival was a complete success. 
+People came in from around the county and beyond to meet their neighbors, enjoy the fall, and forget their troubles for one glorious day.
+Those who were old enough to remember the before times all agreed that this festival was as good or better as any they'd attended years ago.
+Buck and the Boys played all afternoon and into the night. The dance floor was packed the entire time. More than one new romance blossomed to their soundtrack.
+To everyone's surprise, Miss Ruthie took home the grand prize at Lera's shooting gallery. Her secret? A twenty-year career in the Marines and fingers kept limber through her knitting.
+With the festival running smoothly, Annie finally took a night off. The diner stayed closed while the Mayor celebrated with her community. There was no one happier in the entire county that night.
+And Khalid? 
+Well, he still plans on moving on. But he'll wait around a little bit. Just long enough to help them get the Festival set up next year...
+===
+title: GoodFestival
+tags: 
+colorID: 0
+position: -357,-368
+---
+Empty Text
+===
+title: BadFestival
+tags: 
+colorID: 0
+position: -358,-146
+---
+Empty Text
+===
+title: WorstFestival
+tags: 
+colorID: 0
+position: -354,83
+---
+Empty Text
 ===

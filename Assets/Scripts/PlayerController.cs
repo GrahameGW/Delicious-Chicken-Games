@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
         if (!EventSystem.current.IsPointerOverGameObject()) {
             if (Input.GetButtonDown("Fire1")) {
                 Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                Debug.Log(worldPosition);
+
                 if (travelInst != null) StopCoroutine(travelInst);
                 travelInst = StartCoroutine(Travel(worldPosition));
             }

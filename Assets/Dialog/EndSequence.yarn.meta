@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 7e51ed9843d1d69408eeb067eecac4eb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - EndSequence-Start-0
+  - EndSequence-Start-1
+  - EndSequence-Start-2
+  - EndSequence-Start-3
+  - EndSequence-Gratitude-4
+  - EndSequence-Gratitude-5
+  - EndSequence-Gratitude-6
+  - EndSequence-Gratitude-7
+  - EndSequence-Gratitude-8
+  - EndSequence-Gratitude-9
+  - EndSequence-Hype-10
+  - EndSequence-Hype-11
+  - EndSequence-Hype-12
+  - EndSequence-Hype-13
+  - EndSequence-EndofBroadcast-14
+  - EndSequence-EndofBroadcast-15
+  - EndSequence-EndofBroadcast-16
+  - EndSequence-EndofBroadcast-17
+  - EndSequence-EndofBroadcast-18
+  - EndSequence-EndofBroadcast-19
+  - EndSequence-AnnieHappy-20
+  - EndSequence-AnnieHappy-21
+  - EndSequence-AnnieNeutral-22
+  - EndSequence-AnnieNeutral-23
+  - EndSequence-AnnieUpset-24
+  - EndSequence-AnnieUpset-25
+  - EndSequence-End-26
+  - EndSequence-End-27
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

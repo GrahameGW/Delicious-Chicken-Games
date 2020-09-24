@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a77941e68a06e3544aaa85837f0e89a6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 10 at position 25:\nextraneous input '
+    it out' expecting ']]'\r\n[[Sell it for scrap|part it out]]\r\n                       
+    ^^^^^^^"
+  baseLanguage: {instanceID: 0}
+  localizations: []

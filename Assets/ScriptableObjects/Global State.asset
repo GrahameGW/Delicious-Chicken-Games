@@ -16,3 +16,4 @@ MonoBehaviour:
   currentTime: 0
   communityApproval: 0
   communityReached: 0
+  money: 0

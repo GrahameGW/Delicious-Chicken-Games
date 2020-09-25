@@ -1691,7 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c713e74a7d25f747a36480c0b8fc08e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: Studio
+  nextScene: IntroSequence
 --- !u!1 &1103131475
 GameObject:
   m_ObjectHideFlags: 0

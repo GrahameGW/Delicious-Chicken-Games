@@ -6,11 +6,11 @@ namespace TitleScreen
     public class PlayButton : MonoBehaviour
     {
         [SerializeField]
-        private string startScene = default;
+        private string nextScene = default;
 
         public void Play()
         {
-            SceneManager.LoadScene(startScene);
+            SceneManager.LoadScene(nextScene);
         }
     }
 }

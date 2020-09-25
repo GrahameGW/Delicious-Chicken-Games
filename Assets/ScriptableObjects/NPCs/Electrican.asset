@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21a7540e9a650bb479fb3bedcef0e739, type: 3}
-  m_Name: Buck
+  m_Name: Electrican
   m_EditorClassIdentifier: 
-  name: Buck
+  name: 
   approvalScore: 0

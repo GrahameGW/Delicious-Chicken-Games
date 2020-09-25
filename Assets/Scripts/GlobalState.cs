@@ -8,6 +8,7 @@ public class GlobalState : ScriptableObject
     public float communityApproval = 0.0f;
     [Range(0, 1)]
     public float communityReached = 0.0f;
+    public int money = 0;
 }
 
 public enum TimeOfDay {

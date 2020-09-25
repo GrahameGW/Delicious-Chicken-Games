@@ -4,7 +4,11 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float speed = 2.0f;
+    public float minY, maxY;
+    public float minScale, maxScale;
+
+    [SerializeField]
+    private float speed = 2.0f;
     private Coroutine travelInst = null;
 
     void Update()
@@ -12,7 +16,6 @@ public class PlayerController : MonoBehaviour
         if (!EventSystem.current.IsPointerOverGameObject()) {
             if (Input.GetButtonDown("Fire1")) {
                 Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
                 if (travelInst != null) StopCoroutine(travelInst);
                 travelInst = StartCoroutine(Travel(worldPosition));
             }
@@ -21,17 +24,29 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Travel(Vector3 newPosition)
     {
-        if (Mathf.Abs(transform.position.x - newPosition.x) <= 0.05f) {
-            yield break;
-        }
+        Vector2 target = new Vector2(newPosition.x, newPosition.y);
+        target = ClampToScreen(target);
+        Vector2 direction = (target - (Vector2)transform.position).normalized;
 
-        Vector2 a = transform.position;
-        Vector2 b = new Vector2(newPosition.x, newPosition.y);
-        float dist = speed / Vector2.Distance(b, a);
-
-        for (float t = 0f; t < 1f; t += Time.deltaTime * dist ) {
-            transform.position = Vector3.Lerp(a, b, t);
+        while (Vector2.Distance(transform.position, target) > 0.05f) {
+            transform.Translate(direction * Time.deltaTime * speed);
+            transform.localScale = ScaleWithDistance(transform.position);
             yield return null;
         }
+    }
+
+    private Vector2 ClampToScreen(Vector2 position)
+    {
+        float newX = Mathf.Clamp(position.x, -3f, 3f);
+        float newY = Mathf.Clamp(position.y, minY, maxY);
+        return new Vector2(newX, newY);
+    }
+
+    private Vector3 ScaleWithDistance(Vector3 position)
+    {
+        float ratio = (maxScale - minScale) / (maxY - minY);
+        float dist = transform.position.y - minY;
+        float newScale = maxScale - (dist * ratio);
+        return new Vector3(newScale, newScale, 0f);
     }
 }

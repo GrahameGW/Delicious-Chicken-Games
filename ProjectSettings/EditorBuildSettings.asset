@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TitleMenu.unity
     guid: 3f58d1a457f69a948bc1992bc1fa663c
+  - enabled: 1
+    path: Assets/Scenes/CastSchedule.unity
+    guid: 9aa050327fa023f4bb1e58c3e991dfc1
   m_configObjects: {}

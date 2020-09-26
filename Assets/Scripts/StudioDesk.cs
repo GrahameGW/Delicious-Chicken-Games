@@ -1,62 +1,63 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class StudioDesk : MonoBehaviour
+public class StudioDesk : InteractiveObject
 {
-    private bool isHighlighted = false;
-    private Collider2D deskCollider;
-    private Coroutine waitForPlayerInst;
 
-    private GameObject player;
+    [Range(0, 1)]
+    [SerializeField]
+    [Tooltip("Controls the size of the trigger box as a percent of the collider size. Action occurs when player in the box")]
+    private float xTriggerModifier = default;
+    [Range(0, 1)]
+    [SerializeField]
+    [Tooltip("Controls the size of the trigger box as a percent of the collider size. Action occurs when player in the box")]
+    private float yTriggerModifier = default;
 
-    private void Start()
+    private Coroutine waitForPlayerInst = null;
+    private PlayerController player;
+
+    private Polygon2D triggerPolygon;
+
+    protected override void Start()
     {
-        deskCollider = GetComponent<Collider2D>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        base.Start();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        triggerPolygon = ResizeTriggerZone(ioCollider);
+        Debug.Log(ioCollider.bounds);
     }
 
-    void Update()
+    public override void Execute()
     {
-        if (!EventSystem.current.IsPointerOverGameObject()) {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            bool isHit = hit.collider == deskCollider;
-            
-            if (Input.GetButtonDown("Fire1")) {
-                if (waitForPlayerInst != null)
-                    StopCoroutine(waitForPlayerInst);
-                if (isHit)
-                    waitForPlayerInst = StartCoroutine(WaitForPlayerArrival());
-            }
+        if (waitForPlayerInst != null)
+            StopCoroutine(waitForPlayerInst);
 
-            Highlight(isHit);
-        }
-    }
-
-    private void Highlight(bool onOff)
-    {
-        isHighlighted = onOff;
-        // TODO: Highlight desk object
+        waitForPlayerInst = StartCoroutine(WaitForPlayerArrival());
     }
 
     private IEnumerator WaitForPlayerArrival()
     {
-        // create smaller bounding zone
-        Vector2 center = deskCollider.bounds.center;
-        Vector2 extents = deskCollider.bounds.extents;
-        Vector2[] corners = new Vector2[] {
-            new Vector2(center.x, center.y + 0.5f * extents.y),
-            new Vector2(center.x, center.y - 0.5f * extents.y),
-            new Vector2(center.x + 0.5f * extents.x, center.y),
-            new Vector2(center.x - 0.5f * extents.x, center.y)
-        };
-        Polygon2D polygon = new Polygon2D(corners);
-
-        while (!polygon.Contains(player.transform.position)) {
+        player.StartTravel(transform.position);
+        while (!triggerPolygon.Contains(player.transform.position)) {
             yield return null;
         }
+        Debug.Log("Reached desk");
 
+        StudioManager.Instance.LeaveStudio();
         SceneManager.LoadScene("DeskCloseup");
+    }
+
+    private Polygon2D ResizeTriggerZone(Collider2D collider)
+    {
+        // create smaller bounding zone
+        Vector2 center = collider.bounds.center;
+        Vector2 extents = collider.bounds.extents;
+        Vector2[] corners = new Vector2[] {
+            new Vector2(center.x, center.y + yTriggerModifier * extents.y),
+            new Vector2(center.x, center.y - yTriggerModifier * extents.y),
+            new Vector2(center.x + xTriggerModifier * extents.x, center.y),
+            new Vector2(center.x - xTriggerModifier * extents.x, center.y)
+        };
+        return new Polygon2D(corners);
     }
 }

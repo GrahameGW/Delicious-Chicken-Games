@@ -7,7 +7,7 @@ public class InputManager : MonoBehaviour
     private Camera mainCamera;
 
     public UnityVector2Event OnMousePositionChange { get; private set; }
-    public GameObject currentlyHighlighted;
+    public InteractiveObject currentlyHighlighted;
     public PlayerController player;
 
     private void Awake()
@@ -26,8 +26,17 @@ public class InputManager : MonoBehaviour
     private void Update()
     {
         if (!EventSystem.current.IsPointerOverGameObject()) {
-            var currentMousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 currentMousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             OnMousePositionChange.Invoke(currentMousePos);
+
+            if (Input.GetButtonDown("Fire1")) {
+                if (currentlyHighlighted != null) {
+                    currentlyHighlighted.Execute();
+                }
+                else if (player != null) {
+                    player.StartTravel(currentMousePos);
+                }
+            }
         }
 
     }

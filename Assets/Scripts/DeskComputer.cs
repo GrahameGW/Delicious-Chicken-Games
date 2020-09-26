@@ -5,7 +5,7 @@ public class DeskComputer : InteractiveObject
 {
     [SerializeField] InteractiveObject[] otherComponents = default;
 
-    protected override void Execute()
+    public override void Execute()
     {
         SceneManager.LoadScene("CastSchedule");
     }

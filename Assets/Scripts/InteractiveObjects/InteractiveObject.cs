@@ -35,7 +35,7 @@ public abstract class InteractiveObject : MonoBehaviour
             InputManager.Instance.OnMousePositionChange.RemoveListener(OnMousePosChangeListener);
     }
 
-    public void Highlight()
+    public virtual void Highlight()
     {
         spriteRenderer.sprite = highlightSprite;
         isHighlighted = true;

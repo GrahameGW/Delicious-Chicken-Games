@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,41 +10,19 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] SpriteRenderer spriteRenderer = default;
 
-
-    private void Start()
+    public void StartTravel(Vector2 destination)
     {
-        InputManager.Instance.OnMousePositionChange.AddListener(OnMousePosChangeListener);
-    }
-    private void OnDestroy()
-    {
-        if (InputManager.Instance != null)
-            InputManager.Instance.OnMousePositionChange.RemoveListener(OnMousePosChangeListener);
+        if (travelInst != null) StopCoroutine(travelInst);
+        travelInst = StartCoroutine(Travel(destination));
     }
 
-    private void OnMousePosChangeListener(Vector2 position)
+    private IEnumerator Travel(Vector2 destintation)
     {
-
-    }
-
-    void Update()
-    {
-        if (!EventSystem.current.IsPointerOverGameObject()) {
-            if (Input.GetButtonDown("Fire1")) {
-                Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                if (travelInst != null) StopCoroutine(travelInst);
-                travelInst = StartCoroutine(Travel(worldPosition));
-            }
-        }
-    }
-
-    private IEnumerator Travel(Vector3 newPosition)
-    {
-        Vector2 target = new Vector2(newPosition.x, newPosition.y);
-        target = ClampToScreen(target);
-        Vector2 direction = (target - (Vector2)transform.position).normalized;
+        destintation = ClampToScreen(destintation);
+        Vector2 direction = (destintation - (Vector2)transform.position).normalized;
         spriteRenderer.flipX = direction.x < 0;
 
-            while (Vector2.Distance(transform.position, target) > 0.05f) {
+            while (Vector2.Distance(transform.position, destintation) > 0.05f) {
             transform.Translate(direction * Time.deltaTime * speed);
             transform.localScale = ScaleWithDistance(transform.position);
             yield return null;

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public abstract class InteractiveObject : MonoBehaviour
 {
     protected bool isHighlighted = false;
@@ -8,11 +9,16 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField] Sprite highlightSprite = default;
 
     private SpriteRenderer spriteRenderer;
+    protected Collider2D ioCollider;
 
-    private void Start()
+    private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        ioCollider = GetComponent<Collider2D>();
         spriteRenderer.sprite = atRestSprite;
+    }
+    protected virtual void Start()
+    {
         InputManager.Instance.OnMousePositionChange.AddListener(OnMousePosChangeListener);
     }
     private void OnDestroy()
@@ -20,27 +26,25 @@ public abstract class InteractiveObject : MonoBehaviour
         if (InputManager.Instance != null)
             InputManager.Instance.OnMousePositionChange.RemoveListener(OnMousePosChangeListener);
     }
-    private void Update()
-    {
-        if (isHighlighted && Input.GetButtonDown("Fire1")) {
-            Execute();
-        }
-    }
 
     public void Highlight()
     {
         spriteRenderer.sprite = highlightSprite;
         isHighlighted = true;
+        InputManager.Instance.currentlyHighlighted = this;
     }
     public void DeHighlight()
     {
         spriteRenderer.sprite = atRestSprite;
         isHighlighted = false;
+        if (InputManager.Instance.currentlyHighlighted == this) {
+            InputManager.Instance.currentlyHighlighted = null;
+        }
     }
 
     protected virtual void OnMousePosChangeListener(Vector2 position)
     {
-        if (spriteRenderer.sprite.bounds.Contains(position)) {
+        if (ioCollider.bounds.Contains(position)) {
             Highlight();
         }
         else {
@@ -48,7 +52,7 @@ public abstract class InteractiveObject : MonoBehaviour
         }
     }
 
-    protected abstract void Execute();
+    public abstract void Execute();
 }
 
 

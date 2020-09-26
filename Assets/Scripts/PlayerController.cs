@@ -11,6 +11,21 @@ public class PlayerController : MonoBehaviour
     private float speed = 2.0f;
     private Coroutine travelInst = null;
 
+    private void Start()
+    {
+        InputManager.Instance.OnMousePositionChange.AddListener(OnMousePosChangeListener);
+    }
+    private void OnDestroy()
+    {
+        if (InputManager.Instance != null)
+            InputManager.Instance.OnMousePositionChange.RemoveListener(OnMousePosChangeListener);
+    }
+
+    private void OnMousePosChangeListener(Vector2 position)
+    {
+
+    }
+
     void Update()
     {
         if (!EventSystem.current.IsPointerOverGameObject()) {

@@ -41,9 +41,6 @@ public class StudioDesk : InteractiveObject
         while (!triggerPolygon.Contains(player.transform.position)) {
             yield return null;
         }
-        Debug.Log("Reached desk");
-
-        StudioManager.Instance.LeaveStudio();
         SceneManager.LoadScene("DeskCloseup");
     }
 

@@ -9,11 +9,13 @@ public class PlayerController : MonoBehaviour
     private Coroutine travelInst = null;
 
     [SerializeField] SpriteRenderer spriteRenderer = default;
+    [SerializeField] Animator animator = default;
 
     public void StartTravel(Vector2 destination)
     {
         if (travelInst != null) StopCoroutine(travelInst);
         travelInst = StartCoroutine(Travel(destination));
+        animator.SetBool("walking", true);
     }
 
     private IEnumerator Travel(Vector2 destintation)
@@ -27,6 +29,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = ScaleWithDistance(transform.position);
             yield return null;
         }
+        animator.SetBool("walking", false);
     }
 
     private Vector2 ClampToScreen(Vector2 position)

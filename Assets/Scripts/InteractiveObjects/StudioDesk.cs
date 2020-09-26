@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class StudioDesk : InteractiveObject
 {
-
     [Range(0, 1)]
     [SerializeField]
     [Tooltip("Controls the size of the trigger box as a percent of the collider size. Action occurs when player in the box")]
@@ -24,7 +23,6 @@ public class StudioDesk : InteractiveObject
         base.Start();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         triggerPolygon = ResizeTriggerZone(ioCollider);
-        Debug.Log(ioCollider.bounds);
     }
 
     public override void Execute()

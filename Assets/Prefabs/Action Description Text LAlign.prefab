@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1978643160991548069}
   - component: {fileID: 1978643160991548070}
   m_Layer: 5
-  m_Name: Action Description Text
+  m_Name: Action Description Text LAlign
   m_TagString: ActionDescription
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -6,10 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     public float minY, maxY;
     public float minScale, maxScale;
-
-    [SerializeField]
-    private float speed = 2.0f;
+    [SerializeField] float speed = 2.0f;
     private Coroutine travelInst = null;
+
+    [SerializeField] SpriteRenderer spriteRenderer = default;
+
 
     private void Start()
     {
@@ -42,8 +43,9 @@ public class PlayerController : MonoBehaviour
         Vector2 target = new Vector2(newPosition.x, newPosition.y);
         target = ClampToScreen(target);
         Vector2 direction = (target - (Vector2)transform.position).normalized;
+        spriteRenderer.flipX = direction.x < 0;
 
-        while (Vector2.Distance(transform.position, target) > 0.05f) {
+            while (Vector2.Distance(transform.position, target) > 0.05f) {
             transform.Translate(direction * Time.deltaTime * speed);
             transform.localScale = ScaleWithDistance(transform.position);
             yield return null;

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 229cf009e77ad884e983cb19da06739f, type: 3}
-  m_Name: Studio State
+  m_Name: Default Studio State
   m_EditorClassIdentifier: 
-  playerPosition: {x: -1.8558404, y: -0.4495892}
-  playerLocalScale: {x: 0.8665982, y: 0.8665982}
-  playerFaceLeft: 1
+  playerPosition: {x: 0.5900624, y: -0.7454518}
+  playerLocalScale: {x: 0.9159086, y: 0.9159086}
+  playerFaceLeft: 0

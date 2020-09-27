@@ -7,7 +7,7 @@ public class StudioDoor : InteractiveObject
     [SerializeField] Vector2 openDoorPosition = default;
     [SerializeField] string descriptionWhenClosed = default;
     [SerializeField] string descriptionWhenOpen = default;
-    [SerializeField] SpriteRenderer doorSpriteRenderer;
+    [SerializeField] SpriteRenderer doorSpriteRenderer = default;
 
     private bool isOpen = false;
     private Vector2 colliderOffsetClosed;

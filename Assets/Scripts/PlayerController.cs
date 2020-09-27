@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] SpriteRenderer spriteRenderer = default;
     [SerializeField] Animator animator = default;
 
+
     public void StartTravel(Vector2 destination, bool withOffset = true)
     {
         if (withOffset)
@@ -22,7 +23,6 @@ public class PlayerController : MonoBehaviour
 
         if (travelInst != null) StopCoroutine(travelInst);
         travelInst = StartCoroutine(Travel(destination));
-
     }
 
     private IEnumerator Travel(Vector2 destination)

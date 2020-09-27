@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atRestSprite: {fileID: 21300000, guid: 4d4f284ff7d3d86448e16ddf16b44c95, type: 3}
-  highlightSprite: {fileID: 21300000, guid: f7f0d35dbdc3c9548aa072354584de54, type: 3}
+  highlightSprite: {fileID: 21300000, guid: acf097915f5601141940e6ce11c26dd4, type: 3}
   actionDescription: Edit broadcast
   globalState: {fileID: 0}
   otherComponents:

@@ -18,13 +18,13 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("walking", true);
     }
 
-    private IEnumerator Travel(Vector2 destintation)
+    private IEnumerator Travel(Vector2 destination)
     {
-        destintation = ClampToScreen(destintation);
-        Vector2 direction = (destintation - (Vector2)transform.position).normalized;
+        destination = ClampToScreen(destination);
+        Vector2 direction = (destination - (Vector2)transform.position).normalized;
         spriteRenderer.flipX = direction.x < 0;
 
-            while (Vector2.Distance(transform.position, destintation) > 0.05f) {
+            while (Vector2.Distance(transform.position, destination) > 0.05f) {
             transform.Translate(direction * Time.deltaTime * speed);
             transform.localScale = ScaleWithDistance(transform.position);
             yield return null;

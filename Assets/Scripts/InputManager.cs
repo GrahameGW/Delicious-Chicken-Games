@@ -25,6 +25,7 @@ public class InputManager : MonoBehaviour
     }
     private void Update()
     {
+        if (GlobalState.isInDialog) return; //will not check for move input during dialog sequences
         if (!EventSystem.current.IsPointerOverGameObject()) {
             Vector2 currentMousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             OnMousePositionChange.Invoke(currentMousePos);
@@ -38,8 +39,8 @@ public class InputManager : MonoBehaviour
                 }
             }
         }
-
     }
+
     private void OnDestroy()
     {
         OnMousePositionChange.RemoveAllListeners();

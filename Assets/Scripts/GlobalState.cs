@@ -9,6 +9,29 @@ public class GlobalState : ScriptableObject
     [Range(0, 1)]
     public float communityReached = 0.0f;
     public int money = 0;
+    public static bool isInDialog = false;
+
+    private void OnDialogStarted()
+    {
+        isInDialog = true;
+    }
+
+    private void OnDialogStopped()
+    {
+        isInDialog = false;
+    }
+
+    private void OnEnable()
+    {
+        DialogManager.DialogStarted += OnDialogStarted;
+        DialogManager.DialogStopped += OnDialogStopped;
+    }
+
+    private void OnDisable()
+    {
+        DialogManager.DialogStarted -= OnDialogStarted;
+        DialogManager.DialogStopped -= OnDialogStopped;
+    }
 }
 
 public enum TimeOfDay {

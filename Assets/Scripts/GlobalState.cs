@@ -11,6 +11,11 @@ public class GlobalState : ScriptableObject
     public int money = 0;
     public static bool isInDialog = false;
 
+    public void ChangeMoney(int change)
+    {
+        money += change;
+    }
+
     private void OnDialogStarted()
     {
         isInDialog = true;

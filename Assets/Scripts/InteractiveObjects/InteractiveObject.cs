@@ -57,7 +57,7 @@ public abstract class InteractiveObject : MonoBehaviour
 
     protected virtual void OnMousePosChangeListener(Vector2 position)
     {
-        if (ioCollider.bounds.Contains(position)) {
+        if (ioCollider.OverlapPoint(position)) {
             Highlight();
         }
         else {

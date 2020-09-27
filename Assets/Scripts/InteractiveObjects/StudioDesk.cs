@@ -35,7 +35,7 @@ public class StudioDesk : InteractiveObject
 
     private IEnumerator WaitForPlayerArrival()
     {
-        player.StartTravel(transform.position);
+        player.StartTravel(transform.position, false);
         while (!triggerPolygon.Contains(player.transform.position)) {
             yield return null;
         }

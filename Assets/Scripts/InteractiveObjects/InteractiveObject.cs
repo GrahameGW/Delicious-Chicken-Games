@@ -8,26 +8,27 @@ public abstract class InteractiveObject : MonoBehaviour
 
     [SerializeField] Sprite atRestSprite = default;
     [SerializeField] Sprite highlightSprite = default;
-    [SerializeField] string actionDescription = default;
+    [SerializeField]
+    protected string actionDescription = default;
+
     [SerializeField]
     protected GlobalState globalState = default;
 
-    private SpriteRenderer spriteRenderer;
+    protected SpriteRenderer spriteRenderer;
     protected Collider2D ioCollider;
 
-    private TextMeshProUGUI actionText;
+    protected TextMeshProUGUI actionText;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         ioCollider = GetComponent<Collider2D>();
-        spriteRenderer.sprite = atRestSprite;
     }
     protected virtual void Start()
     {
         InputManager.Instance.OnMousePositionChange.AddListener(OnMousePosChangeListener);
         actionText = GameObject.FindGameObjectWithTag("ActionDescription").GetComponent<TextMeshProUGUI>();
-
+        spriteRenderer.sprite = atRestSprite;
     }
     private void OnDestroy()
     {

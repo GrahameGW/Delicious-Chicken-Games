@@ -31,7 +31,7 @@ public class StudioMailbox : InteractiveObject
 
     private IEnumerator WaitForPlayerArrival()
     {
-        player.StartTravel(playerPosition);
+        player.StartTravel(playerPosition, false);
         while (Vector2.Distance(player.transform.position, playerPosition) >= 0.05f) {
             yield return null;
         }

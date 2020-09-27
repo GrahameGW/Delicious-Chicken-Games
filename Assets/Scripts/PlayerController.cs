@@ -5,26 +5,34 @@ public class PlayerController : MonoBehaviour
 {
     public float minY, maxY;
     public float minScale, maxScale;
+    [Range(-1, 1)]
+    [SerializeField]
+    [Tooltip("Where the character goes relative to the destination point")]
+    float clickOffsetY = default;
     [SerializeField] float speed = 2.0f;
     private Coroutine travelInst = null;
 
     [SerializeField] SpriteRenderer spriteRenderer = default;
     [SerializeField] Animator animator = default;
 
-    public void StartTravel(Vector2 destination)
+    public void StartTravel(Vector2 destination, bool withOffset = true)
     {
+        if (withOffset)
+            destination += new Vector2(0f, spriteRenderer.sprite.bounds.extents.y * clickOffsetY);
+
         if (travelInst != null) StopCoroutine(travelInst);
         travelInst = StartCoroutine(Travel(destination));
-        animator.SetBool("walking", true);
+
     }
 
     private IEnumerator Travel(Vector2 destintation)
     {
-        destintation = ClampToScreen(destintation);
+        animator.SetBool("walking", true);
         Vector2 direction = (destintation - (Vector2)transform.position).normalized;
+        destintation = ClampToScreen(destintation);
         spriteRenderer.flipX = direction.x < 0;
 
-            while (Vector2.Distance(transform.position, destintation) > 0.05f) {
+        while (Vector2.Distance(transform.position, destintation) >= 0.05f) {
             transform.Translate(direction * Time.deltaTime * speed);
             transform.localScale = ScaleWithDistance(transform.position);
             yield return null;

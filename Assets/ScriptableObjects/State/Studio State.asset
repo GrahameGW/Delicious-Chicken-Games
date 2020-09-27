@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 229cf009e77ad884e983cb19da06739f, type: 3}
   m_Name: Studio State
   m_EditorClassIdentifier: 
-  playerPosition: {x: -1.8558404, y: -0.4495892}
-  playerLocalScale: {x: 0.8665982, y: 0.8665982}
+  playerPosition: {x: -1.9970423, y: -0.3437185}
+  playerLocalScale: {x: 0.84895307, y: 0.84895307}
   playerFaceLeft: 1
+  mailChecked: 0

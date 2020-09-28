@@ -1,4 +1,5 @@
 ﻿using TMPro;
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
@@ -11,9 +12,14 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField]
     protected string actionDescription = default;
 
+    protected Coroutine waitForPlayerInst = null;
+
+    [SerializeField] protected Collider2D arrivalPolygon;
+
     [SerializeField]
     protected GlobalState globalState = default;
 
+    protected PlayerController player;
     protected SpriteRenderer spriteRenderer;
     protected Collider2D ioCollider;
 
@@ -29,6 +35,7 @@ public abstract class InteractiveObject : MonoBehaviour
         InputManager.Instance.OnMousePositionChange.AddListener(OnMousePosChangeListener);
         actionText = GameObject.FindGameObjectWithTag("ActionDescription").GetComponent<TextMeshProUGUI>();
         spriteRenderer.sprite = atRestSprite;
+        player = GameObject.FindGameObjectWithTag("Player")?.GetComponent<PlayerController>();
     }
     private void OnDestroy()
     {
@@ -66,7 +73,28 @@ public abstract class InteractiveObject : MonoBehaviour
         }
     }
 
-    public abstract void Execute();
+    protected virtual IEnumerator WaitForPlayerArrival()
+    {
+        player.StartTravel(transform.position);
+        while (!arrivalPolygon.OverlapPoint(player.transform.position))
+        {
+            yield return null;
+        };
+        OnArrival();
+    }
+
+    protected virtual void OnArrival()
+    {
+
+    }
+
+    public virtual void Execute()
+    {
+        if (waitForPlayerInst != null)
+            StopCoroutine(waitForPlayerInst);
+
+        waitForPlayerInst = StartCoroutine(WaitForPlayerArrival());
+    }
 }
 
 

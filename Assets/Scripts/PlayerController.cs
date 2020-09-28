@@ -3,25 +3,33 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float minY, maxY;
+    //public float minY, maxY;
     public float minScale, maxScale;
-    [Range(-1, 1)]
-    [SerializeField]
-    [Tooltip("Where the character goes relative to the destination point")]
-    float clickOffsetY = default;
+    //[Range(-1, 1)]
+    //[SerializeField]
+    //[Tooltip("Where the character goes relative to the destination point")]
+    //float clickOffsetY = default;
     [SerializeField] float speed = 2.0f;
     private Coroutine travelInst = null;
 
     [SerializeField] SpriteRenderer spriteRenderer = default;
     [SerializeField] Animator animator = default;
 
+    [SerializeField] Collider2D walkableBounds;
 
-    public void StartTravel(Vector2 destination, bool withOffset = true)
+    public void Awake()
     {
-        if (withOffset)
-            destination += new Vector2(0f, spriteRenderer.sprite.bounds.extents.y * clickOffsetY);
+        if (walkableBounds == null)
+        {
+            Debug.LogError("No walkable boundary set to Player object!");
+        }
+    }
+
+    public void StartTravel(Vector2 destination)
+    {
 
         if (travelInst != null) StopCoroutine(travelInst);
+        destination = ClampToWalkableBounds(destination);
         travelInst = StartCoroutine(Travel(destination));
     }
 
@@ -29,7 +37,6 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool("walking", true);
         Vector2 direction = (destination - (Vector2)transform.position).normalized;
-        destination = ClampToScreen(destination);
         spriteRenderer.flipX = direction.x < 0;
 
         while (Vector2.Distance(transform.position, destination) >= 0.05f) {
@@ -40,17 +47,19 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("walking", false);
     }
 
-    private Vector2 ClampToScreen(Vector2 position)
+    private Vector2 ClampToWalkableBounds(Vector2 position)
     {
-        float newX = Mathf.Clamp(position.x, -3f, 3f);
-        float newY = Mathf.Clamp(position.y, minY, maxY);
-        return new Vector2(newX, newY);
+        if (!walkableBounds.OverlapPoint(position))
+        {
+            position = walkableBounds.ClosestPoint(position);
+        }
+        return position;
     }
 
     private Vector3 ScaleWithDistance(Vector3 position)
     {
-        float ratio = (maxScale - minScale) / (maxY - minY);
-        float dist = transform.position.y - minY;
+        float ratio = (maxScale - minScale) / (walkableBounds.bounds.max.y - walkableBounds.bounds.min.y);
+        float dist = transform.position.y - walkableBounds.bounds.min.y;
         float newScale = maxScale - (dist * ratio);
         return new Vector3(newScale, newScale, 0f);
     }

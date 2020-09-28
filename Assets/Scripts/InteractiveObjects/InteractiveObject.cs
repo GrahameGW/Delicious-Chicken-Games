@@ -1,4 +1,5 @@
 ﻿using TMPro;
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
@@ -11,9 +12,13 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField]
     protected string actionDescription = default;
 
+    protected Coroutine waitForPlayerInst = null;
+
+
     [SerializeField]
     protected GlobalState globalState = default;
 
+    protected PlayerController player;
     protected SpriteRenderer spriteRenderer;
     protected Collider2D ioCollider;
 
@@ -66,7 +71,8 @@ public abstract class InteractiveObject : MonoBehaviour
         }
     }
 
-    public abstract void Execute();
+    public virtual void Execute()
+    {
+
+    }
 }
-
-

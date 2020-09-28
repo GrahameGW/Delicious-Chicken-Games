@@ -1,0 +1,121 @@
+title: Halfway point
+tags: 
+colorID: 0
+position: -323,-709
+---
+Annie: Only three weeks to go.
+Khalid: Feels shorter than that.
+Annie: Any issues with the station?
+[[ answer:Not really |NoIssues]] 
+[[ answer:The whole thing keeps trying to break down|Janky]]
+===
+title: NoIssues
+tags: 
+colorID: 0
+position: -461,-381
+---
+Khalid: Things are smooth sailing. 
+Annie: I'm glad to hear it. It feels like things are always doing their best to go wrong.
+Khalid: Not up here. There's the odd panel to patch and some of the ad services are a bit sketchy...but nothing I can't handle.
+Annie: Well if there is an issue, let me know all right? Fixing things was always my husband's thing, but I can send Lera or ELECTRICIAN to help.
+[[ answer: I didn't know you were married|AnniesMarriage]]
+===
+title: Janky
+tags: 
+colorID: 0
+position: -208,-379
+---
+Khalid: Things are breaking left and right. It's a struggle to keep it all on air.
+Annie: Do you need some extra help?
+Khalid: I think I'm okay for the moment. But if it gets any worse I will.
+Annie: If it does, let me know all right? Fixing things was always my husband's thing, but I can send Lera or ELECTRICIAN to help.
+[[ answer: I didn't know you were married|AnniesMarriage]]
+===
+title: AnniesMarriage
+tags: 
+colorID: 0
+position: -356,-75
+---
+Annie: Yep. Twice. One divorced, one died.
+Annie: The wrong one died.
+Khalid: Sorry to hear it.
+Annie: It was a long time ago.
+[[ answer: How are the preparations going?|preparationsStatus]]
+[[ answer: How are people feeling?|communityStatus]]
+[[ answer: How are the financials?|financials]]
+===
+title: preparationsStatus
+tags: 
+colorID: 0
+position: -605,174
+---
+<< Based on status of preparations>> 
+Good:
+Annie: Things are coming along nicely. Nearly everyone will be running a stall or stand. And we've managed to locate plenty of tables, booths, and decorations.
+Annie: Now I need plenty of visitors and a nice weather report. Make sure you have a good one for me then, okay?
+Khalid: *chuckles* I'll do my best.
+
+Medium:
+Annie: We're getting there. A bit short on supplies, but most people have agreed to run a stall or stand.
+Khalid: Is it a money issue?
+Annie: More money wouldn't hurt, but really we just need to locate a few things. Mostly tables, chairs, decorations, that sort of thing.
+Khalid: If I hear of any extra supplies I'll let you know.
+
+Bad:
+Annie: Not well. Short on critical supplies, and everyone seems to know it. Hard to get people to commit if you can't promise them a table or stand.
+Khalid: Yikes. Any ideas on where to get that stuff?
+Annie: I'm trying everything I can. If I have to, I'll take all the furniture out of the diner. But anything you can find I'll take.
+Khalid: Got it. I'll keep an ear out.
+===
+title: communityStatus
+tags: 
+colorID: 0
+position: -358,191
+---
+<< Based on Community Score>> 
+Good:
+Annie: Everyone is really excited. People are discussing display ideas, gossiping about dance partners, even trash talking about the competitions.
+Annie: Even more than that though, the whole place is just in a better mood. We've a ways to go, but I can't help but feel optimistic
+
+Medium:
+Annie: I wouldn't say everyone is super excited, but it's a topic of conversation.
+Khalid: That's a good thing though, right?
+Annie: It's okay. I worry that if the locals aren't excited, folks won't want to travel in at all either.
+Annie: So if you can get people a bit more revved up, that would be wonderful.
+Khalid: Okay. I'll do my best.
+
+Bad:
+Annie: We're not gaining any ground. People either aren't hearing the message, or they don't care.
+Khalid: I'm playing plenty of PSAs about it.
+Annie: Folks aren't tuning in. Either they don't like your other content or they just don't know about the station.
+Annie: Try and get out and get a feel for what people want. If you can connect with them, they'll be more receptive.
+===
+title: financials
+tags: 
+colorID: 0
+position: -71,184
+---
+Surplus:
+Annie: We're rolling in it. I actually don't have much I can do with the extra money. 
+Khalid: Sounds like a great problem to have.
+Annie: Definitely not the worst. If you can think of good ways to spend it, you have my blessing.
+Annie: But we don't need to run up the bank account. Folks might get suspicious if we start a new media company. And given everything...
+Khalid: Yeah. I'll try and tone it down a bit.
+
+Solvent:
+Annie: We're above board. I'd be lying if I said we couldn't make do with a bit more, but I'm not complaining.
+Annie: If you do manage to get a few more bucks, that's wonderful. But don't do it at expense of outreach.
+
+Deficit:
+Annie: We're underwater. Between keeping the station running and fronting the festival, I'm spending money we don't have.
+Khalid: That doesn't sound like a good thing.
+Annie: It's not. While I don't want you to annoy the community, if you don't increase revenue a little bit the Harvest Festival is dead before it even opens.
+Khalid: I'll try and be a bit more business minded
+===
+title: End of halfway
+tags: 
+colorID: 0
+position: -335,432
+---
+Annie: Keep at it. We're gonna make this thing happen. And it'll be worth it, I promise.
+===

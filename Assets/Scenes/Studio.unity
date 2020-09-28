@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atRestSprite: {fileID: 21300000, guid: 240061b34817ed243a4d175cbf797967, type: 3}
-  highlightSprite: {fileID: 21300000, guid: 240061b34817ed243a4d175cbf797967, type: 3}
+  highlightSprite: {fileID: 21300000, guid: a2f4936ba518c6c4d9677ed007303b35, type: 3}
   actionDescription: Open door
   globalState: {fileID: 0}
   arrivalPolygon: {fileID: 1111107257}

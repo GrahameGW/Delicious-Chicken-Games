@@ -7,8 +7,10 @@ public abstract class InteractiveObject : MonoBehaviour
 {
     protected bool isHighlighted = false;
 
-    [SerializeField] Sprite atRestSprite = default;
-    [SerializeField] Sprite highlightSprite = default;
+    [SerializeField]
+    protected Sprite atRestSprite = default;
+    [SerializeField]
+    protected Sprite highlightSprite = default;
     [SerializeField]
     protected string actionDescription = default;
 
@@ -71,8 +73,5 @@ public abstract class InteractiveObject : MonoBehaviour
         }
     }
 
-    public virtual void Execute()
-    {
-
-    }
+    public abstract void Execute();
 }

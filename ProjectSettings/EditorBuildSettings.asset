@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelectBroadcast.unity
     guid: 9c9630d0c53b7044ab5455f0cf31856f
+  - enabled: 1
+    path: Assets/Scenes/EndOfDay.unity
+    guid: 5910e06d2adaa9c49adf7f8b2b1728cc
   m_configObjects: {}

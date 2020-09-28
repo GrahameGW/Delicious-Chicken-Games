@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
             destination += new Vector2(0f, spriteRenderer.sprite.bounds.extents.y * clickOffsetY);
 
         if (travelInst != null) StopCoroutine(travelInst);
+        destination = ClampToScreen(destination);
         travelInst = StartCoroutine(Travel(destination));
     }
 
@@ -29,7 +30,6 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool("walking", true);
         Vector2 direction = (destination - (Vector2)transform.position).normalized;
-        destination = ClampToScreen(destination);
         spriteRenderer.flipX = direction.x < 0;
 
         while (Vector2.Distance(transform.position, destination) >= 0.05f) {

@@ -25,6 +25,7 @@ public class DeskMic : InteractiveObject
 
     public void GoLive()
     {
+        globalState.currentTime = TimeOfDay.Broadcast;
         SceneManager.LoadScene("BroadcastSequence");
     }
 }

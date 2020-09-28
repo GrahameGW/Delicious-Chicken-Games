@@ -37,6 +37,14 @@ public class GlobalState : ScriptableObject
         DialogManager.DialogStarted -= OnDialogStarted;
         DialogManager.DialogStopped -= OnDialogStopped;
     }
+
+    [ContextMenu("SaveJSON")]
+    public static void Copy(GlobalState from, GlobalState to)
+    {
+        var json = JsonUtility.ToJson(from);
+        JsonUtility.FromJsonOverwrite(json, to);
+        //System.IO.File.WriteAllText(Application.persistentDataPath + "/PotionData.json", potion);
+    }
 }
 
 public enum TimeOfDay {

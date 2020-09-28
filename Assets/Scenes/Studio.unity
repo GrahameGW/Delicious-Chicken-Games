@@ -190,7 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43113253}
   - component: {fileID: 43113252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WalkableBounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -222,8 +222,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.11725934, y: -0.8461642}
-      - {x: 0.115992725, y: -1.0581578}
+    - - {x: 0.23226164, y: -0.8430561}
+      - {x: 0.23099503, y: -1.0581578}
+      - {x: 0.09855671, y: -1.0581964}
       - {x: -1.1590524, y: -1.0605558}
       - {x: -1.2181264, y: -1.1445249}
       - {x: -1.491517, y: -1.1600778}
@@ -232,7 +233,10 @@ PolygonCollider2D:
       - {x: -2.8777113, y: -1.4047974}
       - {x: -3.0619426, y: -1.4045973}
       - {x: -3.0597637, y: -2.0542397}
-      - {x: 2.9370124, y: -2.0484252}
+      - {x: -0.18067946, y: -2.051448}
+      - {x: -0.022055715, y: -2.053716}
+      - {x: 0.2121691, y: -2.0510674}
+      - {x: 2.9370124, y: -2.0522795}
       - {x: 2.9373515, y: -0.8763459}
       - {x: 2.9373612, y: -0.84236544}
 --- !u!4 &43113253
@@ -243,7 +247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43113251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.045659676, y: 0.2710308, z: -0.22037804}
+  m_LocalPosition: {x: 0.045659676, y: 0.2710308, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class StudioMailbox : InteractiveObject
+public class StudioMailbox : WalkableInteractiveObject
 {
     [SerializeField] StudioState studioState = default;
-    [SerializeField] Vector2 playerPosition = default;
 
     protected override void Start()
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class StudioDoor : InteractiveObject
+public class StudioDoor : WalkableInteractiveObject
 {
     [SerializeField] GameObject scenery = default;
     [SerializeField] Vector2 openDoorPosition = default;
@@ -38,6 +38,7 @@ public class StudioDoor : InteractiveObject
             doorSpriteRenderer.transform.localPosition -= (Vector3)openDoorPosition;
             scenery.SetActive(false);
             actionDescription = descriptionWhenClosed;
+            ioCollider.offset -= openDoorPosition;
         }
 
         DeHighlight();

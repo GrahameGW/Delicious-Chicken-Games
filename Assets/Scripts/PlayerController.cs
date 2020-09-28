@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
         while (Vector2.Distance(transform.position, destination) >= 0.05f)
         {
+            direction = (destination - (Vector2)transform.position).normalized;
             if (walkableBounds.OverlapPoint((Vector2)transform.position + (direction * Time.deltaTime * speed)))
             {
                 transform.Translate(direction * Time.deltaTime * speed);

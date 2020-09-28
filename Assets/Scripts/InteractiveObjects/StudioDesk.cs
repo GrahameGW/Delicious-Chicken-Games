@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StudioDesk : InteractiveObject
+public class StudioDesk : WalkableInteractiveObject
 {
     protected override void Start()
     {

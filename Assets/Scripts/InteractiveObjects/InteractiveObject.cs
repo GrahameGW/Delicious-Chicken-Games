@@ -14,7 +14,6 @@ public abstract class InteractiveObject : MonoBehaviour
 
     protected Coroutine waitForPlayerInst = null;
 
-    [SerializeField] protected Collider2D arrivalPolygon;
 
     [SerializeField]
     protected GlobalState globalState = default;
@@ -35,7 +34,6 @@ public abstract class InteractiveObject : MonoBehaviour
         InputManager.Instance.OnMousePositionChange.AddListener(OnMousePosChangeListener);
         actionText = GameObject.FindGameObjectWithTag("ActionDescription").GetComponent<TextMeshProUGUI>();
         spriteRenderer.sprite = atRestSprite;
-        player = GameObject.FindGameObjectWithTag("Player")?.GetComponent<PlayerController>();
     }
     private void OnDestroy()
     {
@@ -73,28 +71,8 @@ public abstract class InteractiveObject : MonoBehaviour
         }
     }
 
-    protected virtual IEnumerator WaitForPlayerArrival()
-    {
-        player.StartTravel(transform.position);
-        while (!arrivalPolygon.OverlapPoint(player.transform.position))
-        {
-            yield return null;
-        };
-        OnArrival();
-    }
-
-    protected virtual void OnArrival()
-    {
-
-    }
-
     public virtual void Execute()
     {
-        if (waitForPlayerInst != null)
-            StopCoroutine(waitForPlayerInst);
 
-        waitForPlayerInst = StartCoroutine(WaitForPlayerArrival());
     }
 }
-
-

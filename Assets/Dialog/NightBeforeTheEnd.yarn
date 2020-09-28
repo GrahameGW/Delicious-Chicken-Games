@@ -1,0 +1,79 @@
+title: Start
+tags: 
+colorID: 0
+position: -569,-198
+---
+Khalid: Hey.
+Annie: Hey.
+Khalid: How are you feeling?
+Annie: Snakes in my gut. 
+Khalid: Not butterflies?
+Annie: I’m too poisonous for something so delicate. 
+Annie: ...
+Annie: Thank you.
+Khalid: For what?
+Annie: For everything. For putting in so much effort. I know you didn’t have to stay.
+Khalid: It was nothing.
+Annie: No. It was something. It means a lot to me. To the town. To everyone down there who is paying attention.
+Khalid: ...How do you think it’s going to go tomorrow?
+[[ answer: Good|good]]
+[[ answer: I don't know|medium]]
+[[ answer: Bad|bad]]
+===
+title: good
+tags: 
+colorID: 0
+position: -742,-475
+---
+Annie: Our preparations have exceeded my wildest expectations. Everyone is excited for the event.
+Annie: You even gave me my sunny weather report.
+Khalid: You asked. I answered.
+Annie: You always do.
+Annie: I don't want to jinx it...but I think tomorrow will be something special
+Khalid: Fingers crossed.
+ [[Answer:End|End]]
+===
+title: medium
+tags: 
+colorID: 0
+position: -496,-464
+---
+<< Money/supplies greater than community >> 
+Annie: Well, we got everything we needed. The town looks the part. 
+Annie: But I don't know if everyone is really that into the festival.
+Khalid: Maybe they'll get into it once things are going.
+Annie: Maybe. But it's the folks from further out I worry about. They won't come into town without a reason.
+Khalid: Food and drink isn't a reason?
+Annie: It is. I just don't know if it's enough of one.
+
+<< Community greater than money/supplies>> 
+Annie: We're gonna make do with everything we've got. We're a bit short on a few things, but I'm hoping the enthusiasm makes up for it.
+Khalid: It's going to be a gorgeous day tomorrow, if that helps.
+Annie: It absolutely does.
+Annie: The mood of the town matters, and will take us a long way. I just hope people enjoy it enough to let us do the real thing next year.
+[[Answer:End|End]]
+===
+title: bad
+tags: 
+colorID: 0
+position: -229,-485
+---
+Annie: I'm at the end of my rope. I've tried everything, but whatever I do nothing will go right.
+Khalid: Maybe it just wasn't meant to be. Maybe the town is beyond saving.
+Annie: No. I refuse to believe that.
+Annie: Times are tough. But the people here are good people. They've just had to toughen up. 
+Annie: We just need them to crack a little bit. That's all they need to reconnect.
+Annie: The Festival might not go how we'd hoped. But if it lets just a little bit of light in, then it will have been a success.
+[[Answer:End|End]]
+===
+title: End
+tags: 
+colorID: 0
+position: -543,-758
+---
+Khalid: Well, here's hoping it goes smoothly tomorrow.
+Annie: Here's hoping.
+Khalid: See you in the morning.
+Annie: Good night Khalid. And thanks again. I mean it.
+Khalid: You're welcome
+===

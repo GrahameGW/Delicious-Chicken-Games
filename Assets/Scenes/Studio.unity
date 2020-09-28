@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 228785971}
   - component: {fileID: 228785973}
   - component: {fileID: 228785972}
+  - component: {fileID: 228785974}
   m_Layer: 0
   m_Name: Scenery
   m_TagString: Untagged
@@ -426,9 +427,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18e1589676c9fa46b9728ba234373a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atRestSprite: {fileID: 0}
+  highlightSprite: {fileID: 0}
+  actionDescription: 
   globalState: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
   daySprite: {fileID: 21300000, guid: 9c67b4585e0f0754396bdbb63ed682ab, type: 3}
+  dayHighlightedSprite: {fileID: 21300000, guid: 5cc2978c8f5b17c4496161a77b229fdd, type: 3}
   nightSprite: {fileID: 21300000, guid: d564bc4e50f778648b55461154ad2c54, type: 3}
+  nightHighlightedSprite: {fileID: 21300000, guid: 3b55ad572a1cf8a46a513de55d48f9c0, type: 3}
+  nightAction: End day
+  dayAction: Look at scenery
 --- !u!212 &228785973
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -480,6 +488,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &228785974
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228785970}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.97, y: 1.95}
+    newSize: {x: 0.94, y: 1.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.97, y: 1.95}
+  m_EdgeRadius: 0
 --- !u!1 &406923307
 GameObject:
   m_ObjectHideFlags: 0

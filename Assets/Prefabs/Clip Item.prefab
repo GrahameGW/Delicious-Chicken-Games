@@ -142,13 +142,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2841073554413519705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 258b0ab87816bce42a10011bc8bfa96d, type: 3}
+  m_Script: {fileID: 11500000, guid: 71c21380584870448b73e117ea84facd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedColor: {r: 0.44716978, g: 1, b: 0.45705688, a: 0.8039216}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
   menu: {fileID: 0}
-  music: {fileID: 0}
-  selectedColor: {r: 0.58540875, g: 1, b: 0.2679245, a: 0.6666667}
-  defaultColor: {r: 1, g: 1, b: 1, a: 0}
+  clip: {fileID: 0}
 --- !u!1 &3979130465466018262
 GameObject:
   m_ObjectHideFlags: 0

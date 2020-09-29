@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Global State
   m_EditorClassIdentifier: 
   currentDay: 2
-  currentTime: 2
+  currentTime: 0
   communityApproval: 12
   communityReached: 0
   money: 0

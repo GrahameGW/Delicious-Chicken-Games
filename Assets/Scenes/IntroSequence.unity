@@ -757,8 +757,8 @@ MonoBehaviour:
   textLanguage: 
   variableStorage: {fileID: 635024624}
   dialogueUI: {fileID: 635024623}
-  startNode: Intro.Start
-  startAutomatically: 1
+  startNode: 
+  startAutomatically: 0
   onNodeStart:
     m_PersistentCalls:
       m_Calls: []
@@ -1152,6 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 635024625}
   yarnDialogue: {fileID: 2480198943629176163, guid: 3262307aeb2135a4697d551146fa61ab, type: 3}
+  startNode: Intro.Start
   nextScene: Studio
 --- !u!4 &1420763015
 Transform:

@@ -10,11 +10,12 @@ public class IntroManager : MonoBehaviour
     [SerializeField] DialogueRunner dialogueRunner = default;
     [SerializeField] YarnProgram yarnDialogue = default;
     [SerializeField] string nextScene = default;
+    [SerializeField] string startNode = default;
     // Start is called before the first frame update
     void Start()
     {
         dialogueRunner.Add(yarnDialogue);
-        dialogueRunner.StartDialogue();
+        dialogueRunner.StartDialogue(startNode);
     }
 
     public void LoadNextScene()

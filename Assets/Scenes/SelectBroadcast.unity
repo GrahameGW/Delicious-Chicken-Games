@@ -230,6 +230,7 @@ MonoBehaviour:
   schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
   musicList: {fileID: 1114684544}
   interviewList: {fileID: 1576095953}
+  weatherClips: {fileID: 11400000, guid: 281c2f404e345494386007ad81e4707e, type: 2}
 --- !u!4 &258956166
 Transform:
   m_ObjectHideFlags: 0
@@ -1474,7 +1475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 93.379265}
+  m_AnchoredPosition: {x: 0, y: -0.0000018854963}
   m_SizeDelta: {x: 0, y: 240}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1011913652
@@ -1585,7 +1586,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 205983498}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0
+  m_Size: 0.9999817
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

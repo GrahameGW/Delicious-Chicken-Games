@@ -6,4 +6,5 @@ public class BroadcastSchedule : ScriptableObject
     public BroadcastClip weatherSlot;
     public BroadcastClip musicSlot;
     public BroadcastClip interviewSlot;
+    public BroadcastClip advertSlot;
 }

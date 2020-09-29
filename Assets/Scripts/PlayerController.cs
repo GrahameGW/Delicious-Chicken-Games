@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] SpriteRenderer spriteRenderer = default;
     [SerializeField] Animator animator = default;
 
-    [SerializeField] Collider2D walkableBounds;
+    [SerializeField] Collider2D walkableBounds = default;
 
     public void Awake()
     {

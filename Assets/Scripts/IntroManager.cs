@@ -7,9 +7,9 @@ using Yarn;
 
 public class IntroManager : MonoBehaviour
 {
-    [SerializeField] DialogueRunner dialogueRunner;
-    [SerializeField] YarnProgram yarnDialogue;
-    [SerializeField] string nextScene;
+    [SerializeField] DialogueRunner dialogueRunner = default;
+    [SerializeField] YarnProgram yarnDialogue = default;
+    [SerializeField] string nextScene = default;
     // Start is called before the first frame update
     void Start()
     {

@@ -30,7 +30,7 @@ public class ClipsListItem : MonoBehaviour
 
     public void Select()
     {
-        menu.selected = this;
+        menu.Set(this);
         image.color = selectedColor;
     }
 

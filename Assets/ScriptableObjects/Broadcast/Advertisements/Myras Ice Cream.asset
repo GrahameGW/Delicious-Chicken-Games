@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Myra's Ice Cream
   clip: {fileID: 0}
-  dialog: 
+  dialog: There's nothing like a big bowl of rocky road made with real whole cream
+    and the freshest ingredients money can buy. And our ice cream is nothing like
+    it. So come to Myra's, where we'll help you with your sugar fix. Because in times
+    like these, bad ice cream is better than no ice cream.

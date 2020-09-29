@@ -300,6 +300,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
   globalState: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
+  musicList: {fileID: 11400000, guid: 356f456a4fa972b41b9d943448a73417, type: 2}
+  interviewList: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  advertList: {fileID: 11400000, guid: b4e2e4fd48924bc49b14f4f0fad348b7, type: 2}
+  weatherClips: {fileID: 11400000, guid: 281c2f404e345494386007ad81e4707e, type: 2}
 --- !u!4 &918891955
 Transform:
   m_ObjectHideFlags: 0

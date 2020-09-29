@@ -228,8 +228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
-  selectedMusic: {fileID: 0}
-  selectedInterview: {fileID: 0}
+  musicList: {fileID: 1114684544}
+  interviewList: {fileID: 1576095953}
 --- !u!4 &258956166
 Transform:
   m_ObjectHideFlags: 0
@@ -1474,7 +1474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 127.97236}
+  m_AnchoredPosition: {x: 0, y: 93.379265}
   m_SizeDelta: {x: 0, y: 240}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1011913652
@@ -1811,12 +1811,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1114684542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c30cf3f5bd4b1e24f842118485de36cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 90883fb9b0926cd4a83c0b66158add85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  availableClips: {fileID: 11400000, guid: 356f456a4fa972b41b9d943448a73417, type: 2}
-  musicSlotPrefab: {fileID: 638278097157076071, guid: 1f571c1f85e6ae3429652cc31077a982, type: 3}
-  scheduleManager: {fileID: 258956165}
+  clips: {fileID: 11400000, guid: 356f456a4fa972b41b9d943448a73417, type: 2}
+  itemPrefab: {fileID: 638278097157076071, guid: 1f571c1f85e6ae3429652cc31077a982, type: 3}
   listContent: {fileID: 1011913651}
   selected: {fileID: 0}
 --- !u!114 &1114684545
@@ -2439,12 +2438,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1576095951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa36af391d984884b84c0331a0cc0dfe, type: 3}
+  m_Script: {fileID: 11500000, guid: 90883fb9b0926cd4a83c0b66158add85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  availableClips: {fileID: 11400000, guid: 356f456a4fa972b41b9d943448a73417, type: 2}
-  interviewSlotPrefab: {fileID: 2759905424167711344, guid: 72570abadf19eea4e838f2dc0f4e95e9, type: 3}
-  scheduleManager: {fileID: 258956165}
+  clips: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  itemPrefab: {fileID: 638278097157076071, guid: 1f571c1f85e6ae3429652cc31077a982, type: 3}
   listContent: {fileID: 1006802112}
   selected: {fileID: 0}
 --- !u!114 &1576095954

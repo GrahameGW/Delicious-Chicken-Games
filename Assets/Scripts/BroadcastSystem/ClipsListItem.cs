@@ -1,16 +1,9 @@
-﻿using UnityEngine;
-using TMPro;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
-public class InterviewSlotUIButton : MonoBehaviour
+public class ClipsListItem : MonoBehaviour
 {
-    public InterviewSlot interview = default;
-    [SerializeField] Color selectedColor = default;
-    [SerializeField] Color defaultColor = default;
-    private Image image;
-    private TextMeshProUGUI buttonText;
-    public InterviewClipsList menu;
-
     public string Name {
         get => name;
         set {
@@ -20,6 +13,15 @@ public class InterviewSlotUIButton : MonoBehaviour
     }
     private new string name;
 
+    private TextMeshProUGUI buttonText;
+    [SerializeField] Color selectedColor = default;
+    [SerializeField] Color defaultColor = default;
+    private Image image;
+
+    [HideInInspector]
+    public ClipsList menu;
+    public BroadcastClip clip;
+
     public void Awake()
     {
         buttonText = transform.GetChild(0).GetComponent<TextMeshProUGUI>();
@@ -28,7 +30,7 @@ public class InterviewSlotUIButton : MonoBehaviour
 
     public void Select()
     {
-        menu.SetInterview(this);
+        menu.selected = this;
         image.color = selectedColor;
     }
 
@@ -36,5 +38,4 @@ public class InterviewSlotUIButton : MonoBehaviour
     {
         image.color = defaultColor;
     }
-
 }

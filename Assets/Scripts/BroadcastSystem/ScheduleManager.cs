@@ -3,14 +3,14 @@
 public class ScheduleManager : MonoBehaviour
 {
     [SerializeField] BroadcastSchedule schedule = default;
-    public MusicSlot selectedMusic;
-    public InterviewSlot selectedInterview;
+    [SerializeField] ClipsList musicList = default;
+    [SerializeField] ClipsList interviewList = default;
 
     public void Save()
     {
-        schedule.interviewSlot = selectedInterview;
-        schedule.musicSlot = selectedMusic;
+        schedule.interviewSlot = interviewList.selected.clip;
+        schedule.musicSlot = musicList.selected.clip;
 
-        Debug.Log("Saved " + selectedMusic?.name + " and " + selectedInterview?.name);
+        Debug.Log("Saved " + schedule.interviewSlot?.name + " and " + schedule.musicSlot?.name);
     }
 }

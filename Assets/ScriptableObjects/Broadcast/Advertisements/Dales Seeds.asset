@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Dale's Seeds & Supply
   clip: {fileID: 0}
-  dialog: 
+  dialog: Dale's Seeds and Supply. Growing bigger and better-rooted seedlings faster
+    has never been easier or more economical! Whether you're looking for heirlooms
+    or commercial crops, come on down to Dale's and get the best seeds at even better
+    prices!

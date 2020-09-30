@@ -706,8 +706,16 @@ MonoBehaviour:
   dialogueRunner: {fileID: 8148132622712694002}
   speakerSprites:
   - {fileID: 21300000, guid: 132362007c17ca94db16394337bd67ce, type: 3}
+  - {fileID: 21300000, guid: c25f8c382acbeb044a861e6bf0e95462, type: 3}
+  - {fileID: 21300000, guid: f76055837609e9e4c8612288b98608ce, type: 3}
+  - {fileID: 21300000, guid: 3042a1622e29241479f964fc873ce5a8, type: 3}
+  - {fileID: 21300000, guid: 180249163d411c34ea4a0e0fda342c24, type: 3}
   speakerNames:
   - Khalid
+  - Annie
+  - Buck
+  - Lera
+  - Ruth
   speakerPortrait: {fileID: 286624008}
 --- !u!1 &8148132623678266197
 GameObject:

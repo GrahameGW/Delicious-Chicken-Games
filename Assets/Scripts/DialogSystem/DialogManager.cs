@@ -6,10 +6,10 @@ using Yarn.Unity;
 
 public class DialogManager : MonoBehaviour
 {
-    [SerializeField] DialogueRunner dialogueRunner;
-    [SerializeField] List<Sprite> speakerSprites;
-    [SerializeField] List<string> speakerNames;
-    [SerializeField] Image speakerPortrait;
+    [SerializeField] DialogueRunner dialogueRunner = default;
+    [SerializeField] List<Sprite> speakerSprites = default;
+    [SerializeField] List<string> speakerNames = default;
+    [SerializeField] Image speakerPortrait = default;
 
     /// <summary>
     /// These events have been linked to the DialogueUI script to trigger on dialog start and stop.

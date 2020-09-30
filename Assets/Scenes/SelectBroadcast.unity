@@ -558,7 +558,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8779278970476522302, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00011718252
+      value: -0.00002818197
       objectReference: {fileID: 0}
     - target: {fileID: 8779278971282454407, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -566,6 +566,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8779278971282454407, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779278971282454407, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8779278972234873921, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
@@ -802,7 +806,7 @@ GameObject:
   - component: {fileID: 681645268}
   - component: {fileID: 681645267}
   m_Layer: 0
-  m_Name: computer_screen_2_rounded
+  m_Name: Backdrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -882,7 +886,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8779278970476522302, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00013257877
+      value: 0.000002335608
       objectReference: {fileID: 0}
     - target: {fileID: 8779278971282454407, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1470,7 +1474,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8779278970476522302, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00012129752
+      value: 0.000002335608
       objectReference: {fileID: 0}
     - target: {fileID: 8779278971282454407, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchorMax.x

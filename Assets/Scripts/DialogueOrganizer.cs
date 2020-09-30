@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using Yarn.Unity;
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Dialogue Organizer")]
 public class DialogueOrganizer : ScriptableObject
 {
-    [SerializeField] List<DialoguePerDay> dialoguesPerDays;
-    
+    [SerializeField] List<DialoguePerDay> dialoguesPerDays = default;
+
     [System.Serializable]
     public class DialoguePerDay
     {

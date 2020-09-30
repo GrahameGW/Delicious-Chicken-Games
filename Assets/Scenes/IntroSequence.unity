@@ -533,46 +533,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueUI
       objectReference: {fileID: 0}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerSprites.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerNames.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerSprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: c25f8c382acbeb044a861e6bf0e95462, type: 3}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerSprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: f76055837609e9e4c8612288b98608ce, type: 3}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerSprites.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 3042a1622e29241479f964fc873ce5a8, type: 3}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerSprites.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: 180249163d411c34ea4a0e0fda342c24, type: 3}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerNames.Array.data[1]
-      value: Annie
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerNames.Array.data[2]
-      value: Buck
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerNames.Array.data[3]
-      value: Lera
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148132623514631740, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: speakerNames.Array.data[4]
-      value: Ruth
-      objectReference: {fileID: 0}
     - target: {fileID: 8148132623858700735, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0

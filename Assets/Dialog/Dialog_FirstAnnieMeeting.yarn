@@ -3,23 +3,41 @@ tags:
 colorID: 0
 position: -341,-496
 ---
-<<SetSpeaker Khalid>>
+
+<<SetSpeaker Annie>>
 <<SetSpeaker Annie>>
 Annie: So I didn't dream it! The radio is back on!
+<<SetSpeaker Khalid>>
 Khalid: I'm sorry. Who are you?
+<<SetSpeaker Annie>>
 Annie: Annie.
+<<SetSpeaker Annie>>
 Annie: ...
+<<SetSpeaker Annie>>
 Annie: Do you know Jackie?
+<<SetSpeaker Khalid>>
+<<SetSpeaker Khalid>>
 Khalid: He was my uncle.
+<<SetSpeaker Annie>>
 Annie: Oh! You're Khalid?
+<<SetSpeaker Khalid>>
+<<SetSpeaker Khalid>>
 Khalid: Yes.
+<<SetSpeaker Annie>>
 Annie: Nice to meetcha. Sorry for your loss.
+<<SetSpeaker Khalid>>
 Khalid: Thanks.
+<<SetSpeaker Annie>>
 Annie: Are you taking over?
+<<SetSpeaker Khalid>>
 Khalid: Taking over? No, I'm just checking it out. Seeing if he left me anything good.
+<<SetSpeaker Annie>>
 Annie: You mean besides an entire radio station?
+<<SetSpeaker Khalid>>
 Khalid: There's not much here. A few bits of scrap electronics, an ANCIENT computer. 
+<<SetSpeaker Khalid>>
 Khalid: Not exactly a jackpot.
+<<SetSpeaker Annie>>
 Annie: Well, what are you going to do with it?
  [[Answer:Sell it for scrap|partItOut]]
  [[Answer:Nothing|nothing]]
@@ -30,11 +48,17 @@ tags:
 colorID: 0
 position: -584,-132
 ---
+<<SetSpeaker Khalid>>
 Khalid: Not much. Part it out probably, then move on. There’s not much reason for me to stay here.
+<<SetSpeaker Annie>>
 Annie: No! You can't!
+<<SetSpeaker Khalid>>
 Khalid: Uh...yes I can?
+<<SetSpeaker Annie>>
 Annie: Look, I know the town isn’t how you remember it. Too many people leaving, and the rest have just stopped caring. But last night, when the radio came back on? Happiest I’ve seen folks since before everything.
+<<SetSpeaker Khalid>>
 Khalid: Not my job to make other people happy. I’ve gotta make ends meet too. And I can’t afford to keep this place running.
+<<SetSpeaker Annie>>
 Annie: We can’t afford to not have it running.
  [[MeetingContd]]
 ===
@@ -43,10 +67,15 @@ tags:
 colorID: 0
 position: -298,-128
 ---
+<<SetSpeaker Khalid>>
 Khalid: Nothing. It's a bed for tonight, and maybe tomorrow. Then it's on to Duskvale, or maybe Old Louisville.
+<<SetSpeaker Annie>>
 Annie: You're not even going to try to keep it running?
+<<SetSpeaker Khalid>>
 Khalid: Nah. It was a lot of work just to play a few songs. I don't need the hassle.
+<<SetSpeaker Annie>>
 Annie: It was more than just a few songs to us. Stay for a bit longer?
+<<SetSpeaker Khalid>>
 Khalid: I'd rather not. You seem like a nice person, but I have no reason to stay here. I've gotta eat too, and I can't eat airwaves.
  [[MeetingContd]]
 ===
@@ -55,8 +84,11 @@ tags:
 colorID: 0
 position: -23,-130
 ---
+<<SetSpeaker Khalid>>
 Khalid: Play a few tunes. Find some work. Move on when that dries up.
+<<SetSpeaker Annie>>
 Annie: Really? You're gonna stay?
+<<SetSpeaker Khalid>>
 Khalid: Sure. Not for long though. I'm more of a solo act.
  [[MeetingContd]]
 ===
@@ -65,16 +97,28 @@ tags:
 colorID: 0
 position: -396,164
 ---
+<<SetSpeaker Annie>>
 Annie: What if I invest in the station?
+<<SetSpeaker Khalid>>
 Khalid: Huh?
+<<SetSpeaker Annie>>
 Annie: I’ve got some money, both my own and a pool to spend on the town. If I cover your expenses, at least to start, would you stay?
+<<SetSpeaker Khalid>>
 Khalid: It’s not cheap to run something like this. Electricity alone--
+<<SetSpeaker Annie>>
 Annie: The town will float you. Just until the Harvest Festival.
+<<SetSpeaker Khalid>>
 Khalid: ...you can just spend municipal funds? 
+<<SetSpeaker Annie>>
 Annie: I don't just own the diner. I'm also the mayor.
+<<SetSpeaker Khalid>>
 Khalid: I see.
+<<SetSpeaker Annie>>
 Annie: The Harvest Festival is in 6 weeks. We were going to cancel...again...but with a radio station we can actually get people excited. Bring everyone together. What do you say?
+<<SetSpeaker Khalid>>
 Khalid: ...All right. Just until the Festival.
+<<SetSpeaker Annie>>
 Annie: Wonderful! I can’t wait. 
+<<SetSpeaker Annie>>
 Annie: That’ll help you find your way around. I’m down at the diner. Come find me if you need help or just want a break. I’m sure everyone will be thrilled to meet you.
 ===

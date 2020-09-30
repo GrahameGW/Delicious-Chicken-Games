@@ -1,0 +1,87 @@
+title: Start
+tags: 
+colorID: 0
+position: -778,-926
+---
+<< SetSpeaker Khalid>> 
+Khalid: Hello out there! That's right, your friendly local radio station is back on the air! 
+Khalid: Coming to you live from WGDEX, it's Radio Town, the show for folks just living life in the valley.
+Khalid: I'm your new host and station GM, Khalid Al-Mansouri.
+Khalid: For our first interview, we have everyone's favorite mayor/diner owner, Annie!
+<<SetSpeaker Annie>>
+Annie: Hi everyone.
+<< SetSpeaker Khalid>> 
+Khalid: How does it feel to be on the radio?
+<<SetSpeaker Annie>>
+Annie: Reminds me of better days, listening to the local news while sharing coffee with all my favorite people.
+<< SetSpeaker Khalid>> 
+Khalid: Times we all miss.
+<<SetSpeaker Annie>>
+Annie: Yeah...
+<< SetSpeaker Khalid>> 
+Khalid: Well, we're gonna do our best to be a station for the community, not one looking to tear it apart.
+<<SetSpeaker Annie>>
+Annie: Can you even imagine how wonderful that will be?
+<< SetSpeaker Khalid>> 
+Khalid: Fingers crossed!
+Khalid: So Annie, as part-time mayor, what grand plans do you have in store for the town?
+<<SetSpeaker Annie>>
+Annie: One grand plan in particular. Everyone, I'm excited to announce that we're bringing back the Harvest Festival!
+Annie: For those of you who still remember the Better Times, the Harvest Festival was held every year on the equinox.
+Annie: Everyone came together to celebrate the summer, the hard work of the year, let down their hair and have one final party before the weather turned cold.
+[[ answer:Crack a joke|BadJoke]]
+[[ answer:Reminisce |Reminisce]]
+===
+title: BadJoke
+tags: 
+colorID: 0
+position: -846,-563
+---
+<< SetSpeaker Khalid >> 
+Khalid: You know, just because it gets cold doesn't mean you can't pick things in the fields.
+<< SetSpeaker Annie>> 
+Annie: What do you mean?
+<< SetSpeaker Khalid >> 
+Khalid: Well, for winter crops, farmers bring their harvest in using an ice sickle.
+<< SetSpeaker Annie>> 
+Annie: *groans*
+Annie: You're awful.
+<< SetSpeaker Khalid >> 
+Khalid: I see you trying not to laugh. Listeners, your mayor just put a hand over her face to hide how much she loved that joke.
+[[ End ]]
+===
+title: Reminisce
+tags: 
+colorID: 0
+position: -561,-563
+---
+<< SetSpeaker Khalid >> 
+Khalid: I was just a kid back then. But I remember coming down to the valley with my mom.
+Khalid: Kicking through bright leaves, eating apple pie and cinnamon rolls, carriage rides.
+<< SetSpeaker Annie >> 
+Annie: It was a magical time.
+<< SetSpeaker Khalid >> 
+Khalid: It really was.
+[[ End ]]
+===
+title: End
+tags: 
+colorID: 0
+position: -732,-214
+---
+<< SetSpeaker Annie>> 
+Annie: ...
+Annie: Everyone, I hope that we'll see all of you there. 
+Annie: We're also looking for volunteers, supplies, vendors; anything you can contribute is appreciated.
+Annie: The Festival is not just about pumpkin spice and apple cider.
+<< SetSpeaker Khalid >> 
+Khalid: Though there'll be plenty of that to go around.
+<< SetSpeaker Annie >> 
+Annie: It's about rebuilding after so many years of heartache. 
+Annie: We're still a community, and though times are tough, I know we haven't completely lost everything we're about.
+Annie: So come not just for food and fun. Come because you care.
+<< SetSpeaker Khalid>>
+Khalid: Thank you Annie.
+<< SetSpeaker Annie>> 
+Annie: Thank you.
+===

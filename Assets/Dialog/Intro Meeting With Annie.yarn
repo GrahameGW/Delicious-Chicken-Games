@@ -3,10 +3,24 @@ tags:
 colorID: 0
 position: -341,-496
 ---
-Annie: So I didn't dream it!
-STAGE: Dissolve to after explanation
-Khalid: ...so yeah. The station is mine now.
-Annie: What are you going to do with it?
+<<SetSpeaker Khalid>>
+<<SetSpeaker Annie>>
+Annie: So I didn't dream it! The radio is back on!
+Khalid: I'm sorry. Who are you?
+Annie: Annie.
+Annie: ...
+Annie: Do you know Jackie?
+Khalid: He was my uncle.
+Annie: Oh! You're Khalid?
+Khalid: Yes.
+Annie: Nice to meetcha. Sorry for your loss.
+Khalid: Thanks.
+Annie: Are you taking over?
+Khalid: Taking over? No, I'm just checking it out. Seeing if he left me anything good.
+Annie: You mean besides an entire radio station?
+Khalid: There's not much here. A few bits of scrap electronics, an ANCIENT computer. 
+Khalid: Not exactly a jackpot.
+Annie: Well, what are you going to do with it?
  [[Answer:Sell it for scrap|partItOut]]
  [[Answer:Nothing|nothing]]
  [[Answer:Play some tunes|tunes]]
@@ -22,7 +36,7 @@ Khalid: Uh...yes I can?
 Annie: Look, I know the town isn’t how you remember it. Too many people leaving, and the rest have just stopped caring. But last night, when the radio came back on? Happiest I’ve seen folks since before everything.
 Khalid: Not my job to make other people happy. I’ve gotta make ends meet too. And I can’t afford to keep this place running.
 Annie: We can’t afford to not have it running.
- [[Answer:MeetingContd|MeetingContd]]
+ [[MeetingContd]]
 ===
 title: nothing
 tags: 
@@ -34,7 +48,7 @@ Annie: You're not even going to try to keep it running?
 Khalid: Nah. It was a lot of work just to play a few songs. I don't need the hassle.
 Annie: It was more than just a few songs to us. Stay for a bit longer?
 Khalid: I'd rather not. You seem like a nice person, but I have no reason to stay here. I've gotta eat too, and I can't eat airwaves.
- [[Answer:MeetingContd|MeetingContd]]
+ [[MeetingContd]]
 ===
 title: tunes
 tags: 
@@ -43,8 +57,8 @@ position: -23,-130
 ---
 Khalid: Play a few tunes. Find some work. Move on when that dries up.
 Annie: Really? You're gonna stay?
-Khalid: Sure. Not for long though. I'm more of a solo act
- [[Answer:MeetingContd|MeetingContd]]
+Khalid: Sure. Not for long though. I'm more of a solo act.
+ [[MeetingContd]]
 ===
 title: MeetingContd
 tags: 

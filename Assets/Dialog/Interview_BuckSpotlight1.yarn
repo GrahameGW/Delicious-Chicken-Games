@@ -1,0 +1,38 @@
+title: Start
+tags: 
+colorID: 0
+position: -1663,-922
+---
+<< SetSpeaker Khalid >> 
+Khalid: And now, it's time for everyone's favorite segment, our citizen spotlight series!
+Khalid: Guess what? It's another look at Buck, lumberjack extraordinaire.
+
+[[ answer: Cheer Buck|Cheer]]
+[[ answer: Chastise Buck|Chastise]]
+===
+title: Cheer
+tags: 
+colorID: 0
+position: -1660,-618
+---
+<< SetSpeaker Khalid>> 
+Khalid: Did you know that Buck makes his own jackets?
+Khalid: Talk about fashionable. And they look so comfy!
+Khalid: I am seriously jealous, Buck. They are just the talk of the town.
+Khalid: They're much more colorful and the quality is so much better than the torn and drab clothes most of us have.
+Khalid: I'm sure everyone in the town would love one of their own.
+Khalid: There might even be a certain radio host with a birthday coming up...
+===
+title: Chastise
+tags: 
+colorID: 0
+position: -1371,-599
+---
+<< SetSpeaker Khalid>>
+Khalid: Buck, you need to stop chopping down our precious trees.
+Khalid: Sure, the logs make nice firewood, but we don't need fresh timber when there's plenty of other options.
+Khalid: Word on the street is that you make your own jackets.
+Khalid: Why not go into business making them for your community?
+Khalid: You could spend your time making jackets and warming everyone instead of pillaging what few trees we have left.
+Khalid: If a tree falls in the woods, Buck, we may not be around but we hear it.
+===

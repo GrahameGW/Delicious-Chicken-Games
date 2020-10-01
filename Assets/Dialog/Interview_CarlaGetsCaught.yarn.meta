@@ -1,0 +1,60 @@
+fileFormatVersion: 2
+guid: 7e8dbd04c391a934b98cbd5966c3e68e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Interview_CarlaGetsCaught-Start-0
+  - Interview_CarlaGetsCaught-Start-1
+  - Interview_CarlaGetsCaught-Start-2
+  - Interview_CarlaGetsCaught-Start-3
+  - Interview_CarlaGetsCaught-Start-4
+  - Interview_CarlaGetsCaught-Start-5
+  - Interview_CarlaGetsCaught-Start-6
+  - Interview_CarlaGetsCaught-Start-7
+  - Interview_CarlaGetsCaught-Start-8
+  - Interview_CarlaGetsCaught-Start-9
+  - Interview_CarlaGetsCaught-Start-10
+  - Interview_CarlaGetsCaught-Start-11
+  - Interview_CarlaGetsCaught-Start-12
+  - Interview_CarlaGetsCaught-Start-13
+  - Interview_CarlaGetsCaught-Start-14
+  - Interview_CarlaGetsCaught-Start-15
+  - Interview_CarlaGetsCaught-Empathy-16
+  - Interview_CarlaGetsCaught-Empathy-17
+  - Interview_CarlaGetsCaught-Empathy-18
+  - Interview_CarlaGetsCaught-Empathy-19
+  - Interview_CarlaGetsCaught-Empathy-20
+  - Interview_CarlaGetsCaught-Empathy-21
+  - Interview_CarlaGetsCaught-Empathy-22
+  - Interview_CarlaGetsCaught-Empathy-23
+  - Interview_CarlaGetsCaught-Empathy-24
+  - Interview_CarlaGetsCaught-Empathy-25
+  - Interview_CarlaGetsCaught-Empathy-26
+  - Interview_CarlaGetsCaught-Empathy-27
+  - Interview_CarlaGetsCaught-Scold-28
+  - Interview_CarlaGetsCaught-Scold-29
+  - Interview_CarlaGetsCaught-Scold-30
+  - Interview_CarlaGetsCaught-Scold-31
+  - Interview_CarlaGetsCaught-Scold-32
+  - Interview_CarlaGetsCaught-Scold-33
+  - Interview_CarlaGetsCaught-Scold-34
+  - Interview_CarlaGetsCaught-Scold-35
+  - Interview_CarlaGetsCaught-Scold-36
+  - Interview_CarlaGetsCaught-Scold-37
+  - Interview_CarlaGetsCaught-Scold-38
+  - Interview_CarlaGetsCaught-Scold-39
+  - Interview_CarlaGetsCaught-Scold-40
+  - Interview_CarlaGetsCaught-Scold-41
+  - Interview_CarlaGetsCaught-Scold-42
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

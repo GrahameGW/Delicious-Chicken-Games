@@ -3,8 +3,11 @@ tags:
 colorID: 0
 position: -323,-709
 ---
+<< SetSpeaker Annie>> 
 Annie: Only three weeks to go.
+<< SetSpeaker Khalid>> 
 Khalid: Feels shorter than that.
+<< SetSpeaker Annie>> 
 Annie: Any issues with the station?
 [[ answer:Not really |NoIssues]] 
 [[ answer:The whole thing keeps trying to break down|Janky]]
@@ -14,35 +17,49 @@ tags:
 colorID: 0
 position: -461,-381
 ---
+<< SetSpeaker Khalid>> 
 Khalid: Things are smooth sailing. 
+<< SetSpeaker Annie>> 
 Annie: I'm glad to hear it. It feels like things are always doing their best to go wrong.
+<< SetSpeaker Khalid>> 
 Khalid: Not up here. There's the odd panel to patch and some of the ad services are a bit sketchy...but nothing I can't handle.
-Annie: Well if there is an issue, let me know all right? Fixing things was always my husband's thing, but I can send Lera or ELECTRICIAN to help.
-[[ answer: I didn't know you were married|AnniesMarriage]]
+<< SetSpeaker Annie>> 
+Annie: Well if there is an issue, let me know all right? Fixing things was always my husband's thing, but I can send Lera or Luis to help.
+[[AnniesMarriage]]
 ===
 title: Janky
 tags: 
 colorID: 0
 position: -208,-379
 ---
+<< SetSpeaker Khalid>> 
 Khalid: Things are breaking left and right. It's a struggle to keep it all on air.
+<< SetSpeaker Annie>> 
 Annie: Do you need some extra help?
+<< SetSpeaker Khalid>> 
 Khalid: I think I'm okay for the moment. But if it gets any worse I will.
-Annie: If it does, let me know all right? Fixing things was always my husband's thing, but I can send Lera or ELECTRICIAN to help.
-[[ answer: I didn't know you were married|AnniesMarriage]]
+<< SetSpeaker Annie>> 
+Annie: If it does, let me know all right? Fixing things was always my husband's thing, but I can send Lera or Luis to help.
+[[AnniesMarriage]]
 ===
 title: AnniesMarriage
 tags: 
 colorID: 0
-position: -356,-75
+position: -358,-76
 ---
+<< SetSpeaker Khalid>> 
+Khalid: I didn't know you were married.
+<< SetSpeaker Annie>> 
 Annie: Yep. Twice. One divorced, one died.
 Annie: The wrong one died.
+<< SetSpeaker Khalid>> 
 Khalid: Sorry to hear it.
+<< SetSpeaker Annie>> 
 Annie: It was a long time ago.
 [[ answer: How are the preparations going?|preparationsStatus]]
 [[ answer: How are people feeling?|communityStatus]]
 [[ answer: How are the financials?|financials]]
+[[ answer: Let's get back to work|End]]
 ===
 title: preparationsStatus
 tags: 
@@ -50,72 +67,124 @@ colorID: 0
 position: -605,174
 ---
 << Based on status of preparations>> 
+<< SetSpeaker Khalid>> 
+Khalid: How are the preparations going?
+
 Good:
+
+<<SetSpeaker Annie>> 
 Annie: Things are coming along nicely. Nearly everyone will be running a stall or stand. And we've managed to locate plenty of tables, booths, and decorations.
 Annie: Now I need plenty of visitors and a nice weather report. Make sure you have a good one for me then, okay?
+<< SetSpeaker Khalid>> 
 Khalid: *chuckles* I'll do my best.
+[[ AnniesMarriage ]]
 
 Medium:
+<<SetSpeaker Annie>> 
 Annie: We're getting there. A bit short on supplies, but most people have agreed to run a stall or stand.
+<< SetSpeaker Khalid>> 
 Khalid: Is it a money issue?
+<<SetSpeaker Annie>> 
 Annie: More money wouldn't hurt, but really we just need to locate a few things. Mostly tables, chairs, decorations, that sort of thing.
+<< SetSpeaker Khalid>> 
 Khalid: If I hear of any extra supplies I'll let you know.
+[[ AnniesMarriage ]]
 
 Bad:
+<<SetSpeaker Annie>> 
 Annie: Not well. Short on critical supplies, and everyone seems to know it. Hard to get people to commit if you can't promise them a table or stand.
+<< SetSpeaker Khalid>> 
 Khalid: Yikes. Any ideas on where to get that stuff?
+<<SetSpeaker Annie>> 
 Annie: I'm trying everything I can. If I have to, I'll take all the furniture out of the diner. But anything you can find I'll take.
+<< SetSpeaker Khalid>> 
 Khalid: Got it. I'll keep an ear out.
+[[ AnniesMarriage ]]
 ===
 title: communityStatus
 tags: 
 colorID: 0
-position: -358,191
+position: -360,190
 ---
+<< SetSpeaker Khalid>> 
+Khalid: How is everyone feeling?
+
 << Based on Community Score>> 
 Good:
+<<SetSpeaker Annie>> 
 Annie: Everyone is really excited. People are discussing display ideas, gossiping about dance partners, even trash talking about the competitions.
 Annie: Even more than that though, the whole place is just in a better mood. We've a ways to go, but I can't help but feel optimistic
+[[ AnniesMarriage ]]
 
 Medium:
+<<SetSpeaker Annie>> 
 Annie: I wouldn't say everyone is super excited, but it's a topic of conversation.
+<< SetSpeaker Khalid>> 
 Khalid: That's a good thing though, right?
+<<SetSpeaker Annie>> 
 Annie: It's okay. I worry that if the locals aren't excited, folks won't want to travel in at all either.
 Annie: So if you can get people a bit more revved up, that would be wonderful.
+<< SetSpeaker Khalid>> 
 Khalid: Okay. I'll do my best.
+[[ AnniesMarriage ]]
 
 Bad:
+<<SetSpeaker Annie>> 
 Annie: We're not gaining any ground. People either aren't hearing the message, or they don't care.
+<< SetSpeaker Khalid>> 
 Khalid: I'm playing plenty of PSAs about it.
+<<SetSpeaker Annie>> 
 Annie: Folks aren't tuning in. Either they don't like your other content or they just don't know about the station.
 Annie: Try and get out and get a feel for what people want. If you can connect with them, they'll be more receptive.
+[[ AnniesMarriage ]]
 ===
 title: financials
 tags: 
 colorID: 0
 position: -71,184
 ---
+<< SetSpeaker Khalid>> 
+Khalid: How are the financials?
+
 Surplus:
+<< SetSpeaker Annie>>
 Annie: We're rolling in it. I actually don't have much I can do with the extra money. 
+<< SetSpeaker Khalid>> 
 Khalid: Sounds like a great problem to have.
+<< SetSpeaker Annie>>
 Annie: Definitely not the worst. If you can think of good ways to spend it, you have my blessing.
 Annie: But we don't need to run up the bank account. Folks might get suspicious if we start a new media company. And given everything...
+<< SetSpeaker Khalid>> 
 Khalid: Yeah. I'll try and tone it down a bit.
+[[ AnniesMarriage ]]
 
 Solvent:
+<< SetSpeaker Annie>>
 Annie: We're above board. I'd be lying if I said we couldn't make do with a bit more, but I'm not complaining.
 Annie: If you do manage to get a few more bucks, that's wonderful. But don't do it at expense of outreach.
+<< SetSpeaker Khalid>>
+Khalid: All right. Good to hear.
+[[ AnniesMarriage ]]
 
 Deficit:
+<< SetSpeaker Annie>>
 Annie: We're underwater. Between keeping the station running and fronting the festival, I'm spending money we don't have.
+<< SetSpeaker Khalid>> 
 Khalid: That doesn't sound like a good thing.
+<< SetSpeaker Annie>>
 Annie: It's not. While I don't want you to annoy the community, if you don't increase revenue a little bit the Harvest Festival is dead before it even opens.
+<< SetSpeaker Khalid>> 
 Khalid: I'll try and be a bit more business minded
+[[ AnniesMarriage ]]
 ===
-title: Endofhalfway
+title: End
 tags: 
 colorID: 0
-position: -335,432
+position: 473,-89
 ---
+<< SetSpeaker Khalid>>
+Khalid: Guess we'd better get back to it.
+<< SetSpeaker Annie>>
+Annie: You're right. I've got plenty to do.
 Annie: Keep at it. We're gonna make this thing happen. And it'll be worth it, I promise.
 ===

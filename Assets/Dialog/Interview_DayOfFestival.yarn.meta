@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 9a64086bfb6d855459b978e6bf536fec
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Interview_DayOfFestival-End-0
+  - Interview_DayOfFestival-Hype-1
+  - Interview_DayOfFestival-Hype-2
+  - Interview_DayOfFestival-Hype-3
+  - Interview_DayOfFestival-Gratitude-4
+  - Interview_DayOfFestival-Gratitude-5
+  - Interview_DayOfFestival-Gratitude-6
+  - Interview_DayOfFestival-Gratitude-7
+  - Interview_DayOfFestival-Gratitude-8
+  - Interview_DayOfFestival-Start-9
+  - Interview_DayOfFestival-Start-10
+  - Interview_DayOfFestival-Start-11
+  - Interview_DayOfFestival-Start-12
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

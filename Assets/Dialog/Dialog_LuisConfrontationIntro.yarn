@@ -1,0 +1,82 @@
+title: Start
+tags: 
+colorID: 0
+position: -1626,-605
+---
+<< SetSpeaker Luis>> 
+Luis: What do you think you're doing?
+<< SetSpeaker Khalid>> 
+Khalid: ...oh. Well, locking up. You are...?
+<< SetSpeaker Luis>> 
+Luis: What's your business here?
+<< SetSpeaker Khalid>>
+Khalid: Just running the radio. I'm not looking for trouble.
+<< SetSpeaker Luis>> 
+Luis: Don't waltz in here and act like you know this place well enough to give us news or sell us stuff.
+Luis: You're asking for it.
+<< SetSpeaker Khalid>>
+Khalid: I'm sorry. Who are you?
+Luis: I asked you that.
+<< SetSpeaker Khalid>>
+Khalid: ...
+<< SetSpeaker Luis>> 
+Luis: Don't think you can come in here and expect everything will be alright, just 'cause you're a new face.
+Luis: We got enough problems as it is, we don't need someone taking up our time with the radio.
+Luis: Who even wants to run a dump like this after everything?
+[[ answer: To get to know the community|community]]
+[[ answer: It's a job|cash]] ]]
+===
+title: community
+tags: 
+colorID: 0
+position: -1577,-351
+---
+<< SetSpeaker Khalid>> 
+Khalid: When I was young, everyone was super nice and friendly.
+Khalid: I heard that people aren't like that anymore.
+Khalid: I was just...I dunno. I want to reconnect with where my family came from.
+Khalid: Maybe help to mend things? Communities work better together.
+Khalid: Plus it'd be nice to belong somewhere, for once.
+<< SetSpeaker Luis>> 
+Luis: You're out of luck.
+Luis: What makes you think you can fix something you know nothing about?
+Luis: Pack it up and move on. There's nothing for you here.
+[[ End ]]
+===
+title: cash
+tags: 
+colorID: 0
+position: -1311,-401
+---
+<< SetSpeaker Khalid>> 
+Khalid: My uncle left this to me. 
+Khalid: I was kinda hoping I could make the best of it. It's an opportunity.
+Khalid: I'm gonna play some music, run some ads. Maybe earn something and get back on my feet.
+<< SetSpeaker Luis>>
+Luis: What, you think this town is just made of money?
+<< SetSpeaker Khalid>>
+Khalid: The town doesn't fund—
+<< SetSpeaker Luis>> 
+Luis: People like you are sick, taking from people who don't have anything.
+Luis: There's no money here. Nothing for you pal.
+[[ End ]]
+===
+title: End
+tags: 
+colorID: 0
+position: -1206,-133
+---
+<< SetSpeaker Khalid>> 
+Khalid: Alright! I can tell you don't have the best opinion of this whole...thing.
+Khalid: But Annie? Your mayor? She approves. It's as much her idea as mine.
+Khalid: So who knows? I might not be all that bad.
+<< SetSpeaker Luis>> 
+Luis: *snorts* Our mayor? There's a reason why we've only had one mayor for the last decade.
+Luis: Nothing good ever happens here.
+<< SetSpeaker Khalid>> 
+Khalid: ...
+<< SetSpeaker Luis>> 
+Luis: Run the station. Fine. But the least you can do is know your audience. 
+<< SetSpeaker Khalid>> 
+Khalid: ...was he even listening to the broadcast?
+===

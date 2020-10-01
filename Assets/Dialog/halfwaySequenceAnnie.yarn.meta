@@ -8,11 +8,76 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  baseLanguageID: en-US
+  stringIDs:
+  - halfwaySequenceAnnie-HalfwayPoint-0
+  - halfwaySequenceAnnie-HalfwayPoint-1
+  - halfwaySequenceAnnie-HalfwayPoint-2
+  - halfwaySequenceAnnie-HalfwayPoint-3
+  - halfwaySequenceAnnie-HalfwayPoint-4
+  - halfwaySequenceAnnie-NoIssues-5
+  - halfwaySequenceAnnie-NoIssues-6
+  - halfwaySequenceAnnie-NoIssues-7
+  - halfwaySequenceAnnie-NoIssues-8
+  - halfwaySequenceAnnie-NoIssues-9
+  - halfwaySequenceAnnie-Janky-10
+  - halfwaySequenceAnnie-Janky-11
+  - halfwaySequenceAnnie-Janky-12
+  - halfwaySequenceAnnie-Janky-13
+  - halfwaySequenceAnnie-Janky-14
+  - halfwaySequenceAnnie-AnniesMarriage-15
+  - halfwaySequenceAnnie-AnniesMarriage-16
+  - halfwaySequenceAnnie-AnniesMarriage-17
+  - halfwaySequenceAnnie-AnniesMarriage-18
+  - halfwaySequenceAnnie-AnniesMarriage-19
+  - halfwaySequenceAnnie-AnniesMarriage-20
+  - halfwaySequenceAnnie-AnniesMarriage-21
+  - halfwaySequenceAnnie-preparationsStatus-22
+  - halfwaySequenceAnnie-preparationsStatus-23
+  - halfwaySequenceAnnie-preparationsStatus-24
+  - halfwaySequenceAnnie-preparationsStatus-25
+  - halfwaySequenceAnnie-preparationsStatus-26
+  - halfwaySequenceAnnie-preparationsStatus-27
+  - halfwaySequenceAnnie-preparationsStatus-28
+  - halfwaySequenceAnnie-preparationsStatus-29
+  - halfwaySequenceAnnie-preparationsStatus-30
+  - halfwaySequenceAnnie-preparationsStatus-31
+  - halfwaySequenceAnnie-preparationsStatus-32
+  - halfwaySequenceAnnie-preparationsStatus-33
+  - halfwaySequenceAnnie-preparationsStatus-34
+  - halfwaySequenceAnnie-preparationsStatus-35
+  - halfwaySequenceAnnie-communityStatus-36
+  - halfwaySequenceAnnie-communityStatus-37
+  - halfwaySequenceAnnie-communityStatus-38
+  - halfwaySequenceAnnie-communityStatus-39
+  - halfwaySequenceAnnie-communityStatus-40
+  - halfwaySequenceAnnie-communityStatus-41
+  - halfwaySequenceAnnie-communityStatus-42
+  - halfwaySequenceAnnie-communityStatus-43
+  - halfwaySequenceAnnie-communityStatus-44
+  - halfwaySequenceAnnie-communityStatus-45
+  - halfwaySequenceAnnie-communityStatus-46
+  - halfwaySequenceAnnie-communityStatus-47
+  - halfwaySequenceAnnie-communityStatus-48
+  - halfwaySequenceAnnie-communityStatus-49
+  - halfwaySequenceAnnie-financials-50
+  - halfwaySequenceAnnie-financials-51
+  - halfwaySequenceAnnie-financials-52
+  - halfwaySequenceAnnie-financials-53
+  - halfwaySequenceAnnie-financials-54
+  - halfwaySequenceAnnie-financials-55
+  - halfwaySequenceAnnie-financials-56
+  - halfwaySequenceAnnie-financials-57
+  - halfwaySequenceAnnie-financials-58
+  - halfwaySequenceAnnie-financials-59
+  - halfwaySequenceAnnie-financials-60
+  - halfwaySequenceAnnie-financials-61
+  - halfwaySequenceAnnie-financials-62
+  - halfwaySequenceAnnie-financials-63
+  - halfwaySequenceAnnie-Endofhalfway-64
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: The node 'Halfway point' contains illegal characters in
     its title.
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 86536704fc3c2cb4eb8fb0e181751a1b, type: 3}
   localizations: []

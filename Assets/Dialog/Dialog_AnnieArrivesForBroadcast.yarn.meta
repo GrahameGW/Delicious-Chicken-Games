@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: f075c949d9ba9a1439e274f8b838bccd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_AnnieArrivesForBroadcast-Start-0
+  - Dialog_AnnieArrivesForBroadcast-Start-1
+  - Dialog_AnnieArrivesForBroadcast-Start-2
+  - Dialog_AnnieArrivesForBroadcast-Start-3
+  - Dialog_AnnieArrivesForBroadcast-Start-4
+  - Dialog_AnnieArrivesForBroadcast-Start-5
+  - Dialog_AnnieArrivesForBroadcast-Start-6
+  - Dialog_AnnieArrivesForBroadcast-Start-7
+  - Dialog_AnnieArrivesForBroadcast-Start-8
+  - Dialog_AnnieArrivesForBroadcast-Start-9
+  - Dialog_AnnieArrivesForBroadcast-Start-10
+  - Dialog_AnnieArrivesForBroadcast-Start-11
+  - Dialog_AnnieArrivesForBroadcast-Start-12
+  - Dialog_AnnieArrivesForBroadcast-Start-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

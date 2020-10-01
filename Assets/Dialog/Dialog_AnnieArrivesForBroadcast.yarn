@@ -1,0 +1,31 @@
+title: Start
+tags: 
+colorID: 0
+position: 789,-3
+---
+<< SetSpeaker Khalid>> 
+Khalid: Good morning.
+<< SetSpeaker Annie>> 
+Annie: You didn't think you'd get rid of me that easily, did you?
+<< SetSpeaker Khalid>> 
+Khalid: Guess not.
+Khalid: I'd offer you coffee, but I barely had enough food for breakfast.
+<< SetSpeaker Annie>> 
+Annie: Good thing I brought you some, then.
+<< SetSpeaker Khalid>> 
+Khalid: You didn't have to do this.
+<< SetSpeaker Annie>> 
+Annie: I did. Gotta protect my investment. The town's investment.
+<< SetSpeaker Khalid>> 
+Khalid: *stomach rumbles*
+Khalid: It smells so good...
+<< SetSpeaker Annie>> 
+Annie: Well don't just stare. Eat up! I need to do some things, but I'll be back in time for the broadcast.
+<< SetSpeaker Khalid>> 
+Khalid: *mmph* Okay.
+<< SetSpeaker Annie>> 
+Annie: And don't forget to add me to the schedule!
+<< SetSpeaker Khalid>> 
+Khalid: You got it. See you later.
+Khalid: Thanks for the food!
+===

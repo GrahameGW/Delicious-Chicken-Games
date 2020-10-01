@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 287a4b0d9b1f5674cb4a3fc9205707e0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Interview_MysteriousFoodUpdate-Start-0
+  - Interview_MysteriousFoodUpdate-Start-1
+  - Interview_MysteriousFoodUpdate-Start-2
+  - Interview_MysteriousFoodUpdate-Start-3
+  - Interview_MysteriousFoodUpdate-Start-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 287a4b0d9b1f5674cb4a3fc9205707e0, type: 3}
+  localizations: []

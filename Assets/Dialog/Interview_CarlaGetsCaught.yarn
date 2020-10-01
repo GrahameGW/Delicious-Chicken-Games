@@ -1,0 +1,84 @@
+title: Start
+tags: 
+colorID: 0
+position: -2284,-1579
+---
+<< SetSpeaker Khalid>>
+Khalid: Listeners, I've got a break in the missing food case! 
+Khalid: I've been leaving extra food outside the studio when I have it as bait.
+Khalid: Well today, the great folks at Annie's Place sent up too many mashed potatoes, and it seems I'm not the only one who's digging in.
+Khalid: I'm out to apprehend the culprit; don't go anywhere!
+<< SetSpeaker Carla>> 
+Carla: *mnph*...*om*...*urp*...
+<< SetSpeaker Khalid>>
+Khalid: Hah! The mystery woman. Who are you?
+<< SetSpeaker Carla>> 
+Carla: ...*nosh*...mnph*...‘ames Car’a… Carla. What's it to you?
+<< SetSpeaker Khalid>>
+Khalid: Have you been the one sneaking around taking food?
+<< SetSpeaker Carla>> 
+Carla: No. *urp* What food?
+<< SetSpeaker Khalid>>
+Khalid: I think you know what food. Sandwiches, flapjacks, picnic baskets, Miss Ruth's pie.
+<< SetSpeaker Carla>> 
+Carla: The granny Ruth?
+<< SetSpeaker Khalid>>
+Khalid: So she is a grandma. Whose grandma is she?
+<< SetSpeaker Carla>> 
+Carla: Yeah, okay. I recall eating some of that. 
+Carla: I'm a scavenger. Nothing to be ashamed of; I'm just trying to survive after...you know...
+[[ answer: We're all trying to survive|Empathy]]
+[[ answer: You don't have to steal|Scold]]
+===
+title: Empathy
+tags: 
+colorID: 0
+position: -2199,-1284
+---
+<< SetSpeaker Khalid>> 
+Khalid: Carla, everyone is trying to survive.
+Khalid: Now I know who you are, I'm going to tell the town to be on the lookout.
+Khalid: You can't just keep stealing food from people.
+<< SetSpeaker Carla>> 
+Carla: Fine!
+Carla: Tell everyone! Be that way!
+Carla: Why can't you people just let me be!
+<< SetSpeaker Khalid>> 
+Khalid: ...
+Khalid: Sorry about that, folks.
+Khalid: But you'll be happy to know I've found the culprit.
+Khalid: You may be familiar with Carla. If not, she's a tall woman, with a shaved head and a single earring.
+Khalid: She doesn't seem dangerous, but don't let her catch you off guard.
+Khalid: Don't leave food or valuables out, and be on the lookout.
+===
+title: Scold
+tags: 
+colorID: 0
+position: -1847,-1296
+---
+<< SetSpeaker Khalid>> 
+Khalid: Please, you don't need to take things. We're in this together.
+Khalid: The town will help you if you let them.
+<< SetSpeaker Carla>> 
+Carla: Why would they help me?
+<< SetSpeaker Khalid>> 
+Khalid: Because that's what communities do. We're getting through this.
+<< SetSpeaker Carla>> 
+Carla: ...
+Carla: *sobs*
+<< SetSpeaker Khalid>> 
+Khalid: ...Carla?
+<< SetSpeaker Carla>> 
+Carla: ...I don't know if I can. I've been on my own for so long...
+<< SetSpeaker Khalid>> 
+Khalid: Why don't we talk with Annie, just the two of us. See what people can do for you.
+Khalid: There's no reason for you to be sneaking around stealing things.
+<< SetSpeaker Carla>> 
+Carla: Okay. I'll talk with the mayor. 
+Carla: But I'm not falling in line and joining up or anything.
+<< SetSpeaker Khalid>> 
+Khalid: That's fine. I'm not asking you to.
+Khalid: Meet us here tomorrow? I'll make sure there's a big meal waiting for you.
+<< SetSpeaker Carla>> 
+Carla: Deal.
+===

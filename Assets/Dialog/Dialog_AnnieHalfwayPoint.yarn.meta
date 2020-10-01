@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: 8a5a9b5996b89f54a92782076a6fb0ca
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_AnnieHalfwayPoint-HalfwayPoint-0
+  - Dialog_AnnieHalfwayPoint-HalfwayPoint-1
+  - Dialog_AnnieHalfwayPoint-HalfwayPoint-2
+  - Dialog_AnnieHalfwayPoint-HalfwayPoint-3
+  - Dialog_AnnieHalfwayPoint-HalfwayPoint-4
+  - Dialog_AnnieHalfwayPoint-NoIssues-5
+  - Dialog_AnnieHalfwayPoint-NoIssues-6
+  - Dialog_AnnieHalfwayPoint-NoIssues-7
+  - Dialog_AnnieHalfwayPoint-NoIssues-8
+  - Dialog_AnnieHalfwayPoint-Janky-9
+  - Dialog_AnnieHalfwayPoint-Janky-10
+  - Dialog_AnnieHalfwayPoint-Janky-11
+  - Dialog_AnnieHalfwayPoint-Janky-12
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-13
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-14
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-15
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-16
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-17
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-18
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-19
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-20
+  - Dialog_AnnieHalfwayPoint-AnniesMarriage-21
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-22
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-23
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-24
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-25
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-26
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-27
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-28
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-29
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-30
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-31
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-32
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-33
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-34
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-35
+  - Dialog_AnnieHalfwayPoint-preparationsStatus-36
+  - Dialog_AnnieHalfwayPoint-communityStatus-37
+  - Dialog_AnnieHalfwayPoint-communityStatus-38
+  - Dialog_AnnieHalfwayPoint-communityStatus-39
+  - Dialog_AnnieHalfwayPoint-communityStatus-40
+  - Dialog_AnnieHalfwayPoint-communityStatus-41
+  - Dialog_AnnieHalfwayPoint-communityStatus-42
+  - Dialog_AnnieHalfwayPoint-communityStatus-43
+  - Dialog_AnnieHalfwayPoint-communityStatus-44
+  - Dialog_AnnieHalfwayPoint-communityStatus-45
+  - Dialog_AnnieHalfwayPoint-communityStatus-46
+  - Dialog_AnnieHalfwayPoint-communityStatus-47
+  - Dialog_AnnieHalfwayPoint-communityStatus-48
+  - Dialog_AnnieHalfwayPoint-communityStatus-49
+  - Dialog_AnnieHalfwayPoint-communityStatus-50
+  - Dialog_AnnieHalfwayPoint-communityStatus-51
+  - Dialog_AnnieHalfwayPoint-financials-52
+  - Dialog_AnnieHalfwayPoint-financials-53
+  - Dialog_AnnieHalfwayPoint-financials-54
+  - Dialog_AnnieHalfwayPoint-financials-55
+  - Dialog_AnnieHalfwayPoint-financials-56
+  - Dialog_AnnieHalfwayPoint-financials-57
+  - Dialog_AnnieHalfwayPoint-financials-58
+  - Dialog_AnnieHalfwayPoint-financials-59
+  - Dialog_AnnieHalfwayPoint-financials-60
+  - Dialog_AnnieHalfwayPoint-financials-61
+  - Dialog_AnnieHalfwayPoint-financials-62
+  - Dialog_AnnieHalfwayPoint-financials-63
+  - Dialog_AnnieHalfwayPoint-financials-64
+  - Dialog_AnnieHalfwayPoint-financials-65
+  - Dialog_AnnieHalfwayPoint-financials-66
+  - Dialog_AnnieHalfwayPoint-financials-67
+  - Dialog_AnnieHalfwayPoint-End-68
+  - Dialog_AnnieHalfwayPoint-End-69
+  - Dialog_AnnieHalfwayPoint-End-70
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

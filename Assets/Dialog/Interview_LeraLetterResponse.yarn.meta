@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: ec7bb637c1da7a749b342e586840adf9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Interview_LeraLetterResponse-Start-0
+  - Interview_LeraLetterResponse-Start-1
+  - Interview_LeraLetterResponse-Start-2
+  - Interview_LeraLetterResponse-Start-3
+  - Interview_LeraLetterResponse-Start-4
+  - Interview_LeraLetterResponse-ShoutOut-5
+  - Interview_LeraLetterResponse-ShoutOut-6
+  - Interview_LeraLetterResponse-ShoutOut-7
+  - Interview_LeraLetterResponse-ShoutOut-8
+  - Interview_LeraLetterResponse-ShoutOut-9
+  - Interview_LeraLetterResponse-ShoutOut-10
+  - Interview_LeraLetterResponse-ShutDown-11
+  - Interview_LeraLetterResponse-ShutDown-12
+  - Interview_LeraLetterResponse-ShutDown-13
+  - Interview_LeraLetterResponse-ShutDown-14
+  - Interview_LeraLetterResponse-ShutDown-15
+  - Interview_LeraLetterResponse-ShutDown-16
+  - Interview_LeraLetterResponse-ShutDown-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

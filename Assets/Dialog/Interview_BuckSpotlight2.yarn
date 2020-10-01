@@ -1,0 +1,39 @@
+title: Start
+tags: 
+colorID: 0
+position: -1663,-922
+---
+<< SetSpeaker Khalid >> 
+Khalid: And now, it's time for everyone's favorite segment, our citizen spotlight series!
+Khalid: Guess what? It's another look at Buck, lumberjack extraordinaire.
+
+[[ answer: Cheer Buck|Cheer]]
+[[ answer: Chastise Buck|Chastise]]
+===
+title: Cheer
+tags: 
+colorID: 0
+position: -1660,-618
+---
+<< SetSpeaker Khalid>> 
+Khalid: Everyone I've spoken to has said that Buck is a wonderful addition to our little town.
+Khalid: He goes out of his way to provide strong, quality lumber to rebuild the homes of our citizens.
+Khalid: No more sleeping under re-purposed scrap metal!
+Khalid: I've slept in plenty of those shelters, and they get so cold at night.
+Khalid: We're all so grateful to Buck for everything he's done—plus no more fear of tetnaus!
+Khalid: Three cheers for Buck!
+===
+title: Chastise
+tags: 
+colorID: 0
+position: -1371,-599
+---
+<< SetSpeaker Khalid>>
+Khalid: Look, everyone I've spoken to says he's a nice guy that goes out of his way to help them.
+Khalid: But there are plenty of grumbles too. Buck, I say this as your friendly radio broadcaster:
+Khalid: Stop destroying trees. We need them for our precious oxygen, and to keep the wind from racing down the valley.
+Khalid: And in case you hadn't noticed, there aren't that many trees around these days.
+Khalid: With every tree you cut, you suffocate us just a little bit more.
+Khalid: I know you're a lumberjack, but you seriously should consider switching professions.
+Khalid: The Buck must stop here!
+===

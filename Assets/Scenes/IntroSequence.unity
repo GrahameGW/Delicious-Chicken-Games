@@ -441,6 +441,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1234103843}
     m_Modifications:
+    - target: {fileID: 643649743276636231, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+      propertyPath: m_text
+      value: Debug Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 643649743276636231, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+      propertyPath: m_fontSize
+      value: 50.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 

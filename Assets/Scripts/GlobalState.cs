@@ -37,6 +37,7 @@ public class GlobalState : ScriptableObject
         DialogManager.DialogStarted -= OnDialogStarted;
         DialogManager.DialogStopped -= OnDialogStopped;
     }
+
 }
 
 public enum TimeOfDay {

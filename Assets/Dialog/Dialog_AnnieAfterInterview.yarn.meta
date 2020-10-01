@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 645a824ae0debc542968688b8808a80e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_AnnieAfterInterview-Start-0
+  - Dialog_AnnieAfterInterview-Start-1
+  - Dialog_AnnieAfterInterview-Start-2
+  - Dialog_AnnieAfterInterview-Start-3
+  - Dialog_AnnieAfterInterview-Start-4
+  - Dialog_AnnieAfterInterview-Start-5
+  - Dialog_AnnieAfterInterview-Start-6
+  - Dialog_AnnieAfterInterview-Start-7
+  - Dialog_AnnieAfterInterview-Start-8
+  - Dialog_AnnieAfterInterview-Start-9
+  - Dialog_AnnieAfterInterview-Start-10
+  - Dialog_AnnieAfterInterview-Start-11
+  - Dialog_AnnieAfterInterview-Start-12
+  - Dialog_AnnieAfterInterview-Overwhelmed-13
+  - Dialog_AnnieAfterInterview-Overwhelmed-14
+  - Dialog_AnnieAfterInterview-Overwhelmed-15
+  - Dialog_AnnieAfterInterview-Optimistic-16
+  - Dialog_AnnieAfterInterview-Optimistic-17
+  - Dialog_AnnieAfterInterview-Optimistic-18
+  - Dialog_AnnieAfterInterview-Optimistic-19
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

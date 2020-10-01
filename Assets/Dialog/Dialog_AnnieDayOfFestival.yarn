@@ -1,0 +1,107 @@
+title: EndofBroadcast
+tags: 
+colorID: 0
+position: -2408,-401
+---
+<<SetSpeaker Annie>>
+Annie: Good pitch.
+<<SetSpeaker Khalid>>
+Khalid: Here's hoping it gets them out to the festival.
+ [[Answer:AnnieHappy|AnnieHappy]]
+ [[Answer:AnnieNeutral|AnnieNeutral]]
+ [[Answer:AnnieUpset|AnnieUpset]]
+===
+title: AnnieHappy
+tags: 
+colorID: 0
+position: -2107,-621
+---
+Annie: I'm sure they will. You've done so much for everyone. We've all been looking forward to this for weeks.
+ [[Answer:End|End]]
+===
+title: AnnieNeutral
+tags: 
+colorID: 0
+position: -2113,-394
+---
+Annie: We should have a decent turnout. Not as big as in better times, but a good foundation for the future.
+ [[Answer:End|End]]
+===
+title: AnnieUpset
+tags: 
+colorID: 0
+position: -2114,-150
+---
+Annie: I hope so. Your tactics have upset a lot of people. They may stay home out of spite.
+ [[Answer:End|End]]
+===
+title: End
+tags: 
+colorID: 0
+position: -1790,-389
+---
+Khalid: Ready to go?
+Annie: After you.
+ [[Answer:BestFestival|BestFestival]]
+ [[Answer:GoodFestival|GoodFestival]]
+ [[Answer:BadFestival|BadFestival]]
+ [[Answer:WorstFestival|WorstFestival]]
+===
+title: BestFestival
+tags: 
+colorID: 0
+position: -1458,-678
+---
+The Harvest Festival was a complete success. 
+People came in from around the county and beyond to meet their neighbors, enjoy the fall, and forget their troubles for one glorious day.
+Those who were old enough to remember the before times all agreed that this festival was as good or better as any they'd attended years ago.
+Buck and the Boys played all afternoon and into the night. The dance floor was packed the entire time. More than one new romance blossomed to their soundtrack.
+To everyone's surprise, Miss Ruthie took home the grand prize at Lera's shooting gallery. Her secret? A twenty-year career in the Marines and fingers kept limber through her knitting.
+With the festival running smoothly, Annie finally took a night off. The diner stayed closed while the Mayor celebrated with her community. There was no one happier in the entire county that night.
+And Khalid? 
+Well, he still plans on moving on. But he'll wait around a little bit. Just long enough to help them get the Festival set up next year...
+===
+title: GoodFestival
+tags: 
+colorID: 0
+position: -1454,-460
+---
+The Harvest Festival went off without a hitch.
+People around town spent the day out and about, meeting their neighbors, enjoying the fall, and snacking down on treats fresh from the oven.
+Those who were old enough to remember the before times fondly recalled prior festivals, and told stories about the great hoedowns from long ago.
+Buck and the Boys played all afternoon. Happy villagers took to the floor, jumping and shaking to Buck's banjo.
+Lera's shooting gallery was by far the most popular attraction, though no one managed to take home the grand prize.
+With the festival running smoothly, Annie finally took a night off. She spent her time with her community, helping Miss Ruthie get around and welcoming everyone to town.
+And Khalid? 
+Well, he still plans on moving on. But he'll wait around a little bit. Just long enough to help them get the Festival set up next year...
+===
+title: BadFestival
+tags: 
+colorID: 0
+position: -1455,-238
+---
+The Harvest Festival was an interesting diversion, though it fell a little short of expectations.
+People around town spent an hour or two checking out the attractions and meeting their neighbors, before turning back to their lives.
+Those who were old enough to remember the before times shrugged, saying "You can't rebuild something like that."
+Buck and the Boys played for a couple of hours in the afternoon. A couple of villagers got up to dance, to the amusement of their neighbors.
+Lera's shooting gallery was a popular attraction, but not popular enough to keep her from ending up with a pile of unclaimed prizes.
+Annie did not get the chance to enjoy the Festival; she spent the day running around putting out fires and trying to get people excited.
+And Khalid? 
+His work done, his promise kept, he began reaching out to scrappers who'd be interested in old radio parts. 
+A few days later he packed his bag and headed off towards the east, still in search of a home.
+===
+title: WorstFestival
+tags: 
+colorID: 0
+position: -1451,-9
+---
+The Harvest Festival was a flop.
+Most of the attractions saw one, maybe two visitors all day. No one went out of their way to drop by and see what was happening.
+Those who were old enough to remember the before times were smug at the failure, laughing to one another "This was never going to work."
+Buck and the Boys played for an hour before giving up. Embarrassed and angry, Buck was headed back for the hills before the last chord had died away.
+Lera's shooting gallery did attract some visitors, mostly kids who wanted to shoot the air rifle. She quickly tired of playing babysitter, gave them each a prize, and closed up.
+Annie started the day running around like crazy, putting out fires and helping Miss Ruthie get set up. 
+But by lunchtime, she had given up, and retired with a bottle of wine to the counter in her diner.
+And Khalid? 
+He left the day of the Festival, heading east. He wouldn't ever return.
+===

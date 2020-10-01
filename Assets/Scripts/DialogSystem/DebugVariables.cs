@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class DebugVariables : MonoBehaviour
 {
-    [SerializeField] private GlobalState globalState;
-    [SerializeField] private TMP_Text debugTextBox;
+    [SerializeField] private GlobalState globalState = default;
+    [SerializeField] private TMP_Text debugTextBox = default;
 
     private void Update()
     {

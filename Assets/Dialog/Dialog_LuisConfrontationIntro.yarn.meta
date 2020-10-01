@@ -1,0 +1,55 @@
+fileFormatVersion: 2
+guid: 29b26645ddba80a42a5116cc31b605ec
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_LuisConfrontationIntro-Start-0
+  - Dialog_LuisConfrontationIntro-Start-1
+  - Dialog_LuisConfrontationIntro-Start-2
+  - Dialog_LuisConfrontationIntro-Start-3
+  - Dialog_LuisConfrontationIntro-Start-4
+  - Dialog_LuisConfrontationIntro-Start-5
+  - Dialog_LuisConfrontationIntro-Start-6
+  - Dialog_LuisConfrontationIntro-Start-7
+  - Dialog_LuisConfrontationIntro-Start-8
+  - Dialog_LuisConfrontationIntro-Start-9
+  - Dialog_LuisConfrontationIntro-Start-10
+  - Dialog_LuisConfrontationIntro-Start-11
+  - Dialog_LuisConfrontationIntro-Start-12
+  - Dialog_LuisConfrontationIntro-Start-13
+  - Dialog_LuisConfrontationIntro-Start-14
+  - Dialog_LuisConfrontationIntro-community-15
+  - Dialog_LuisConfrontationIntro-community-16
+  - Dialog_LuisConfrontationIntro-community-17
+  - Dialog_LuisConfrontationIntro-community-18
+  - Dialog_LuisConfrontationIntro-community-19
+  - Dialog_LuisConfrontationIntro-community-20
+  - Dialog_LuisConfrontationIntro-community-21
+  - Dialog_LuisConfrontationIntro-community-22
+  - Dialog_LuisConfrontationIntro-cash-23
+  - Dialog_LuisConfrontationIntro-cash-24
+  - Dialog_LuisConfrontationIntro-cash-25
+  - Dialog_LuisConfrontationIntro-cash-26
+  - Dialog_LuisConfrontationIntro-cash-27
+  - Dialog_LuisConfrontationIntro-cash-28
+  - Dialog_LuisConfrontationIntro-cash-29
+  - Dialog_LuisConfrontationIntro-End-30
+  - Dialog_LuisConfrontationIntro-End-31
+  - Dialog_LuisConfrontationIntro-End-32
+  - Dialog_LuisConfrontationIntro-End-33
+  - Dialog_LuisConfrontationIntro-End-34
+  - Dialog_LuisConfrontationIntro-End-35
+  - Dialog_LuisConfrontationIntro-End-36
+  - Dialog_LuisConfrontationIntro-End-37
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

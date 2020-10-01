@@ -1,0 +1,54 @@
+title: Start
+tags: 
+colorID: 0
+position: -1307,-581
+---
+<< SetSpeaker Annie>> 
+Annie: That went well!
+<< SetSpeaker Khalid>> 
+Khalid: You think so?
+<< SetSpeaker Annie>> 
+Annie: Yep! You were great. Plenty of energy, and you've got a great voice for radio.
+<< SetSpeaker Khalid>> 
+Khalid: Not to mention the face for it.
+<< SetSpeaker Annie>> 
+Annie: Ha!
+<< SetSpeaker Khalid>> 
+Khalid: So this is really happening, huh?
+<< SetSpeaker Annie>> 
+Annie: You bet. I don't start things I don't mean to finish.
+<< SetSpeaker Khalid>> 
+Khalid: I remember festivals and state fairs from the Better Times. They really went all out.
+Khalid: You think we can stage something as great?
+<< SetSpeaker Annie>> 
+Annie: Just the two of us, no. But if you get the town on board, and get the word out in the valley?
+Annie: That's a whole other ball game.
+[[ answer: Sounds like a lot|Overwhelmed]] 
+[[ answer: I like a challenge|Optimistic]]
+===
+title: Overwhelmed
+tags: 
+colorID: 0
+position: -1451,-271
+---
+<< SetSpeaker Khalid>> 
+Khalid: It's a lot to do in not a lot of time.
+Khalid: Hard not to feel a little overwhelmed.
+<< SetSpeaker Annie>> 
+Annie: Try running a diner sometime. Being overwhelmed means it was an easy day.
+[[ End ]]
+===
+title: Optimistic
+tags: 
+colorID: 0
+position: -1162,-274
+---
+<< SetSpeaker Khalid>> 
+Khalid: This might be the first time in a while I've been actively excited for something.
+<< SetSpeaker Annie>> 
+Annie: Festivals are great! How could you not be excited?
+<< SetSpeaker Khalid>> 
+Khalid: Well, there's a whole lot still to do...
+<< SetSpeaker Annie>> 
+Annie: You'll be fine. This is all going to go off without a hitch.
+===

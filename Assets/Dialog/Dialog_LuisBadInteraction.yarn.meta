@@ -1,0 +1,50 @@
+fileFormatVersion: 2
+guid: 47ab2112e1e49e842b2cae1c6bf6e7e5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_LuisBadInteraction-Start-0
+  - Dialog_LuisBadInteraction-Start-1
+  - Dialog_LuisBadInteraction-Start-2
+  - Dialog_LuisBadInteraction-Start-3
+  - Dialog_LuisBadInteraction-Start-4
+  - Dialog_LuisBadInteraction-Start-5
+  - Dialog_LuisBadInteraction-Start-6
+  - Dialog_LuisBadInteraction-Start-7
+  - Dialog_LuisBadInteraction-Start-8
+  - Dialog_LuisBadInteraction-Start-9
+  - Dialog_LuisBadInteraction-Start-10
+  - Dialog_LuisBadInteraction-Start-11
+  - Dialog_LuisBadInteraction-Start-12
+  - Dialog_LuisBadInteraction-Start-13
+  - Dialog_LuisBadInteraction-Start-14
+  - Dialog_LuisBadInteraction-Start-15
+  - Dialog_LuisBadInteraction-Start-16
+  - Dialog_LuisBadInteraction-Start-17
+  - Dialog_LuisBadInteraction-Start-18
+  - Dialog_LuisBadInteraction-Start-19
+  - Dialog_LuisBadInteraction-Start-20
+  - Dialog_LuisBadInteraction-Start-21
+  - Dialog_LuisBadInteraction-Start-22
+  - Dialog_LuisBadInteraction-Start-23
+  - Dialog_LuisBadInteraction-Start-24
+  - Dialog_LuisBadInteraction-Start-25
+  - Dialog_LuisBadInteraction-Start-26
+  - Dialog_LuisBadInteraction-Start-27
+  - Dialog_LuisBadInteraction-Start-28
+  - Dialog_LuisBadInteraction-Start-29
+  - Dialog_LuisBadInteraction-Start-30
+  - Dialog_LuisBadInteraction-Start-31
+  - Dialog_LuisBadInteraction-Start-32
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

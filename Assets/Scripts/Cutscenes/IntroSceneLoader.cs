@@ -3,8 +3,7 @@ using UnityEngine;
 
 public class IntroSceneLoader : MonoBehaviour
 {
-    [SerializeField]
-    private IntroManager yarnManager = default;
+    public IntroManager yarnManager = default;
     [SerializeField]
     private float waitBeforeInput = 3.0f;
 

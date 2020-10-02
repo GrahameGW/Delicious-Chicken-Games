@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DeskCloseup.unity
     guid: 446eb8892d69a774c9d518237292908e
   - enabled: 1
-    path: Assets/Scenes/IntroSequence.unity
+    path: Assets/Scenes/IntroCinematic/IntroSequence.unity
     guid: 67d0e233b1f614443a999f6772d3859f
   - enabled: 1
     path: Assets/Scenes/TitleMenu.unity

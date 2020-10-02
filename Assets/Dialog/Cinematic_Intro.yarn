@@ -1,12 +1,29 @@
 title: Intro.Start
 tags: 
 colorID: 0
-position: 214,19
+position: -126,-167
 ---
-<<SetSpeaker Khalid>> 
 Khalid: This was once a happy place.
+===
+title: Intro.Jukebox
+tags: 
+colorID: 0
+position: 103,-172
+---
 Khalid: Just automated bulletins and a whole lot of nothing. Though I can’t blame her for trying.
-Khalid: Used to be lights as far as you could see. 
+===
+title: Intro.Valley
+tags: 
+colorID: 0
+position: 322,-179
+---
+Khalid: Used to be lights as far as you could see.
+===
+title: Intro.Studio
+tags: 
+colorID: 0
+position: 533,-202
+---
 Khalid: Home, sweet home.
 <<set $money to 1>>
 ===

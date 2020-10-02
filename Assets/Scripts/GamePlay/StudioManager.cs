@@ -5,8 +5,11 @@ public class StudioManager : MonoBehaviour
     public static StudioManager Instance { get; private set; }
 
     [SerializeField] StudioState state = default;
+    [SerializeField] GlobalState globalState = default;
     [SerializeField] GameObject player = default;
     private SpriteRenderer playerSprite;
+
+    int day;
 
     private void Awake()
     {
@@ -18,11 +21,28 @@ public class StudioManager : MonoBehaviour
 
         playerSprite = player.GetComponentInChildren<SpriteRenderer>();
         OpenStudio();
+        day = globalState.currentDay;
     }
 
     public void OpenStudio()
     {
         LoadState();
+        /*
+        if (globalState.currentTime == TimeOfDay.Morning && !globalState.playedAMDialog) {
+            if (scheduledAMDialogs[day] != null) {
+                dialogueRunner.Add(scheduledAMDialogs[day]);
+                dialogueRunner.StartDialogue("Start");
+                globalState.playedAMDialog = true;
+            }
+        }
+        else if (globalState.currentTime == TimeOfDay.Evening && !globalState.playedPMDialog) {
+            if (scheduledPMDialogs[day] != null) {
+                dialogueRunner.Add(scheduledPMDialogs[day]);
+                dialogueRunner.StartDialogue("Start");
+                globalState.playedPMDialog = true;
+            }
+        }
+        */
     }
 
     public void LeaveStudio()
@@ -44,7 +64,8 @@ public class StudioManager : MonoBehaviour
         playerSprite.flipX = state.playerFaceLeft;
     }
 
-
-
-
+    public void TogglePlayerController()
+    {
+        player.gameObject.SetActive(!player.activeSelf);
+    }
 }

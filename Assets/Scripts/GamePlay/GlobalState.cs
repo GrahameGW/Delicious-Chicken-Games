@@ -10,6 +10,8 @@ public class GlobalState : ScriptableObject
     public float communityReached = 0.0f;
     public int money = 0;
     public static bool isInDialog = false;
+    public bool playedAMDialog = false;
+    public bool playedPMDialog = false;
 
     public void ChangeMoney(int change)
     {

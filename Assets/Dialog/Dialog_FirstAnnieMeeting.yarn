@@ -1,10 +1,8 @@
-title: MeetingwithAnnie
+title: Start
 tags: 
 colorID: 0
 position: -341,-496
 ---
-
-<<SetSpeaker Annie>>
 <<SetSpeaker Annie>>
 Annie: So I didn't dream it! The radio is back on!
 <<SetSpeaker Khalid>>
@@ -16,11 +14,9 @@ Annie: ...
 <<SetSpeaker Annie>>
 Annie: Do you know Jackie?
 <<SetSpeaker Khalid>>
-<<SetSpeaker Khalid>>
 Khalid: He was my uncle.
 <<SetSpeaker Annie>>
 Annie: Oh! You're Khalid?
-<<SetSpeaker Khalid>>
 <<SetSpeaker Khalid>>
 Khalid: Yes.
 <<SetSpeaker Annie>>

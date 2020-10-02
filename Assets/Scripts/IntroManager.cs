@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿using SimpleSceneTransitions;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using Yarn.Unity;
 
 
@@ -10,21 +10,32 @@ public class IntroManager : MonoBehaviour
     [SerializeField] DialogueRunner dialogueRunner = default;
     [SerializeField] YarnProgram yarnDialogue = default;
     [SerializeField] string nextScene = default;
+    [SerializeField]
+    private Color fadeColor = default;
+    [SerializeField]
+    private float fadeMultiplier = default;
     [SerializeField] string[] startNodes = default;
     [SerializeField] Sprite[] backdrops = default;
     [SerializeField] SpriteRenderer activeBackdrop = default;
+    [SerializeField] CanvasGroup overlay = default;
     [SerializeField]
     private float waitBeforeInput = 2.0f;
+    [SerializeField]
+    private float fadeTime = 1.0f;
+    [SerializeField]
+    private float dialogDelay = 1.0f;
+    [SerializeField] GameObject clickToContinueText = default;
 
 
     private int currentNode = 0;
 
-    private void Awake()
+    private void Start()
     {
         dialogueRunner.Add(yarnDialogue);
+        StartCoroutine(WaitForNewPanel());
     }
 
-    void Start()
+    void StartPanel()
     {
         Debug.Log(currentNode);
         if (!string.IsNullOrEmpty(startNodes[currentNode]))
@@ -32,13 +43,12 @@ public class IntroManager : MonoBehaviour
         else
             StartCoroutine(WaitForPlayerInput());
 
-        activeBackdrop.sprite = backdrops[currentNode];
     }
 
+    // Accessed by yarn
     public void QueueNext()
     {
         currentNode++;
-
         if (currentNode >= startNodes.Length)
             LoadNextScene();
         else
@@ -47,26 +57,43 @@ public class IntroManager : MonoBehaviour
 
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(nextScene);
+        Initiate.Fade(nextScene, fadeColor, fadeMultiplier);
     }
 
     private IEnumerator WaitForNewPanel()
     {
-        yield return null;
-        Start();
+        overlay.blocksRaycasts = true;
+        // fade out
+        for (float i = 0; i < fadeTime; i += Time.deltaTime) {
+            float a = i / fadeTime;
+            overlay.alpha = a;
+            yield return null;
+        }
+        activeBackdrop.sprite = backdrops[currentNode];
+
+        // fade in
+        for (float i = 0; i < fadeTime; i += Time.deltaTime) {
+            float a = 1-(i / fadeTime);
+            overlay.alpha = a;
+            yield return null;
+        }
+
+        overlay.alpha = 0;
+        overlay.blocksRaycasts = false;
+        yield return new WaitForSeconds(dialogDelay);
+        StartPanel();
     }
 
     IEnumerator WaitForPlayerInput()
     {
         yield return new WaitForSeconds(waitBeforeInput);
         Debug.Log("Can click");
+        clickToContinueText.SetActive(true);
 
         while (true) {
-            Debug.Log(Input.anyKeyDown);
             if (Input.anyKeyDown) {
-                currentNode++;
-                Start();
-
+                QueueNext();
+                clickToContinueText.SetActive(false);
                 yield break;
             }
 

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class NextDay : MonoBehaviour
 {
@@ -10,5 +8,7 @@ public class NextDay : MonoBehaviour
     {
         globalState.currentDay++;
         globalState.currentTime = TimeOfDay.Morning;
-    }
+        globalState.playedAMDialog = false;
+        globalState.playedPMDialog = false;
+}
 }

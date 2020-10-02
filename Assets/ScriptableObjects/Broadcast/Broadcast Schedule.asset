@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5969ffa6425f723488adb426166ef95f, type: 3}
   m_Name: Broadcast Schedule
   m_EditorClassIdentifier: 
-  weatherSlot: {fileID: 11400000, guid: 73b87b0947bfe584ab3941b9fefe3a9a, type: 2}
-  musicSlot: {fileID: 11400000, guid: 334ce682c3660f040be8922daadd5f4e, type: 2}
-  interviewSlot: {fileID: 11400000, guid: 64f82142973727649b141b995e777559, type: 2}
-  advertSlot: {fileID: 11400000, guid: b529f14baa4dcf44693672fe11fb6a8d, type: 2}
+  weatherSlot: {fileID: 0}
+  musicSlot: {fileID: 0}
+  interviewSlot: {fileID: 0}
+  advertSlot: {fileID: 0}

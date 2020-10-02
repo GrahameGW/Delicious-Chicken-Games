@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: e0d3369a155150b4dab6a17150e7e096
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Interview_BuckSpotlight_2-Start-0
+  - Interview_BuckSpotlight_2-Start-1
+  - Interview_BuckSpotlight_2-Start-2
+  - Interview_BuckSpotlight_2-Start-3
+  - Interview_BuckSpotlight_2-Cheer-4
+  - Interview_BuckSpotlight_2-Cheer-5
+  - Interview_BuckSpotlight_2-Cheer-6
+  - Interview_BuckSpotlight_2-Cheer-7
+  - Interview_BuckSpotlight_2-Cheer-8
+  - Interview_BuckSpotlight_2-Cheer-9
+  - Interview_BuckSpotlight_2-Chastise-10
+  - Interview_BuckSpotlight_2-Chastise-11
+  - Interview_BuckSpotlight_2-Chastise-12
+  - Interview_BuckSpotlight_2-Chastise-13
+  - Interview_BuckSpotlight_2-Chastise-14
+  - Interview_BuckSpotlight_2-Chastise-15
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

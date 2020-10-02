@@ -1,0 +1,47 @@
+title: Start
+tags: 
+colorID: 0
+position: -1748,-1138
+---
+<< SetSpeaker Khalid>> 
+Khalid: Welcome back folks. For our next Citizen Spotlight, we're talking about Miss Ruth.
+Khalid: Bakes like no ones business, always has a smile and a word for you.
+Khalid: Also is a grandmother, though no one will tell me who's grandma she is...
+Khalid: Ruth has been a part of this community since the beginning, deep back into the Better Times.
+[[ answer: We could learn from her|learnFromHer]]
+[[ answer: Not much to explore|alreadyKnowEverything]]
+===
+title: learnFromHer
+tags: 
+colorID: 0
+position: -1647,-751
+---
+<< SetSpeaker Khalid>> 
+Khalid: As one of our eldest citizens, we could learn a lot from her.
+Khalid: I hope I get the chance to have her on the show; I'd love to hear her stories.
+Khalid: With the upcoming Harvest Festival, I'm sure you'd love to hear what the great fairs used to be like.
+Khalid: And of course there's the history of the town, and all of the great things that bind us together as a community.
+[[ End ]]
+===
+title: alreadyKnowEverything
+tags: 
+colorID: 0
+position: -1393,-1028
+---
+<< SetSpeaker Khalid>> 
+Khalid: It's really up to you, listeners. As a pillar in the community, I'm sure you've heard many of her tales before.
+Khalid: And maybe it's best to not open up old wounds. 
+Khalid: We're trying to turn the Bad Times into better times, not reminisce about the Better Times.
+Khalid: Our goal should be to move forward. But do not forget your fellows.
+Khalid: And give thanks to people like Ruth for all they've done. She's seen two generations through; she can certainly help you find some perspective.
+Khalid: It is two generations, right? I know she's a grandmother.
+Khalid: Seriously, whose grandma is she?
+[[ End ]]
+===
+title: End
+tags: 
+colorID: 0
+position: -1201,-670
+---
+Empty Text
+===

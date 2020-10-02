@@ -1,0 +1,104 @@
+title: Start
+tags: 
+colorID: 0
+position: -491,-616
+---
+<<SetSpeaker Khalid>>
+Khalid: Hold on there folks. It seems we have a caller
+
+<< if $buckScore > 0>> 
+[[ Good ]]
+
+<< elseif $buckScore <= 0>> 
+[[ Bad ]]
+<< endif>>
+===
+title: Good
+tags: 
+colorID: 0
+position: -371,-836
+---
+<<SetSpeaker Buck>>
+Buck: Hi there. It's Buck callin'.
+<<SetSpeaker Khalid>>
+Khalid: Hello Buck. It's great to hear from you.
+<<SetSpeaker Buck>>
+Buck: You bet. Thanks for all the nice things you've been saying about me.
+<<SetSpeaker Khalid>>
+Khalid: You're welcome.
+<<SetSpeaker Buck>>
+Buck: More people have been coming to me for timber, which normally I'd like but it makes it hard to conserve what trees we still have.
+<<SetSpeaker Khalid>>
+Khalid: A tough spot. But it's a good thing you're thinking about the environment as well.
+<<SetSpeaker Buck>>
+Buck: Well, I found a way out. Because you talked about my jackets on your show, folks all over town have been askin' about them.
+Buck: I've been able to start a new business selling leather goods. Things couldn't be better.
+<<SetSpeaker Khalid>>
+Khalid: Well that's wonderful to hear. I'm glad we were able to help you out.
+<<SetSpeaker Buck>>
+Buck: It's been grand.
+Buck: Say...what's your favorite color?
+-> Red
+    Khalid: It's red. With white lining.
+    <<  set $jacketColor to 1>> 
+-> Blue
+    Khalid: It's blue. With cream lining.
+    <<  set $jacketColor to 2>> 
+-> Green
+    Khalid: It's green. With gray lining.
+    <<  set $jacketColor to 3>> 
+-> Brown
+    Khalid: It's brown. With plaid lining.
+    <<  set $jacketColor to 4>> 
+<<SetSpeaker Buck>>
+Buck: Haha! Sounds good.
+Buck: Well listen, I need to get back to work. But I've got one last favor to ask.
+Buck: Can you play a track from my band? Your uncle has a few of our records in a box up there.
+<<SetSpeaker Khalid>>
+Khalid: It would be my pleasure.
+<<SetSpeaker Buck>>
+Buck: Awesome. Thanks again!
+<<SetSpeaker Khalid>>
+Khalid: No worries. Have a great day!
+<<SetSpeaker Buck>>
+Buck: *click*
+Khalid: Well, you heard the man. Coming at you now, a hometown track from Buck and the Boys...
+===
+title: Bad
+tags: 
+colorID: 0
+position: -151,-836
+---
+<<SetSpeaker Buck>>
+Buck: Is this that radio clown?
+<<SetSpeaker Khalid>>
+Khalid: ...uh...who is this?
+<<SetSpeaker Buck>>
+Buck: It's Buck. Remember me? You've been trashing me all over the airwaves.
+Buck: I have a bone to pick with you.
+<<SetSpeaker Khalid>>
+Khalid: Like how you've been picking on the trees in the valley?
+<<SetSpeaker Buck>>
+Buck: See, you don't even know what you're talking about.
+Buck: I've been trying to help everyone survive, working my nails to the bone to get roofs over heads.
+Buck: And for your information, I have a tremendous amount of respect for the trees. 
+Buck: I practice sustainable logging. I'm the one making sure the tree population remains stable and healthy.
+Buck: I plant three trees for every one I chop!
+<<SetSpeaker Khalid>>
+Khalid: ...I'm sorry. I didn't know.
+<<SetSpeaker Buck>>
+Buck: Well, maybe if you stepped out of your little shack for once, you would know.
+<<SetSpeaker Khalid>>
+Khalid: Look, I said I was sorry. 
+<<SetSpeaker Buck>>
+Buck: I don't want your apologies. It's too late. No one wants me around thanks to you.
+Buck: So I'm leaving town. Tonight
+<<SetSpeaker Khalid>>
+Khalid: Buck, wait—
+<<SetSpeaker Buck>>
+Buck: *click*
+<<SetSpeaker Khalid>>
+Khalid: ...
+Khalid: Buck?
+Khalid: ...
+===

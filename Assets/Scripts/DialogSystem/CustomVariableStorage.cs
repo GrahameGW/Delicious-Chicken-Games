@@ -7,16 +7,23 @@ using Yarn;
 public class CustomVariableStorage : Yarn.Unity.VariableStorageBehaviour
 {
     [SerializeField]
-    private GlobalState globalState; //TO DO: create singleton instance of GlobalState
-
-    private void Start()
-    {
-        globalState = ScriptableObject.CreateInstance<GlobalState>();
-    }
+    private GlobalState globalState = default; //TO DO: create singleton instance of GlobalState
 
     public override Value GetValue(string variableName)
     {
-        return (Value)typeof(GlobalState).GetField(variableName).GetValue(globalState);
+        switch (variableName)
+        {
+            case "$communityApproval":
+                return new Yarn.Value(globalState.communityApproval);
+            case "$communityReached":
+                return new Yarn.Value(globalState.communityReached);
+            case "$money":
+                return new Yarn.Value(globalState.money);
+            default:
+                Debug.LogError("Yarn variable storage tried to access invalid variable " + variableName + ".");
+                break;
+        }
+        return new Yarn.Value();
     }
 
     public override void ResetToDefaults()
@@ -30,8 +37,21 @@ public class CustomVariableStorage : Yarn.Unity.VariableStorageBehaviour
 
     public override void SetValue(string variableName, Value value)
     {
-        //globalState = ScriptableObject.CreateInstance("GlobalState") as GlobalState;
-        globalState.GetType().GetField(variableName).SetValue(globalState,value); 
+        switch (variableName)
+        {
+            case "$communityApproval":
+                globalState.communityApproval = value.AsNumber;
+                break;
+            case "$communityReached":
+                globalState.communityReached = value.AsNumber;
+                break;
+            case "$money":
+                globalState.money = (int)value.AsNumber;
+                break;
+            default:
+                Debug.LogError("Yarn variable storage tried to access invalid variable " + variableName + ".");
+                break;
+        }
     }
 
 }

@@ -1,0 +1,70 @@
+fileFormatVersion: 2
+guid: b522018c84fdb4b4793098dfccf50ceb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Intervew_RuthStories-Start-0
+  - Intervew_RuthStories-Start-1
+  - Intervew_RuthStories-Start-2
+  - Intervew_RuthStories-Start-3
+  - Intervew_RuthStories-Start-4
+  - Intervew_RuthStories-Start-5
+  - Intervew_RuthStories-Start-6
+  - Intervew_RuthStories-pushAgain-7
+  - Intervew_RuthStories-pushAgain-8
+  - Intervew_RuthStories-pushAgain-9
+  - Intervew_RuthStories-moveOn-10
+  - Intervew_RuthStories-moveOn-11
+  - Intervew_RuthStories-moveOn-12
+  - Intervew_RuthStories-moveOn-13
+  - Intervew_RuthStories-moveOn-14
+  - Intervew_RuthStories-moveOn-15
+  - Intervew_RuthStories-moveOn-16
+  - Intervew_RuthStories-moveOn-17
+  - Intervew_RuthStories-moveOn-18
+  - Intervew_RuthStories-exciting-19
+  - Intervew_RuthStories-exciting-20
+  - Intervew_RuthStories-exciting-21
+  - Intervew_RuthStories-exciting-22
+  - Intervew_RuthStories-exciting-23
+  - Intervew_RuthStories-exciting-24
+  - Intervew_RuthStories-exciting-25
+  - Intervew_RuthStories-exciting-26
+  - Intervew_RuthStories-exciting-27
+  - Intervew_RuthStories-exciting-28
+  - Intervew_RuthStories-exciting-29
+  - Intervew_RuthStories-exciting-30
+  - Intervew_RuthStories-exciting-31
+  - Intervew_RuthStories-exciting-32
+  - Intervew_RuthStories-exciting-33
+  - Intervew_RuthStories-inspiring-34
+  - Intervew_RuthStories-inspiring-35
+  - Intervew_RuthStories-inspiring-36
+  - Intervew_RuthStories-inspiring-37
+  - Intervew_RuthStories-inspiring-38
+  - Intervew_RuthStories-inspiring-39
+  - Intervew_RuthStories-inspiring-40
+  - Intervew_RuthStories-inspiring-41
+  - Intervew_RuthStories-inspiring-42
+  - Intervew_RuthStories-inspiring-43
+  - Intervew_RuthStories-inspiring-44
+  - Intervew_RuthStories-inspiring-45
+  - Intervew_RuthStories-inspiring-46
+  - Intervew_RuthStories-inspiring-47
+  - Intervew_RuthStories-inspiring-48
+  - Intervew_RuthStories-inspiring-49
+  - Intervew_RuthStories-inspiring-50
+  - Intervew_RuthStories-end-51
+  - Intervew_RuthStories-end-52
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

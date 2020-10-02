@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 60c770a0b204fab4db32bcee0dc482bf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Interview_RuthSpotlight-Start-0
+  - Interview_RuthSpotlight-Start-1
+  - Interview_RuthSpotlight-Start-2
+  - Interview_RuthSpotlight-Start-3
+  - Interview_RuthSpotlight-Start-4
+  - Interview_RuthSpotlight-Start-5
+  - Interview_RuthSpotlight-learnFromHer-6
+  - Interview_RuthSpotlight-learnFromHer-7
+  - Interview_RuthSpotlight-learnFromHer-8
+  - Interview_RuthSpotlight-learnFromHer-9
+  - Interview_RuthSpotlight-alreadyKnowEverything-10
+  - Interview_RuthSpotlight-alreadyKnowEverything-11
+  - Interview_RuthSpotlight-alreadyKnowEverything-12
+  - Interview_RuthSpotlight-alreadyKnowEverything-13
+  - Interview_RuthSpotlight-alreadyKnowEverything-14
+  - Interview_RuthSpotlight-alreadyKnowEverything-15
+  - Interview_RuthSpotlight-alreadyKnowEverything-16
+  - Interview_RuthSpotlight-End-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

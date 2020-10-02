@@ -1,0 +1,113 @@
+title: Start
+tags: 
+colorID: 0
+position: -1167,-1068
+---
+<< SetSpeaker Khalid>> 
+Khalid: Guess what folks? I have someone very special to introduce to you.
+<< SetSpeaker Ruth>> 
+Ruth: Hello everyone.
+<< SetSpeaker Khalid>> 
+Khalid: That's right, it's everyone's favorite senior and grandmother, Ruth!
+Khalid: Great to have you here. How's your grandson? Granddaughter?
+<< SetSpeaker Ruth>> 
+Ruth: Heehee. Everyone's fine. We don't need to be gossiping, now do we?
+[[ answer: Whose grandmother are you?|pushAgain]]
+[[ answer: No, I guess not|moveOn]]
+===
+title: pushAgain
+tags: 
+colorID: 0
+position: -1171,-695
+---
+<< SetSpeaker Khalid>> 
+Khalid: Honestly Ruth. Our listeners are dying to know.
+<< SetSpeaker Ruth>> 
+Ruth: Your listeners or you, young man?
+Ruth: You best be sticking your nose out of other folk's private matters, y'hear me?
+[[ moveOn ]]
+===
+title: moveOn
+tags: 
+colorID: 0
+position: -837,-712
+---
+<< SetSpeaker Khalid>> 
+Khalid: All right. Let's move on.
+Khalid: You've been a citizen of our humble town since the beginning. 
+Khalid: What was it like, living through everything that's happened over the years?
+<< SetSpeaker Ruth>> 
+Ruth: It was a whole mess, same as everywhere. 
+Ruth: We were all just tryin' to get by. People were running around actin' more muddled than mint in a fresh-pressed julep. 
+Ruth: A particularly nasty couple of crews criss-crossed the valley, runnin' around like they owned the place.
+Ruth: We'd lived here in the Better Days. So a few of us, fed up and agreed to watch each other's backs re-founded the town.
+[[ answer: That's so intense|exciting]]
+[[ answer: What an inspiring story|inspiring]]
+===
+title: exciting
+tags: 
+colorID: 0
+position: -1129,-457
+---
+<< SetSpeaker Khalid>>
+Khalid: That must have been so exciting. Most people aren't interesting in sharing about those times.
+Khalid: I personally spent most of it hiding under a bed. But I was four...
+<< SetSpeaker Ruth>> 
+Ruth: Most people don't want to be reminded of it. But I'm old enough, and seen enough to know better.
+Ruth: Folks want a real jaw-dropper? Back before those times, I served.
+<< SetSpeaker Khalid>>
+Khalid: Come again?
+<< SetSpeaker Ruth>> 
+Ruth: That's right dearie. US Marine Corps. A dang fine solider too, I might add.
+Ruth: Times were tough. We fought for our town. Some of those battles were bitter. 
+Ruth: Even worse were the quiet moments. Everyone on pins and needles at all times.
+<< SetSpeaker Khalid>>
+Khalid: Hard to shake that feeling, even now. 
+Khalid: Still need to be tough, in some ways.
+<< SetSpeaker Ruth>> 
+Ruth: You're not just whistling. There's reasons why nobody wants to talk about it.
+Ruth: Probably best to avoid the details. Don't want to upset anyone's stomach.
+<< SetSpeaker Khalid>>
+Khalid: ...I think you're probably right.
+[[ answer: Your efforts are so inspiring|inspiring]]
+[[ answer: Wrap up|end]]
+===
+title: inspiring
+tags: 
+colorID: 0
+position: -780,-439
+---
+<< SetSpeaker Khalid>>
+Khalid: What an inspiring story. 
+Khalid: What were things like in the early days?
+<< SetSpeaker Ruth>>
+Ruth: Well, once we reclaimed the land and restarted the town, there wasn't much.
+Ruth: Just a few abandoned houses and some dirt.
+Ruth: We made a makeshift stronghold out of fence pieces and scrap.
+<< SetSpeaker Khalid>>
+Khalid: How many of you were there?
+<< SetSpeaker Ruth>>
+Ruth: Barely a dozen. I still had a muffin pan, and I could feed everyone with one batch of corn muffins.
+Ruth: We made do. Once we got things stabilized, others started findin' their way here, askin' to be let in.
+<< SetSpeaker Khalid>>
+Khalid: How did you know who to trust?
+<< SetSpeaker Ruth>>
+Ruth: Guts. I got plenty of them, and I listen closely. Plus we discussed and debated.
+Ruth: Some folks, like Miss Annie, wanted always to bring people in. Others said we should lock it down. 
+Ruth: Usually, letting new folks in was the right call. But it didn't always work out.
+Ruth: One time we almost lost the whole thing because of a bad pick.
+Ruth: But we pulled together and came out stronger because of it.
+<< SetSpeaker Khalid>>
+Khalid: Amazing.
+[[ answer: That must have been so intense|exciting]]
+[[ answer: Wrap up|end]]
+===
+title: end
+tags: 
+colorID: 0
+position: -992,-127
+---
+<< SetSpeaker Khalid>> 
+Khalid: Well, that's all we've got time for.
+Khalid: I hope everyone out there found those tales as thrilling as I did...
+===

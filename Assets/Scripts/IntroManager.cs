@@ -11,23 +11,38 @@ public class IntroManager : MonoBehaviour
     [SerializeField] YarnProgram yarnDialogue = default;
     [SerializeField] string nextScene = default;
     [SerializeField] string[] startNodes = default;
-    [SerializeField] Image[] backdrops = default;
-    [SerializeField] Image activeBackdrop = default;
+    [SerializeField] Sprite[] backdrops = default;
+    [SerializeField] SpriteRenderer activeBackdrop = default;
+    [SerializeField]
+    private float waitBeforeInput = 2.0f;
+
 
     private int currentNode = 0;
 
-    void Start()
+    private void Awake()
     {
         dialogueRunner.Add(yarnDialogue);
-        dialogueRunner.StartDialogue(startNodes[currentNode]);
+    }
+
+    void Start()
+    {
+        Debug.Log(currentNode);
+        if (!string.IsNullOrEmpty(startNodes[currentNode]))
+            dialogueRunner.StartDialogue(startNodes[currentNode]);
+        else
+            StartCoroutine(WaitForPlayerInput());
+
+        activeBackdrop.sprite = backdrops[currentNode];
     }
 
     public void QueueNext()
     {
         currentNode++;
+
         if (currentNode >= startNodes.Length)
             LoadNextScene();
-        else StartCoroutine(WaitForNewPanel());
+        else
+            StartCoroutine(WaitForNewPanel());
     }
 
     public void LoadNextScene()
@@ -37,8 +52,25 @@ public class IntroManager : MonoBehaviour
 
     private IEnumerator WaitForNewPanel()
     {
-        activeBackdrop = backdrops[currentNode];
         yield return null;
-        dialogueRunner.StartDialogue(startNodes[currentNode]);
+        Start();
+    }
+
+    IEnumerator WaitForPlayerInput()
+    {
+        yield return new WaitForSeconds(waitBeforeInput);
+        Debug.Log("Can click");
+
+        while (true) {
+            Debug.Log(Input.anyKeyDown);
+            if (Input.anyKeyDown) {
+                currentNode++;
+                Start();
+
+                yield break;
+            }
+
+            yield return null;
+        }
     }
 }

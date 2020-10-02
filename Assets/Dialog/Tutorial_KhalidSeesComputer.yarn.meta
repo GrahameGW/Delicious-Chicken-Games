@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 71e764c2128dc2e44af29b61cceb1096
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Tutorial_KhalidSeesComputer-Start-0
+  - Tutorial_KhalidSeesComputer-Start-1
+  - Tutorial_KhalidSeesComputer-Start-2
+  - Tutorial_KhalidSeesComputer-Start-3
+  - Tutorial_KhalidSeesComputer-Start-4
+  - Tutorial_KhalidSeesComputer-Start-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

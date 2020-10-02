@@ -3,6 +3,13 @@ tags:
 colorID: 0
 position: -341,-496
 ---
+<<SetSpeaker Khalid>>
+Khalid: Well it works. I guess. Barely.
+Khalid: Probably worth more as scrap than anything.
+<<SetSpeaker None>>
+Door: *KNOCK* *KNOCK*
+<<SetSpeaker Khalid>>
+Khalid: Who's there?
 <<SetSpeaker Annie>>
 Annie: So I didn't dream it! The radio is back on!
 <<SetSpeaker Khalid>>

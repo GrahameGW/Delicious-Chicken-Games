@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using Yarn.Unity;
 
 public class StudioManager : MonoBehaviour
 {
@@ -7,6 +10,9 @@ public class StudioManager : MonoBehaviour
     [SerializeField] StudioState state = default;
     [SerializeField] GlobalState globalState = default;
     [SerializeField] GameObject player = default;
+    [SerializeField] float dialogStartDelay = 1.0f;
+    [SerializeField] DialogueOrganizer dialogOrganizer = default;
+    [SerializeField] DialogueRunner dialogRunner = default;
     private SpriteRenderer playerSprite;
 
     int day;
@@ -20,29 +26,53 @@ public class StudioManager : MonoBehaviour
         }
 
         playerSprite = player.GetComponentInChildren<SpriteRenderer>();
-        OpenStudio();
         day = globalState.currentDay;
     }
 
-    public void OpenStudio()
+    public void Start()
     {
         LoadState();
-        /*
-        if (globalState.currentTime == TimeOfDay.Morning && !globalState.playedAMDialog) {
-            if (scheduledAMDialogs[day] != null) {
-                dialogueRunner.Add(scheduledAMDialogs[day]);
-                dialogueRunner.StartDialogue("Start");
-                globalState.playedAMDialog = true;
-            }
+        YarnProgram dialogue;
+        if (GetDialog(globalState, dialogOrganizer, out dialogue)) {
+            StartCoroutine(PlayDialog(dialogue, globalState.currentTime));
         }
-        else if (globalState.currentTime == TimeOfDay.Evening && !globalState.playedPMDialog) {
-            if (scheduledPMDialogs[day] != null) {
-                dialogueRunner.Add(scheduledPMDialogs[day]);
-                dialogueRunner.StartDialogue("Start");
-                globalState.playedPMDialog = true;
-            }
+    }
+
+    private IEnumerator PlayDialog(YarnProgram dialog, TimeOfDay time)
+    {
+        dialogRunner.Add(dialog);
+
+        if (time == TimeOfDay.Morning) {
+            globalState.playedAMDialog = true;
         }
-        */
+        if (time == TimeOfDay.Evening) {
+            globalState.playedPMDialog = true;
+        }
+
+        yield return new WaitForSeconds(dialogStartDelay);
+        dialogRunner.StartDialogue("Start");
+    }
+    private bool GetDialog(GlobalState state, DialogueOrganizer organizer, out YarnProgram dialogue)
+    {
+        var time = state.currentTime;
+        var day = state.currentDay;
+        dialogue = null;
+
+        if (day >= organizer.dialoguesPerDays.Count) {
+            return false;
+        }
+        
+        if (time == TimeOfDay.Morning && !state.playedAMDialog) {
+            dialogue = organizer.dialoguesPerDays[day].MorningDialogue;
+            return organizer.dialoguesPerDays[day].MorningLocation == "Studio";
+        }
+
+        if (time == TimeOfDay.Evening && !state.playedPMDialog) {
+            dialogue = organizer.dialoguesPerDays[day].EveningDialogue;
+            return organizer.dialoguesPerDays[day].EveningLocation == "Studio";
+        }
+
+        return false;
     }
 
     public void LeaveStudio()

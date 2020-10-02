@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Scriptable Objects/Dialogue Organizer")]
 public class DialogueOrganizer : ScriptableObject
 {
-    [SerializeField] List<DialoguePerDay> dialoguesPerDays = default;
+    public List<DialoguePerDay> dialoguesPerDays = default;
 
     [System.Serializable]
     public class DialoguePerDay

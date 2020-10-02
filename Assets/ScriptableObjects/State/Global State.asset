@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Global State
   m_EditorClassIdentifier: 
   currentDay: 0
-  currentTime: 2
-  communityApproval: 12
+  currentTime: 0
+  communityApproval: 0
   communityReached: 0
-  money: 0
+  money: 1
   playedAMDialog: 0
-  playedPMDialog: 1
+  playedPMDialog: 0

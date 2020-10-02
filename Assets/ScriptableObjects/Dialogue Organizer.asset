@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: Dialogue Organizer
   m_EditorClassIdentifier: 
   dialoguesPerDays:
-  - morningDialogue: {fileID: 0}
-    morningLocation: 
+  - morningDialogue: {fileID: 2480198943629176163, guid: 71e764c2128dc2e44af29b61cceb1096, type: 3}
+    morningLocation: Studio
+    morningStartNode: Start
     eveningDialogue: {fileID: 0}
     eveningLocation: 
+    eveningStartNode: 
   - morningDialogue: {fileID: 0}
     morningLocation: 
+    morningStartNode: 
     eveningDialogue: {fileID: 0}
     eveningLocation: 
+    eveningStartNode: 
   - morningDialogue: {fileID: 0}
     morningLocation: 
+    morningStartNode: 
     eveningDialogue: {fileID: 0}
     eveningLocation: 
+    eveningStartNode: 

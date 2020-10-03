@@ -7,7 +7,7 @@ using Yarn;
 public class CustomVariableStorage : Yarn.Unity.VariableStorageBehaviour
 {
     [SerializeField]
-    private GlobalState globalState = default; //TO DO: create singleton instance of GlobalState
+    private GlobalState globalState = default; 
 
     public override Value GetValue(string variableName)
     {

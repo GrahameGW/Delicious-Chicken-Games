@@ -6,7 +6,6 @@ public class LerasArc : Arc
     [SerializeField] DialogueOrganizer organizer = default;
     [SerializeField] BroadcastItems interviews = default;
     [SerializeField] YarnProgram followupLetter = default;
-    [SerializeField] GlobalState state = default;
 
     public bool hasMet = false;
     public int score = 0;

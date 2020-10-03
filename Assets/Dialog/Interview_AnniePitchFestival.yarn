@@ -29,8 +29,8 @@ Khalid: So Annie, as part-time mayor, what grand plans do you have in store for 
 Annie: One grand plan in particular. Everyone, I'm excited to announce that we're bringing back the Harvest Festival!
 Annie: For those of you who still remember the Better Times, the Harvest Festival was held every year on the equinox.
 Annie: Everyone came together to celebrate the summer, the hard work of the year, let down their hair and have one final party before the weather turned cold.
-[[ answer:Crack a joke|BadJoke]]
-[[ answer:Reminisce |Reminisce]]
+[[ Crack a joke|BadJoke]]
+[[ Reminisce |Reminisce]]
 ===
 title: BadJoke
 tags: 

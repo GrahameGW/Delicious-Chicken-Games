@@ -9,8 +9,8 @@ Annie: Only three weeks to go.
 Khalid: Feels shorter than that.
 << SetSpeaker Annie>> 
 Annie: Any issues with the station?
-[[ answer:Not really |NoIssues]] 
-[[ answer:The whole thing keeps trying to break down|Janky]]
+[[ Not really |NoIssues]] 
+[[ The whole thing keeps trying to break down|Janky]]
 ===
 title: NoIssues
 tags: 
@@ -56,10 +56,10 @@ Annie: The wrong one died.
 Khalid: Sorry to hear it.
 << SetSpeaker Annie>> 
 Annie: It was a long time ago.
-[[ answer: How are the preparations going?|preparationsStatus]]
-[[ answer: How are people feeling?|communityStatus]]
-[[ answer: How are the financials?|financials]]
-[[ answer: Let's get back to work|End]]
+[[  How are the preparations going?|preparationsStatus]]
+[[  How are people feeling?|communityStatus]]
+[[  How are the financials?|financials]]
+[[  Let's get back to work|End]]
 ===
 title: preparationsStatus
 tags: 

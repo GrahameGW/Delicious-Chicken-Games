@@ -7,9 +7,9 @@ position: -2408,-401
 Annie: Good pitch.
 <<SetSpeaker Khalid>>
 Khalid: Here's hoping it gets them out to the festival.
- [[Answer:AnnieHappy|AnnieHappy]]
- [[Answer:AnnieNeutral|AnnieNeutral]]
- [[Answer:AnnieUpset|AnnieUpset]]
+ [[AnnieHappy|AnnieHappy]]
+ [[AnnieNeutral|AnnieNeutral]]
+ [[AnnieUpset|AnnieUpset]]
 ===
 title: AnnieHappy
 tags: 
@@ -17,7 +17,7 @@ colorID: 0
 position: -2107,-621
 ---
 Annie: I'm sure they will. You've done so much for everyone. We've all been looking forward to this for weeks.
- [[Answer:End|End]]
+ [[End|End]]
 ===
 title: AnnieNeutral
 tags: 
@@ -25,7 +25,7 @@ colorID: 0
 position: -2113,-394
 ---
 Annie: We should have a decent turnout. Not as big as in better times, but a good foundation for the future.
- [[Answer:End|End]]
+ [[End|End]]
 ===
 title: AnnieUpset
 tags: 
@@ -33,7 +33,7 @@ colorID: 0
 position: -2114,-150
 ---
 Annie: I hope so. Your tactics have upset a lot of people. They may stay home out of spite.
- [[Answer:End|End]]
+ [[End|End]]
 ===
 title: End
 tags: 
@@ -42,10 +42,10 @@ position: -1790,-389
 ---
 Khalid: Ready to go?
 Annie: After you.
- [[Answer:BestFestival|BestFestival]]
- [[Answer:GoodFestival|GoodFestival]]
- [[Answer:BadFestival|BadFestival]]
- [[Answer:WorstFestival|WorstFestival]]
+ [[BestFestival|BestFestival]]
+ [[GoodFestival|GoodFestival]]
+ [[BadFestival|BadFestival]]
+ [[WorstFestival|WorstFestival]]
 ===
 title: BestFestival
 tags: 

@@ -27,9 +27,9 @@ Khalid: It was nothing.
 Annie: No. It was something. It means a lot to me. To the town. To everyone down there who is paying attention.
 <<SetSpeaker Khalid>> 
 Khalid: ...How do you think it’s going to go tomorrow?
-[[ answer: Good|good]]
-[[ answer: I don't know|medium]]
-[[ answer: Bad|bad]]
+[[  Good|good]]
+[[  I don't know|medium]]
+[[  Bad|bad]]
 ===
 title: good
 tags: 

@@ -6,8 +6,8 @@ position: -1878,-304
 <<SetSpeaker Khalid>>
 Khalid: Well folks, today's the day. The Harvest Festival is setting up in town, and it's sure to be a fun time.
 Khalid: There's music, food, booze, and even some friendly competition to liven things up.
- [[Answer:Express Gratitude|Gratitude]]
- [[Answer:Hype the Festival|Hype]]
+ [[Express Gratitude|Gratitude]]
+ [[Hype the Festival|Hype]]
 ===
 title: Gratitude
 tags: 
@@ -19,7 +19,7 @@ Khalid: Thank you to Mayor Annie and her team, who have worked round the clock t
 Khalid: And thank you to everyone who has contributed their time, equipment, expertise, and resources to getting the event off the ground. 
 Khalid: In these trying times, it means a lot to our little community to have everyone rally together.
 Khalid: So thank you for believing in each other and in the goodness to be found here in Radio Town. 
-[[Answer:|EndofBroadcast]]
+[[EndofBroadcast]]
 ===
 title: Hype
 tags: 
@@ -29,7 +29,7 @@ position: -1623,-190
 Khalid: Try your hand at Lera's shooting gallery. Have you got the fastest air gun in the county? There's a stuffed pumpkin with your name on it.
 Khalid: Or wolf down some of Annie's world-famous three-berry pie washed down with a big glug of Miss Ruthie's apple cider. I can practically smell the sweet scent of cinnamon from here.
 Khalid: Dancing more your speed? Well, thanks to your efforts Buck and the Boys have gotten their instruments all tuned up, so you'd better bring your best moves cause the floor will be popping!
- [[Answer:End of Broadcast|EndofBroadcast]]
+ [[EndofBroadcast]]
 ===
 title: EndofBroadcast
 tags: 
@@ -41,9 +41,9 @@ Khalid: So take the day off, come down and reacquaint yourself with your communi
 Annie: Good pitch.
 <<SetSpeaker Khalid>>
 Khalid: Here's hoping it gets them out to the festival.
- [[Answer:AnnieHappy|AnnieHappy]]
- [[Answer:AnnieNeutral|AnnieNeutral]]
- [[Answer:AnnieUpset|AnnieUpset]]
+ [[AnnieHappy|AnnieHappy]]
+ [[AnnieNeutral|AnnieNeutral]]
+ [[AnnieUpset|AnnieUpset]]
 ===
 title: AnnieHappy
 tags: 
@@ -51,7 +51,7 @@ colorID: 0
 position: -1010,-529
 ---
 Annie: I'm sure they will. You've done so much for everyone. We've all been looking forward to this for weeks.
- [[Answer:End|End]]
+ [[End]]
 ===
 title: AnnieNeutral
 tags: 
@@ -59,7 +59,7 @@ colorID: 0
 position: -1016,-302
 ---
 Annie: We should have a decent turnout. Not as big as in better times, but a good foundation for the future.
- [[Answer:End|End]]
+ [[End]]
 ===
 title: AnnieUpset
 tags: 
@@ -67,7 +67,7 @@ colorID: 0
 position: -1017,-58
 ---
 Annie: I hope so. Your tactics have upset a lot of people. They may stay home out of spite.
- [[Answer:End|End]]
+ [[End]]
 ===
 title: End
 tags: 
@@ -76,10 +76,10 @@ position: -693,-297
 ---
 Khalid: Ready to go?
 Annie: After you.
- [[Answer:BestFestival|BestFestival]]
- [[Answer:GoodFestival|GoodFestival]]
- [[Answer:BadFestival|BadFestival]]
- [[Answer:WorstFestival|WorstFestival]]
+ [[BestFestival|BestFestival]]
+ [[GoodFestival|GoodFestival]]
+ [[BadFestival|BadFestival]]
+ [[WorstFestival|WorstFestival]]
 ===
 title: BestFestival
 tags: 

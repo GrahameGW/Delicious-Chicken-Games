@@ -23,8 +23,8 @@ Khalid: You think we can stage something as great?
 << SetSpeaker Annie>> 
 Annie: Just the two of us, no. But if you get the town on board, and get the word out in the valley?
 Annie: That's a whole other ball game.
-[[ answer: Sounds like a lot|Overwhelmed]] 
-[[ answer: I like a challenge|Optimistic]]
+[[  Sounds like a lot|Overwhelmed]] 
+[[  I like a challenge|Optimistic]]
 ===
 title: Overwhelmed
 tags: 
@@ -36,7 +36,12 @@ Khalid: It's a lot to do in not a lot of time.
 Khalid: Hard not to feel a little overwhelmed.
 << SetSpeaker Annie>> 
 Annie: Try running a diner sometime. Being overwhelmed means it was an easy day.
-[[ End ]]
+<< SetSpeaker Khalid>>
+Khalid: I don't know how you do it.
+<< SetSpeaker Annie>>
+Annie: You do what you gotta do. 
+[[End]]
+
 ===
 title: Optimistic
 tags: 
@@ -51,4 +56,27 @@ Annie: Festivals are great! How could you not be excited?
 Khalid: Well, there's a whole lot still to do...
 << SetSpeaker Annie>> 
 Annie: You'll be fine. This is all going to go off without a hitch.
+[[End]]
+
 ===
+title: End
+tags:
+colorID: 0
+position: -1163, -275
+---
+<< SetSpeaker Annie>> 
+Annie: All right! I've got hungry customers to cook for. Feel free to drop by if you get lonely.
+<< SetSpeaker Khalid>> 
+Khalid: That sounds like a good idea actually.
+<< SetSpeaker Annie>> 
+Annie: We're open 24/7. It's easy to find, we're called "Annie's Place."
+<< SetSpeaker Khalid>> 
+Khalid: Original.
+<< SetSpeaker Annie>> 
+Annie: I don't mess around. I'm a straight shooter. Best way to be.
+<< SetSpeaker Khalid>> 
+Khalid: Haha! Seems that way. Later!
+<< SetSpeaker Annie>> 
+Annie: See ya!
+===
+

@@ -31,7 +31,7 @@ public class DayCycleMusicPlayer : MonoBehaviour
         }
         
         audioSource = GetComponent<AudioSource>();
-        broadCastClip = broadcastSchedule.musicSlot.clip;
+        broadCastClip = broadcastSchedule.musicSlot?.clip;
         
         SetClipBasedOnTimeOfDay();
 

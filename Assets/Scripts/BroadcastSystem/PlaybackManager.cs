@@ -27,17 +27,12 @@ public class PlaybackManager : MonoBehaviour
     IEnumerator Play()
     {
         yield return new WaitForSeconds(playbackDelay);
-        if  (day != 0) {
-            // load weather
-            dialogRunner.Add(weather);
-            dialogRunner.StartDialogue(Random.Range(1, 6).ToString());
-            stage++;
+        
+        dialogRunner.Add(weather);
+        dialogRunner.StartDialogue(Random.Range(1, 6).ToString());
+        stage++;
             
-            yield break;
-        }
-        else {
-            // play music
-        }
+        yield break;
     }
 
     public void NextNode()

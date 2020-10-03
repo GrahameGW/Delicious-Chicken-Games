@@ -33,7 +33,7 @@ public class LuisArc : Arc {
         if (ad.name.Equals(previousAd)) {
             adScore *= dupAdMultiplier;
         }
-
+        previousAd = ad.name;
         score += adScore;
         state.luisScore = score;
         state.money += adScore * moneyMultiplier;

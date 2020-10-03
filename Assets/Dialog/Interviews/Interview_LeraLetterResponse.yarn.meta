@@ -8,13 +8,13 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - Interview_LeraLetterResponse-Start-0
-  - Interview_LeraLetterResponse-Start-1
-  - Interview_LeraLetterResponse-Start-2
-  - Interview_LeraLetterResponse-Start-3
-  - Interview_LeraLetterResponse-Start-4
+  - Interview_LeraLetterResponse-StartInterview-0
+  - Interview_LeraLetterResponse-StartInterview-1
+  - Interview_LeraLetterResponse-StartInterview-2
+  - Interview_LeraLetterResponse-StartInterview-3
+  - Interview_LeraLetterResponse-StartInterview-4
   - Interview_LeraLetterResponse-ShoutOut-5
   - Interview_LeraLetterResponse-ShoutOut-6
   - Interview_LeraLetterResponse-ShoutOut-7
@@ -31,5 +31,5 @@ ScriptedImporter:
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: ec7bb637c1da7a749b342e586840adf9, type: 3}
   localizations: []

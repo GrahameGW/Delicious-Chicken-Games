@@ -8,7 +8,6 @@ public class ScheduleManager : MonoBehaviour
     [SerializeField] ClipsList musicList = default;
     [SerializeField] ClipsList interviewList = default;
     [SerializeField] ClipsList advertList = default;
-    [SerializeField] BroadcastItems weatherClips = default;
     public GlobalState globalState;
 
     private void Start()

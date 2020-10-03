@@ -19,3 +19,4 @@ MonoBehaviour:
     into your best times at Three Rivers Casino, where we change lives through the
     magic of the dice.
   yarn: {fileID: 2480198943629176163, guid: ac394b97fa671304bbd4677a950fa3a4, type: 3}
+  result: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}

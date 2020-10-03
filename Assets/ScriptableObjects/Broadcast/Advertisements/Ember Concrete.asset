@@ -17,3 +17,4 @@ MonoBehaviour:
   dialog: Ember Concrete. We mix sand and lime and cement. You buy it from us to
     make stuff. We're pretty cheap. Ember Concrete.\n*Dead air*
   yarn: {fileID: 2480198943629176163, guid: fa58ae13062b1034d98a4f85c5174630, type: 3}
+  result: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}

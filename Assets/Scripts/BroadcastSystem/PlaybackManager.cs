@@ -54,6 +54,7 @@ public class PlaybackManager : MonoBehaviour
         if (stage == 2) {
             if (schedule.advertSlot != null) {
                 StartCoroutine(PlayDialog(schedule.advertSlot.yarn, "StartAd"));
+                schedule.advertSlot.result.OnBroadcast(schedule.advertSlot, GetComponent<BroadcastPlayer>().globalState.currentDay);
 
                 return;
             }
@@ -62,6 +63,7 @@ public class PlaybackManager : MonoBehaviour
         if (stage == 3) {
             if (schedule.interviewSlot != null) {
                 StartCoroutine(PlayDialog(schedule.interviewSlot.yarn, "StartInterview"));
+                schedule.interviewSlot.result.OnBroadcast(schedule.interviewSlot, GetComponent<BroadcastPlayer>().globalState.currentDay);
                 return;
             }
             

@@ -7,4 +7,5 @@ public abstract class BroadcastClip : ScriptableObject
     [TextArea]
     public string dialog;
     public YarnProgram yarn;
+    public Arc result;
 }

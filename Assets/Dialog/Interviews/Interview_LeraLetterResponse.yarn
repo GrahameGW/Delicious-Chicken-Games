@@ -22,6 +22,7 @@ Khalid: Lera Harley, from those of you who don't know her, is the local mechanic
 Khalid: And she's been gracious enough to offer everyone fantastic deals on repairs while her shop is closed.
 Khalid: Thanks for having my back, Lera, and thanks for pitching in to support your community.
 Khalid: Now here's a little something more to help you stay caught up on the music times...
+<<set $leraScore to 1>>
 ===
 title: ShutDown
 tags: 
@@ -36,4 +37,5 @@ Khalid: There are not enough resources as it is; you should not be handing out f
 Khalid: And I particularly take issue with you offering me a "trade" when you should know that fact.
 Khalid: It just doesn't make any sense. I don't get your game.
 Khalid: Maybe you just need to listen to some modern music to help you regain your senses...
+<<set $leraScore to -11>>
 ===

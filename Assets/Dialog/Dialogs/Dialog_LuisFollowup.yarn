@@ -1,0 +1,124 @@
+title: Good
+tags: 
+colorID: 0
+position: -1172,-433
+---
+<<SetSpeaker Luis>>
+Luis: Ahem. Hm.
+<< SetSpeaker Khalid>>
+Khalid: Wha—oh. It's you.
+<<SetSpeaker Luis>>
+Luis: Jumpy. Can't afford to be like that these days.
+<< SetSpeaker Khalid>>
+Khalid: Did I do something wrong again?
+<<SetSpeaker Luis>>
+Luis: No.
+Luis: ...
+Luis: ...you might actually be doing some good.
+Luis: Don't expect me to go singing your praises. And I don't apologize.
+Luis: I still think you ought to be careful with what you say on the air.
+<< SetSpeaker Khalid>>
+Khalid: Better than nothing?
+Khalid: Thanks. I think.
+<<SetSpeaker Luis>>
+Luis: ...
+<< SetSpeaker Khalid>>
+Khalid: You know, I never got your name.
+<<SetSpeaker Luis>>
+Luis: Yeah, I know.
+Luis: ...
+<< SetSpeaker Khalid>>
+Khalid: ...
+<<SetSpeaker Luis>>
+Luis: ...
+<< SetSpeaker Khalid>>
+Khalid: ...so I'm Khalid. You are...?
+<<SetSpeaker Luis>>
+Luis: Luis.
+Luis: I'm an electrician, actually. And...uh...
+Luis: If you need help with that festival? I guess I could lend a hand.
+<< SetSpeaker Khalid>>
+Khalid: Oh, wow. Really? I mean that's great, but it's something you should take up with Annie, not me.
+<<SetSpeaker Luis>>
+Luis: Right. I knew that. 
+Luis: ...
+Luis: Just thought that since you're promoting it or whatever, I should make good with you.
+<< SetSpeaker Khalid>>
+Khalid: That's all right. It's nice to put a name to a face!
+Khalid: I'm definitely still new here, so it's much appreciated.
+<<SetSpeaker Luis>>
+Luis: Sure.
+<< SetSpeaker Khalid>>
+Khalid: I'm on my way down to Annie's to meet some folks. 
+Khalid: I've got to go, but otherwise I'd stay and chat more.
+<<SetSpeaker Luis>>
+Luis: Annie's huh...
+Luis: I'm meeting someone too, actually. Better get going then.
+Luis: See you around Khalid.
+===
+title: Bad
+tags: 
+colorID: 0
+position: -1351,-277
+---
+<< SetSpeaker Khalid>> 
+Khalid: *ignores Luis*
+<< SetSpeaker Luis>> 
+Luis: ...
+Luis: Hey! Rude much?
+<< SetSpeaker Khalid>> 
+Khalid: *sighs*
+Khalid: Hi, hello, didn't see you there.
+Khalid: Can I help you?
+<< SetSpeaker Luis>> 
+Luis: Yeah, it'd be a real help if you'd stop trash-talking on your show. 
+Luis: Have you even met any of these folks face-to-face?
+Luis: You talk real tough for a little man hiding behind a microphone.
+<< SetSpeaker Khalid>> 
+Khalid: Look, what do you want from me? The town has problems.
+Khalid: I'm just pointing them out. It's not like everyone didn't know this stuff anyway.
+Khalid: Someone has to talk about these things. Nobody else was.
+<< SetSpeaker Luis>> 
+Luis: You've got no right to fix anything in this town. 
+Luis: Lera, Annie, the rest—our problems, our solutions. 
+Luis: Butt out, Mr. Know-it-all
+<< SetSpeaker Khalid>> 
+Khalid: Calm down, would you?
+Khalid: I'm just picking up the slack around here. 
+Khalid: Slack you keep dropping.
+<< SetSpeaker Luis>> 
+Luis: Oh that's it!
+<< SetSpeaker Khalid>> 
+Khalid: Ahh!
+<< SetSpeaker Luis>> 
+Luis: ...
+<< SetSpeaker Khalid>> 
+Khalid: ...
+<< SetSpeaker Luis>> 
+Luis: ...what, you thought I was gonna punch you?
+<< SetSpeaker Khalid>> 
+Khalid: ...
+<< SetSpeaker Luis>> 
+Luis: Low blow.
+Luis: Also, who the hell flinches like that?
+Luis: Things are bad out here! You can't afford to be flinching in times like these.
+<< SetSpeaker Khalid>> 
+Khalid: Uh...okay...?
+<< SetSpeaker Luis>> 
+Luis: Keep trash-talking and I might actually hit you.
+Luis: Until you get to know us, and make an actual effort, you've got nothing to say.
+Luis: Annie may not see your true colors, but I do.
+Luis: You should've listened to us, and now there will be payback.
+Luis: Don't expect anything from anyone. I'll make sure of it.
+===
+title: Start
+tags: 
+colorID: 0
+position: -1130,-263
+---
+<< if $luisScore > 0>> 
+[[ Good ]]
+<< else >> 
+[[ Bad ]]
+<< endif>>
+===

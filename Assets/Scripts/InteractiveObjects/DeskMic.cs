@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 public class DeskMic : InteractiveObject
 {
     [SerializeField] GameObject confirmBroadcastPanel = default;
+    [SerializeField] GameObject broadCastNotReadyPanel = default;
+    [SerializeField] BroadcastSchedule broadcastSchedule = default;
 
     protected override void Start()
     {
@@ -20,7 +22,28 @@ public class DeskMic : InteractiveObject
 
     public void ToggleBroadcastPanel()
     {
-        confirmBroadcastPanel.SetActive(!confirmBroadcastPanel.activeSelf);
+        if (broadcastSchedule.musicSlot != null)
+        {
+            confirmBroadcastPanel.SetActive(!confirmBroadcastPanel.activeSelf);
+        }
+        else
+        {
+            ToggleBroadCastNotreadyPanel();
+        }
+        
+    }
+
+    public void ToggleBroadCastNotreadyPanel()
+    {
+        broadCastNotReadyPanel.SetActive(!broadCastNotReadyPanel.activeSelf);
+    }
+
+    public override void Highlight()
+    {
+        if (globalState.currentTime == TimeOfDay.Morning)
+        {
+            base.Highlight();
+        }
     }
 
     public void GoLive()

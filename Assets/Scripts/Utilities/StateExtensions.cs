@@ -3,13 +3,13 @@
 public static class StateExtensions
 {
     [ContextMenu("SaveJSON")]
-    public static void Copy(this StudioState from, StudioState to)
+    public static void Copy(this ScriptableObject from, ScriptableObject to)
     {
         var json = JsonUtility.ToJson(from);
         JsonUtility.FromJsonOverwrite(json, to);
         //System.IO.File.WriteAllText(Application.persistentDataPath + "/PotionData.json", potion);
     }
-
+    /*
     [ContextMenu("SaveJSON")]
     public static void Copy(this GlobalState from, GlobalState to)
     {
@@ -57,4 +57,13 @@ public static class StateExtensions
         JsonUtility.FromJsonOverwrite(json, to);
         //System.IO.File.WriteAllText(Application.persistentDataPath + "/PotionData.json", potion);
     }
+
+    [ContextMenu("SaveJSON")]
+    public static void Copy(this CarlaArc from, CarlaArc to)
+    {
+        var json = JsonUtility.ToJson(from);
+        JsonUtility.FromJsonOverwrite(json, to);
+        //System.IO.File.WriteAllText(Application.persistentDataPath + "/PotionData.json", potion);
+    }
+    */
 }

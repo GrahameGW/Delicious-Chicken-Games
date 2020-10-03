@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f32e268bbc09e14c9ed387b5447e02e, type: 3}
+  m_Name: CarlaArc
+  m_EditorClassIdentifier: 
+  organizer: {fileID: 11400000, guid: 7cc87149331f1b84ebedcf9126a72167, type: 2}
+  interviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  carlasClips:
+  - {fileID: 11400000, guid: 39b7562417691ef42be39b00b69c445c, type: 2}
+  - {fileID: 11400000, guid: 0fc29e2b39f4d3342a688d82b4012176, type: 2}
+  - {fileID: 11400000, guid: 2ffc54b32e73dbd47aada9abb0633f56, type: 2}
+  currentClip: 0

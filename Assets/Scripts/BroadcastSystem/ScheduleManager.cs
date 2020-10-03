@@ -7,6 +7,7 @@ public class ScheduleManager : MonoBehaviour
     [SerializeField] BroadcastSchedule schedule = default;
     [SerializeField] BroadcastItems availableInterviews = default;
     [SerializeField] BroadcastClip finalInterview = default;
+    [SerializeField] BroadcastClip firstCarlaInterview = default;
     [SerializeField] ClipsList musicList = default;
     [SerializeField] ClipsList interviewList = default;
     [SerializeField] ClipsList advertList = default;
@@ -20,6 +21,10 @@ public class ScheduleManager : MonoBehaviour
             availableInterviews.clips.Clear();
             availableInterviews.clips.Add(finalInterview);
         }
+
+        if (globalState.currentDay == 3)
+            if (!availableInterviews.clips.Contains(firstCarlaInterview))
+                availableInterviews.clips.Add(firstCarlaInterview);
 
     }
     private void Start()

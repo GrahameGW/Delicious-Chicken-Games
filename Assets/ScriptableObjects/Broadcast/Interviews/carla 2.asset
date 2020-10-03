@@ -16,3 +16,4 @@ MonoBehaviour:
   clip: {fileID: 0}
   dialog: 
   yarn: {fileID: 2480198943629176163, guid: 287a4b0d9b1f5674cb4a3fc9205707e0, type: 3}
+  result: {fileID: 11400000, guid: a9d64785985b5714f80028a882c58c1c, type: 2}

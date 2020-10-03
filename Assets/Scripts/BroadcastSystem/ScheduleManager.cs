@@ -29,12 +29,10 @@ public class ScheduleManager : MonoBehaviour
         schedule.interviewSlot = interviewList.selected?.clip;
         schedule.musicSlot = musicList.selected?.clip;
         schedule.advertSlot = advertList.selected?.clip;
-        schedule.weatherSlot = weatherClips.clips[Random.Range(0, weatherClips.clips.Count)];
 
         EditorUtility.SetDirty(schedule);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
-        Debug.Log("Saved " + schedule.interviewSlot?.name + " and " + schedule.musicSlot?.name + " and " + schedule.weatherSlot?.name + " and " + schedule.advertSlot?.name);
     }
 
     public string GetSaved()

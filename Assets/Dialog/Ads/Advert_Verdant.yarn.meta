@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: f4b6343e7a2ade1458aa5283c2d43092
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Advert_Verdant-Start-0
+  - Advert_Verdant-Start-1
+  - Advert_Verdant-Start-2
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f4b6343e7a2ade1458aa5283c2d43092, type: 3}
+  localizations: []

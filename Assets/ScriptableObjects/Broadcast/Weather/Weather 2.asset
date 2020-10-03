@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Weather 2
   clip: {fileID: 0}
-  dialog: ...To the south there will be slightly cloudy skies and low winds from
-    the northeast. It will likely be drastically colder than it has been. Bundle
-    up tight!
+  dialog: 
+  yarn: {fileID: 0}

@@ -1,0 +1,45 @@
+title: 1
+tags: 
+colorID: 0
+position: -20,-156
+---
+<<SetSpeaker Khalid>>
+Khalid: ...a series of weak low pressure troughs are moving through the valley. These systems will keep a risk of showers across the area through the rest of the week.
+Khalid: Make sure you've got an umbrella!
+===
+title: 2
+tags: 
+colorID: 0
+position: 100,-396
+---
+<< SetSpeaker Khalid>> 
+Khalid: ...To the south there will be slightly cloudy skies and low winds from the northeast. It will likely be drastically colder than it has been these last few days.
+Khalid: Make sure to bundle up tight!
+===
+title: 3
+tags: 
+colorID: 0
+position: -272,-475
+---
+<< SetSpeaker Khalid>> 
+Khalid:...sunny weather with a chance of a few clouds and very high winds. Comes with the territory, living in a mountain valley.
+Khalid: But assuming you don't get blown over, the sun will be warm and it should be a great day!
+===
+title: 4
+tags: 
+colorID: 0
+position: -674,-709
+---
+<<SetSpeaker Khalid>>
+Khalid: ...Today there will be sleet with a chance of storms and moderate winds. Gross, but shouldn't take the whole day. 
+Khalid: Let's hope Mother Nature leaves us some leaves to look at.
+===
+title: 5
+tags: 
+colorID: 0
+position: -474,-264
+---
+<<SetSpeaker Khalid>>
+Khalid: ...for the next week there will be fog and very high winds from the northeast. A weird combo, but the wind will help clear out the cover.
+Khalid: If you go up into the hills, take care while on the ridges not to lose your balance and fall.
+===

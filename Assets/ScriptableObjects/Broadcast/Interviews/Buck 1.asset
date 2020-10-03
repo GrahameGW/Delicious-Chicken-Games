@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24bc9dd7c72c9e5478e6234c252bcedf, type: 3}
   m_Name: Buck 1
   m_EditorClassIdentifier: 
-  name: Buck
+  name: Citizen Spotlight - Buck (Pt. 1)
+  clip: {fileID: 0}
+  dialog: 
+  yarn: {fileID: 2480198943629176163, guid: 693616b82f16dce40bb8c37ada0476a3, type: 3}

@@ -30,8 +30,9 @@ public class PlaybackManager : MonoBehaviour
         if  (day != 0) {
             // load weather
             dialogRunner.Add(weather);
-            dialogRunner.Add(schedule.advertSlot.yarn);
-            dialogRunner.Add(schedule.interviewSlot.yarn);
+            //ads don't exist on day 1
+            
+            
             dialogRunner.StartDialogue(Random.Range(1, 6).ToString());
             stage++;
 
@@ -52,22 +53,32 @@ public class PlaybackManager : MonoBehaviour
         }
         if (stage == 2) {
             if (schedule.advertSlot != null) {
-                dialogRunner.StartDialogue("StartAd");
+                StartCoroutine(PlayDialog(schedule.advertSlot.yarn, "StartAd"));
+
                 return;
             }
             stage++;
         }
         if (stage == 3) {
             if (schedule.interviewSlot != null) {
-                dialogRunner.StartDialogue("StartInterview");
+                StartCoroutine(PlayDialog(schedule.interviewSlot.yarn, "StartInterview"));
                 return;
             }
-            EndBroadcast();
+            
         }
+
+        EndBroadcast();
     }
     private void EndBroadcast()
     {
         GetComponent<BroadcastPlayer>().globalState.currentTime = TimeOfDay.Evening;
         Initiate.Fade("Studio", Color.black, fadeOutMultiplier);
+    }
+
+    private IEnumerator PlayDialog(YarnProgram dialog, string startNode)
+    {
+        yield return new WaitForEndOfFrame();
+        dialogRunner.Add(dialog);
+        dialogRunner.StartDialogue(startNode);
     }
 }

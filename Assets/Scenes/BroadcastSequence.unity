@@ -204,7 +204,7 @@ MonoBehaviour:
   fadeOutMultiplier: 1
   dialogRunner: {fileID: 245055363}
   weather: {fileID: 2480198943629176163, guid: fa70e9f6a00edbd4f81cb4025029ed94, type: 3}
-  schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
+  schedule: {fileID: 11400000, guid: d387dbcb736abe242bb8a37d9cc50c33, type: 2}
 --- !u!1001 &921579504
 PrefabInstance:
   m_ObjectHideFlags: 0

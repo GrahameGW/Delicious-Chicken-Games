@@ -10,20 +10,21 @@ tags:
 colorID: 0
 position: 103,-172
 ---
-Khalid: Just automated bulletins and a whole lot of nothing. Though I can’t blame her for trying.
+Khalid: The radio used to sing, lighting up homes and cafes. Now it just crackles with empty air.
 ===
 title: Intro.Valley
 tags: 
 colorID: 0
 position: 322,-179
 ---
-Khalid: Used to be lights as far as you could see.
+Khalid: Used to be lights as far as you could see. Now it's just ramshackle buildings and whatever trees have made it through famine, drought, and destruction.
 ===
 title: Intro.Studio
 tags: 
 colorID: 0
 position: 533,-202
 ---
-Khalid: Home, sweet home.
+Khalid: It's strange to be back. 
+Khalid: Don't think I'll hang around for long.
 <<set $money to 1>>
 ===

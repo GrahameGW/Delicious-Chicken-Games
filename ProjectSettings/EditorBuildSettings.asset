@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DeskCloseup.unity
     guid: 446eb8892d69a774c9d518237292908e
   - enabled: 1
-    path: Assets/Scenes/IntroCinematic/IntroSequence.unity
+    path: Assets/Scenes/IntroSequence.unity
     guid: 67d0e233b1f614443a999f6772d3859f
   - enabled: 1
     path: Assets/Scenes/TitleMenu.unity
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndOfDay.unity
     guid: 5910e06d2adaa9c49adf7f8b2b1728cc
+  - enabled: 1
+    path: Assets/Scenes/Outside.unity
+    guid: 6369220a0c27bc948af924abcd2f9f14
   m_configObjects: {}

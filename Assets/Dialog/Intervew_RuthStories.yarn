@@ -12,8 +12,8 @@ Khalid: That's right, it's everyone's favorite senior and grandmother, Ruth!
 Khalid: Great to have you here. How's your grandson? Granddaughter?
 << SetSpeaker Ruth>> 
 Ruth: Heehee. Everyone's fine. We don't need to be gossiping, now do we?
-[[ answer: Whose grandmother are you?|pushAgain]]
-[[ answer: No, I guess not|moveOn]]
+[[  Whose grandmother are you?|pushAgain]]
+[[  No, I guess not|moveOn]]
 ===
 title: pushAgain
 tags: 
@@ -41,8 +41,8 @@ Ruth: It was a whole mess, same as everywhere.
 Ruth: We were all just tryin' to get by. People were running around actin' more muddled than mint in a fresh-pressed julep. 
 Ruth: A particularly nasty couple of crews criss-crossed the valley, runnin' around like they owned the place.
 Ruth: We'd lived here in the Better Days. So a few of us, fed up and agreed to watch each other's backs re-founded the town.
-[[ answer: That's so intense|exciting]]
-[[ answer: What an inspiring story|inspiring]]
+[[  That's so intense|exciting]]
+[[  What an inspiring story|inspiring]]
 ===
 title: exciting
 tags: 
@@ -69,8 +69,8 @@ Ruth: You're not just whistling. There's reasons why nobody wants to talk about 
 Ruth: Probably best to avoid the details. Don't want to upset anyone's stomach.
 << SetSpeaker Khalid>>
 Khalid: ...I think you're probably right.
-[[ answer: Your efforts are so inspiring|inspiring]]
-[[ answer: Wrap up|end]]
+[[  Your efforts are so inspiring|inspiring]]
+[[  Wrap up|end]]
 ===
 title: inspiring
 tags: 
@@ -99,8 +99,8 @@ Ruth: One time we almost lost the whole thing because of a bad pick.
 Ruth: But we pulled together and came out stronger because of it.
 << SetSpeaker Khalid>>
 Khalid: Amazing.
-[[ answer: That must have been so intense|exciting]]
-[[ answer: Wrap up|end]]
+[[  That must have been so intense|exciting]]
+[[  Wrap up|end]]
 ===
 title: end
 tags: 

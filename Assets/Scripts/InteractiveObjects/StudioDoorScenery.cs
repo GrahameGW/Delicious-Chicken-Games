@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using SimpleSceneTransitions;
+using UnityEngine;
 
 public class StudioDoorScenery : InteractiveObject
 {
@@ -27,9 +27,7 @@ public class StudioDoorScenery : InteractiveObject
 
     public override void Execute()
     {
-        if (globalState.currentTime == TimeOfDay.Evening) {
-            SceneManager.LoadScene("EndOfDay");
-        }
+        Initiate.Fade("Outside", Color.black, 1.2f);
     }
 }
 

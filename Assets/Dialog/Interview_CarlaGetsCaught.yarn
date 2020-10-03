@@ -27,8 +27,8 @@ Khalid: So she is a grandma. Whose grandma is she?
 << SetSpeaker Carla>> 
 Carla: Yeah, okay. I recall eating some of that. 
 Carla: I'm a scavenger. Nothing to be ashamed of; I'm just trying to survive after...you know...
-[[ answer: We're all trying to survive|Empathy]]
-[[ answer: You don't have to steal|Scold]]
+[[  We're all trying to survive|Empathy]]
+[[  You don't have to steal|Scold]]
 ===
 title: Empathy
 tags: 

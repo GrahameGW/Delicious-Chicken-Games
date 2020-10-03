@@ -36,6 +36,6 @@ position: 432,59
 <<SetSpeaker Khalid>>
 Khalid: Well folks, today's the day. The Harvest Festival is setting up in town, and it's sure to be a fun time.
 Khalid: There's music, food, booze, and even some friendly competition to liven things up.
- [[Answer:Express Gratitude|Gratitude]]
- [[Answer:Hype the Festival|Hype]]
+ [[Express Gratitude|Gratitude]]
+ [[Hype the Festival|Hype]]
 ===

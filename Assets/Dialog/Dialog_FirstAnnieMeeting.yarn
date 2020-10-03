@@ -42,9 +42,9 @@ Khalid: There's not much here. A few bits of scrap electronics, an ANCIENT compu
 Khalid: Not exactly a jackpot.
 <<SetSpeaker Annie>>
 Annie: Well, what are you going to do with it?
- [[Answer:Sell it for scrap|partItOut]]
- [[Answer:Nothing|nothing]]
- [[Answer:Play some tunes|tunes]]
+ [[Sell it for scrap|partItOut]]
+ [[Nothing|nothing]]
+ [[Play some tunes|tunes]]
 ===
 title: partItOut
 tags: 

@@ -13,9 +13,10 @@ Luis: What's your business here?
 Khalid: Just running the radio. I'm not looking for trouble.
 << SetSpeaker Luis>> 
 Luis: Don't waltz in here and act like you know this place well enough to give us news or sell us stuff.
-Luis: You're asking for it.
+Luis: You're asking for trouble.
 << SetSpeaker Khalid>>
 Khalid: I'm sorry. Who are you?
+<< SetSpeaker Luis>> 
 Luis: I asked you that.
 << SetSpeaker Khalid>>
 Khalid: ...
@@ -23,8 +24,8 @@ Khalid: ...
 Luis: Don't think you can come in here and expect everything will be alright, just 'cause you're a new face.
 Luis: We got enough problems as it is, we don't need someone taking up our time with the radio.
 Luis: Who even wants to run a dump like this after everything?
-[[ answer: To get to know the community|community]]
-[[ answer: It's a job|cash]] ]]
+[[I'd like to get to know the community|community]]
+[[It's a job|cash]]
 ===
 title: community
 tags: 
@@ -33,7 +34,7 @@ position: -1577,-351
 ---
 << SetSpeaker Khalid>> 
 Khalid: When I was young, everyone was super nice and friendly.
-Khalid: I heard that people aren't like that anymore.
+Khalid: These days, people aren't really like that anymore.
 Khalid: I was just...I dunno. I want to reconnect with where my family came from.
 Khalid: Maybe help to mend things? Communities work better together.
 Khalid: Plus it'd be nice to belong somewhere, for once.

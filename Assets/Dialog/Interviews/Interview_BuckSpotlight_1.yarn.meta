@@ -8,12 +8,12 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - Interview_BuckSpotlight_1-Start-0
-  - Interview_BuckSpotlight_1-Start-1
-  - Interview_BuckSpotlight_1-Start-2
-  - Interview_BuckSpotlight_1-Start-3
+  - Interview_BuckSpotlight_1-StartInterview-0
+  - Interview_BuckSpotlight_1-StartInterview-1
+  - Interview_BuckSpotlight_1-StartInterview-2
+  - Interview_BuckSpotlight_1-StartInterview-3
   - Interview_BuckSpotlight_1-Cheer-4
   - Interview_BuckSpotlight_1-Cheer-5
   - Interview_BuckSpotlight_1-Cheer-6
@@ -30,5 +30,5 @@ ScriptedImporter:
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 693616b82f16dce40bb8c37ada0476a3, type: 3}
   localizations: []

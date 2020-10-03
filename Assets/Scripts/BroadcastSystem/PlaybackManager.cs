@@ -12,6 +12,8 @@ public class PlaybackManager : MonoBehaviour
 
     [SerializeField] YarnProgram weather = default;
 
+    [SerializeField] TMPro.TMP_Text nowPlayingText = default;
+
     private int day;
     [SerializeField] BroadcastSchedule schedule = default;
     private int stage = 0;
@@ -26,6 +28,7 @@ public class PlaybackManager : MonoBehaviour
 
     IEnumerator Play()
     {
+        nowPlayingText.text = "Now playing: " + schedule.musicSlot.name;
         yield return new WaitForSeconds(playbackDelay);
         
         dialogRunner.Add(weather);

@@ -39,6 +39,25 @@ public class ScheduleManager : MonoBehaviour
 
     public string GetSaved()
     {
-        return "Saved " + schedule.interviewSlot?.name + " and " + schedule.musicSlot?.name + " and " + schedule.weatherSlot?.name + " and " + schedule.advertSlot?.name + " for broadcast!";
+        string str = string.Empty;
+        var interview = schedule.interviewSlot;
+        var music = schedule.musicSlot;
+        var ad = schedule.advertSlot;
+
+        if (!interview && !music && !ad) {
+            return "Nothing scheduled for the upcoming broadcast.";
+        }
+        else {
+            str += "Saved ";
+            str += interview != null ? interview.name + " (interview)": "";
+            str += music != null ?
+                (!str.Equals("Saved ") ?  " and " + music.name : music.name) + " (music)"  : 
+                "";
+            str += ad != null ?
+                !str.Equals("Saved ") ? " and " + ad.name + " (ad)" : ad.name + " (ad)" :
+                "";
+            str += " for broadcast!";
+        }
+        return str;
     }
 }

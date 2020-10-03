@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24bc9dd7c72c9e5478e6234c252bcedf, type: 3}
-  m_Name: Carla intro
+  m_Script: {fileID: 11500000, guid: 2ee0a26488e38ff449e975d2e878409b, type: 3}
+  m_Name: RuthArc
   m_EditorClassIdentifier: 
-  name: Mystery of the Missing Food
-  clip: {fileID: 0}
-  dialog: 
-  yarn: {fileID: 0}
-  result: {fileID: 11400000, guid: a9d64785985b5714f80028a882c58c1c, type: 2}
+  interviews: {fileID: 0}
+  ruthInterview: {fileID: 0}
+  carla: {fileID: 0}
+  state: {fileID: 0}
+  organizer: {fileID: 0}
+  finalYarn: {fileID: 0}
+  isDone: 0

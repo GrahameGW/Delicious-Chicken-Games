@@ -8,14 +8,14 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - Interview_RuthSpotlight-Start-0
-  - Interview_RuthSpotlight-Start-1
-  - Interview_RuthSpotlight-Start-2
-  - Interview_RuthSpotlight-Start-3
-  - Interview_RuthSpotlight-Start-4
-  - Interview_RuthSpotlight-Start-5
+  - Interview_RuthSpotlight-StartInterview-0
+  - Interview_RuthSpotlight-StartInterview-1
+  - Interview_RuthSpotlight-StartInterview-2
+  - Interview_RuthSpotlight-StartInterview-3
+  - Interview_RuthSpotlight-StartInterview-4
+  - Interview_RuthSpotlight-StartInterview-5
   - Interview_RuthSpotlight-learnFromHer-6
   - Interview_RuthSpotlight-learnFromHer-7
   - Interview_RuthSpotlight-learnFromHer-8
@@ -31,5 +31,5 @@ ScriptedImporter:
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 60c770a0b204fab4db32bcee0dc482bf, type: 3}
   localizations: []

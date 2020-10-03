@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   schedule: {fileID: 11400000, guid: d387dbcb736abe242bb8a37d9cc50c33, type: 2}
+  availableInterviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  finalInterview: {fileID: 11400000, guid: e114f288c14b51849bae0ce6599004e7, type: 2}
+  firstCarlaInterview: {fileID: 11400000, guid: 39b7562417691ef42be39b00b69c445c, type: 2}
   musicList: {fileID: 1114684544}
   interviewList: {fileID: 804669118}
   advertList: {fileID: 554308893}
@@ -847,7 +850,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8779278970476522302, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 128.82637
+      value: 128.82762
       objectReference: {fileID: 0}
     - target: {fileID: 8779278971197791577, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_Sprite

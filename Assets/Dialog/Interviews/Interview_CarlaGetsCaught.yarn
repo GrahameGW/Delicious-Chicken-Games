@@ -81,4 +81,5 @@ Khalid: That's fine. I'm not asking you to.
 Khalid: Meet us here tomorrow? I'll make sure there's a big meal waiting for you.
 << SetSpeaker Carla>> 
 Carla: Deal.
+<<set $carlaScore to 1>>
 ===

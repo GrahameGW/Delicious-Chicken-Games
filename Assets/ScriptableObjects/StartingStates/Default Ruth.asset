@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee0a26488e38ff449e975d2e878409b, type: 3}
+  m_Name: Default Ruth
+  m_EditorClassIdentifier: 
+  interviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  ruthInterview: {fileID: 11400000, guid: 6a4136b45f3da51469b5fd12ff424819, type: 2}
+  carla: {fileID: 11400000, guid: a9d64785985b5714f80028a882c58c1c, type: 2}
+  state: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
+  organizer: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
+  finalYarn: {fileID: 0}
+  isDone: 0

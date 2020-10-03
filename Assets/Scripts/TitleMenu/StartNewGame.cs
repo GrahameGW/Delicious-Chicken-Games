@@ -21,8 +21,14 @@ public class StartNewGame : MonoBehaviour
     [SerializeField] BucksArc startingBuck = default;
     [SerializeField] BucksArc buckArc = default;
 
+    [SerializeField] CarlaArc startingCarla = default;
+    [SerializeField] CarlaArc carlaArc = default;
+
     [SerializeField] BroadcastItems startingInterviews = default;
     [SerializeField] BroadcastItems interviews = default;
+
+    [SerializeField] RuthArc startingRuth = default;
+    [SerializeField] RuthArc ruthArc = default;
 
     [SerializeField] CanvasGroup toFade = default;
 
@@ -36,6 +42,8 @@ public class StartNewGame : MonoBehaviour
         startingLuis.Copy(luisArc);
         startingBuck.Copy(buckArc);
         startingInterviews.Copy(interviews);
+        startingCarla.Copy(carlaArc);
+        startingRuth.Copy(ruthArc);
     }
 
     IEnumerator HideUI()

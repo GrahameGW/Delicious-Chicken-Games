@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
   - Interview_DayOfFestival-End-0
   - Interview_DayOfFestival-Hype-1
@@ -19,12 +19,12 @@ ScriptedImporter:
   - Interview_DayOfFestival-Gratitude-6
   - Interview_DayOfFestival-Gratitude-7
   - Interview_DayOfFestival-Gratitude-8
-  - Interview_DayOfFestival-Start-9
-  - Interview_DayOfFestival-Start-10
-  - Interview_DayOfFestival-Start-11
-  - Interview_DayOfFestival-Start-12
+  - Interview_DayOfFestival-StartInterview-9
+  - Interview_DayOfFestival-StartInterview-10
+  - Interview_DayOfFestival-StartInterview-11
+  - Interview_DayOfFestival-StartInterview-12
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 9a64086bfb6d855459b978e6bf536fec, type: 3}
   localizations: []

@@ -8,6 +8,7 @@ public class LerasArc : Arc
     [SerializeField] YarnProgram followupLetter = default;
     [SerializeField] GlobalState state = default;
 
+    public bool hasMet = false;
     public int score = 0;
     public bool didBroadcast = false;
 

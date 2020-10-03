@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c880557e45ca3d4999c36a905486515, type: 3}
-  m_Name: New Luis Arc
+  m_Name: LuisArc
   m_EditorClassIdentifier: 
   organizer: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
-  ads: {fileID: 0}
+  ads: {fileID: 11400000, guid: b4e2e4fd48924bc49b14f4f0fad348b7, type: 2}
   introDialog: {fileID: 2480198943629176163, guid: 29b26645ddba80a42a5116cc31b605ec, type: 3}
+  followupDialog: {fileID: 2480198943629176163, guid: 7b35db3e62ac74f4e9575c02fbf991ed, type: 3}
   state: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
   score: 0
   dupAdMultiplier: 1

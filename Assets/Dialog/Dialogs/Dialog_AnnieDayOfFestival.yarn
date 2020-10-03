@@ -1,4 +1,4 @@
-title: EndofBroadcast
+title: Start
 tags: 
 colorID: 0
 position: -2408,-401
@@ -17,7 +17,7 @@ colorID: 0
 position: -2107,-621
 ---
 Annie: I'm sure they will. You've done so much for everyone. We've all been looking forward to this for weeks.
- [[End|End]]
+ [[End]]
 ===
 title: AnnieNeutral
 tags: 
@@ -25,7 +25,7 @@ colorID: 0
 position: -2113,-394
 ---
 Annie: We should have a decent turnout. Not as big as in better times, but a good foundation for the future.
- [[End|End]]
+ [[End]]
 ===
 title: AnnieUpset
 tags: 
@@ -33,7 +33,7 @@ colorID: 0
 position: -2114,-150
 ---
 Annie: I hope so. Your tactics have upset a lot of people. They may stay home out of spite.
- [[End|End]]
+ [[End]]
 ===
 title: End
 tags: 

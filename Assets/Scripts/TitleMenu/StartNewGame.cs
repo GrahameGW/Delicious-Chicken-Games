@@ -9,6 +9,21 @@ public class StartNewGame : MonoBehaviour
     [SerializeField] StudioState studioState = default;
     [SerializeField] StudioState defaultStudio = default;
 
+    [SerializeField] DialogueOrganizer dialogOrg = default;
+    [SerializeField] DialogueOrganizer defaultDialog = default;
+
+    [SerializeField] LerasArc startingLera = default;
+    [SerializeField] LerasArc lerasArc = default;
+
+    [SerializeField] LuisArc startingLuis = default;
+    [SerializeField] LuisArc luisArc = default;
+
+    [SerializeField] BucksArc startingBuck = default;
+    [SerializeField] BucksArc buckArc = default;
+
+    [SerializeField] BroadcastItems startingInterviews = default;
+    [SerializeField] BroadcastItems interviews = default;
+
     [SerializeField] CanvasGroup toFade = default;
 
     public void NewGame()
@@ -16,6 +31,11 @@ public class StartNewGame : MonoBehaviour
         StartCoroutine(HideUI());
         startingState.Copy(globalState);
         defaultStudio.Copy(studioState);
+        defaultDialog.Copy(dialogOrg);
+        startingLera.Copy(lerasArc);
+        startingLuis.Copy(luisArc);
+        startingBuck.Copy(buckArc);
+        startingInterviews.Copy(interviews);
     }
 
     IEnumerator HideUI()

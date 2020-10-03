@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
   - Dialog_NightBeforeFestival-Start-0
   - Dialog_NightBeforeFestival-Start-1
@@ -56,5 +56,5 @@ ScriptedImporter:
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 8b6644857644de84d961adc97a97cae1, type: 3}
   localizations: []

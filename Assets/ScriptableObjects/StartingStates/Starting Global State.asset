@@ -17,3 +17,7 @@ MonoBehaviour:
   communityApproval: 0
   communityReached: 0
   money: 0
+  playedAMDialog: 0
+  playedPMDialog: 0
+  leraScore: 0
+  luisScore: 0

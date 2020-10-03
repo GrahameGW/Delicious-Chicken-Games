@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172eb5824a0baa4489f5e665837ee28b, type: 3}
+  m_Name: LerasArc
+  m_EditorClassIdentifier: 
+  organizer: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
+  interviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  followupLetter: {fileID: 2480198943629176163, guid: 870fe1c13be948e45a1dc5f97ae24c42, type: 3}
+  state: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
+  hasMet: 0
+  score: 0
+  didBroadcast: 0

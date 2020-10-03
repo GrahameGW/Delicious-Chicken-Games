@@ -1222,6 +1222,16 @@ MonoBehaviour:
   startingState: {fileID: 11400000, guid: 50b7ae82b507f204299b92234182dc93, type: 2}
   studioState: {fileID: 11400000, guid: e9d28272dece4e047bca5f196c4cfcd8, type: 2}
   defaultStudio: {fileID: 11400000, guid: aceee4da2e83bf542b751e0ffaf03584, type: 2}
+  dialogOrg: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
+  defaultDialog: {fileID: 11400000, guid: 7cc87149331f1b84ebedcf9126a72167, type: 2}
+  startingLera: {fileID: 11400000, guid: 1cc54011b1ad87746b50d16b27f05003, type: 2}
+  lerasArc: {fileID: 11400000, guid: 76d1cf71764ca3445b6d8ff714eb719f, type: 2}
+  startingLuis: {fileID: 11400000, guid: 0bf882c56d7cbeb4a9b6c5fecc2dddca, type: 2}
+  luisArc: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}
+  startingBuck: {fileID: 11400000, guid: c52cffbd588f4e044ae896439adc9415, type: 2}
+  buckArc: {fileID: 0}
+  startingInterviews: {fileID: 0}
+  interviews: {fileID: 0}
   toFade: {fileID: 64414378}
 --- !u!1 &433029216
 GameObject:

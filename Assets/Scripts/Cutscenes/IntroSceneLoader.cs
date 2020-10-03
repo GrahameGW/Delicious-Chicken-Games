@@ -7,6 +7,8 @@ public class IntroSceneLoader : MonoBehaviour
     [SerializeField]
     private float waitBeforeInput = 3.0f;
 
+    [SerializeField] GameObject textToContinue = default;
+
     private void Start()
     {
         StartCoroutine(WaitForPlayerInput());
@@ -15,7 +17,7 @@ public class IntroSceneLoader : MonoBehaviour
     IEnumerator WaitForPlayerInput()
     {
         yield return new WaitForSeconds(waitBeforeInput);
-
+        textToContinue.SetActive(true);
 
         while (true) {
             if (Input.anyKey) {
@@ -30,6 +32,7 @@ public class IntroSceneLoader : MonoBehaviour
     private void StartYarn()
     {
         yarnManager.gameObject.SetActive(true);
+        textToContinue.SetActive(false);
     }
 }
 

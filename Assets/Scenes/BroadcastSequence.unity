@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67284db9e1d8b248b6b8f11946fce80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
+  schedule: {fileID: 0}
   globalState: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
   musicList: {fileID: 11400000, guid: 356f456a4fa972b41b9d943448a73417, type: 2}
   interviewList: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playbackDelay: 1
   fadeOutMultiplier: 1
-  dialogRunner: {fileID: 1804787846}
+  dialogRunner: {fileID: 245055363}
   weather: {fileID: 2480198943629176163, guid: fa70e9f6a00edbd4f81cb4025029ed94, type: 3}
   schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
 --- !u!1001 &921579504
@@ -569,10 +569,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7352193235014356902, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -588,6 +584,14 @@ PrefabInstance:
     - target: {fileID: 7352193235014356902, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352193235014356902, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+      propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target

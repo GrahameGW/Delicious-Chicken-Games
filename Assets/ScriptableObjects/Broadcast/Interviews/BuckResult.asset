@@ -9,15 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92fb41eeb30f1104fac49cc66b6d92d6, type: 3}
-  m_Name: Global State
+  m_Script: {fileID: 11500000, guid: 24bc9dd7c72c9e5478e6234c252bcedf, type: 3}
+  m_Name: BuckResult
   m_EditorClassIdentifier: 
-  currentDay: 6
-  currentTime: 0
-  communityApproval: 0
-  communityReached: 0
-  money: 1
-  playedAMDialog: 0
-  playedPMDialog: 0
-  leraScore: 0
-  luisScore: 0
+  name: 
+  clip: {fileID: 0}
+  dialog: 
+  yarn: {fileID: 0}
+  result: {fileID: 0}

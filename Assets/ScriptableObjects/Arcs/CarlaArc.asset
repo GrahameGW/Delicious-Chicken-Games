@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f32e268bbc09e14c9ed387b5447e02e, type: 3}
   m_Name: CarlaArc
   m_EditorClassIdentifier: 
-  organizer: {fileID: 11400000, guid: 7cc87149331f1b84ebedcf9126a72167, type: 2}
   interviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
   carlasClips:
   - {fileID: 11400000, guid: 39b7562417691ef42be39b00b69c445c, type: 2}
   - {fileID: 11400000, guid: 0fc29e2b39f4d3342a688d82b4012176, type: 2}
   - {fileID: 11400000, guid: 2ffc54b32e73dbd47aada9abb0633f56, type: 2}
+  state: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
+  ruth: {fileID: 11400000, guid: 7c2f5065894820744b3c8322a4734062, type: 2}
+  organizer: {fileID: 11400000, guid: 7cc87149331f1b84ebedcf9126a72167, type: 2}
+  finalYarn: {fileID: 0}
   currentClip: 0
+  isDone: 0

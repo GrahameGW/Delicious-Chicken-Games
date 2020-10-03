@@ -1230,10 +1230,12 @@ MonoBehaviour:
   luisArc: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}
   startingBuck: {fileID: 11400000, guid: c52cffbd588f4e044ae896439adc9415, type: 2}
   buckArc: {fileID: 11400000, guid: 7973db3e349470e4a85af417f26fb6fc, type: 2}
-  startingCarla: {fileID: 11400000, guid: cbededa3b117bb841be68228c22f49f9, type: 2}
-  carlaArc: {fileID: 11400000, guid: a9d64785985b5714f80028a882c58c1c, type: 2}
+  startingCarla: {fileID: 11400000, guid: a9d64785985b5714f80028a882c58c1c, type: 2}
+  carlaArc: {fileID: 11400000, guid: cbededa3b117bb841be68228c22f49f9, type: 2}
   startingInterviews: {fileID: 11400000, guid: a4cc3556951d4a64ea989ecc1e32435d, type: 2}
   interviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
+  startingRuth: {fileID: 11400000, guid: de5af2a2ac207f441ba14128af401238, type: 2}
+  ruthArc: {fileID: 11400000, guid: 7c2f5065894820744b3c8322a4734062, type: 2}
   toFade: {fileID: 64414378}
 --- !u!1 &433029216
 GameObject:

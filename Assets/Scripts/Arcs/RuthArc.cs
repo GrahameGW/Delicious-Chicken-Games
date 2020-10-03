@@ -1,27 +1,23 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(menuName = "Arc State/Carla's Arc")]
-public class CarlaArc : Arc
+[CreateAssetMenu(menuName = "Arc State/Ruth's Arc")]
+public class RuthArc : Arc
 {
     [SerializeField] BroadcastItems interviews = default;
-    [SerializeField] BroadcastClip[] carlasClips = new BroadcastClip[3];
+    [SerializeField] BroadcastClip ruthInterview = default;
+    [SerializeField] CarlaArc carla = default;
     [SerializeField] GlobalState state = default;
-    [SerializeField] RuthArc ruth = default;
     [SerializeField] DialogueOrganizer organizer = default;
     [SerializeField] YarnProgram finalYarn = default;
 
-    public int currentClip = 0;
     public bool isDone = false;
 
     public override void OnBroadcast(BroadcastClip clip, int day)
     {
 
         interviews.UseClip(clip);
-        currentClip++;
-        if (currentClip < carlasClips.Length)
-            interviews.clips.Add(carlasClips[currentClip]);
-        else if (state.carlaScore > 0 && ruth.isDone) {
-            // add to dialog organizer
+        isDone = true;
+        if (carla.isDone && state.carlaScore > 0) {
             organizer.SetNextEvening(finalYarn, "Outside", state.currentDay);
         }
     }

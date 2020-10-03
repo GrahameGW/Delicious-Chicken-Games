@@ -8,12 +8,50 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  baseLanguageID: en-US
+  stringIDs:
+  - Interview_AnniePitchFestival-StartInterview-0
+  - Interview_AnniePitchFestival-StartInterview-1
+  - Interview_AnniePitchFestival-StartInterview-2
+  - Interview_AnniePitchFestival-StartInterview-3
+  - Interview_AnniePitchFestival-StartInterview-4
+  - Interview_AnniePitchFestival-StartInterview-5
+  - Interview_AnniePitchFestival-StartInterview-6
+  - Interview_AnniePitchFestival-StartInterview-7
+  - Interview_AnniePitchFestival-StartInterview-8
+  - Interview_AnniePitchFestival-StartInterview-9
+  - Interview_AnniePitchFestival-StartInterview-10
+  - Interview_AnniePitchFestival-StartInterview-11
+  - Interview_AnniePitchFestival-StartInterview-12
+  - Interview_AnniePitchFestival-StartInterview-13
+  - Interview_AnniePitchFestival-StartInterview-14
+  - Interview_AnniePitchFestival-StartInterview-15
+  - Interview_AnniePitchFestival-StartInterview-16
+  - Interview_AnniePitchFestival-StartInterview-17
+  - Interview_AnniePitchFestival-BadJoke-18
+  - Interview_AnniePitchFestival-BadJoke-19
+  - Interview_AnniePitchFestival-BadJoke-20
+  - Interview_AnniePitchFestival-BadJoke-21
+  - Interview_AnniePitchFestival-BadJoke-22
+  - Interview_AnniePitchFestival-BadJoke-23
+  - Interview_AnniePitchFestival-Reminisce-24
+  - Interview_AnniePitchFestival-Reminisce-25
+  - Interview_AnniePitchFestival-Reminisce-26
+  - Interview_AnniePitchFestival-Reminisce-27
+  - Interview_AnniePitchFestival-End-28
+  - Interview_AnniePitchFestival-End-29
+  - Interview_AnniePitchFestival-End-30
+  - Interview_AnniePitchFestival-End-31
+  - Interview_AnniePitchFestival-End-32
+  - Interview_AnniePitchFestival-End-33
+  - Interview_AnniePitchFestival-End-34
+  - Interview_AnniePitchFestival-End-35
+  - Interview_AnniePitchFestival-End-36
+  - Interview_AnniePitchFestival-End-37
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: "Error on line 47 at position 10:\nmismatched input ']'
     expecting FORMAT_FUNCTION_EXPRESSION_START\r\nAnnie: [i]groans[/i]\r\n        
     ^"
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 75352921625f820458d8bd26d113a622, type: 3}
   localizations: []

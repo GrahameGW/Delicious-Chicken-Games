@@ -13,6 +13,7 @@ public class StudioDoorScenery : InteractiveObject
 
     private void OnEnable()
     {
+
         if (globalState.currentTime == TimeOfDay.Morning) {
             spriteRenderer.sprite = atRestSprite = daySprite;
             highlightSprite = dayHighlightedSprite;
@@ -21,13 +22,14 @@ public class StudioDoorScenery : InteractiveObject
         if (globalState.currentTime == TimeOfDay.Evening) {
             spriteRenderer.sprite = atRestSprite = nightSprite;
             highlightSprite = nightHighlightedSprite;
-            actionDescription = nightAction;
+            actionDescription = globalState.currentDay != 9 ? nightAction : "Go to Festival";
         }
     }
 
     public override void Execute()
     {
-        Initiate.Fade("Outside", Color.black, 1.2f);
+        string target = globalState.currentDay != 9 ? "Outside" : "OutroSequence";
+        Initiate.Fade(target, Color.black, 1.2f);
     }
 }
 

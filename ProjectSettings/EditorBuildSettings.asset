@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OverworldMap.unity
     guid: 59e953d8576173a46b4d58286404e91d
+  - enabled: 1
+    path: Assets/Scenes/LerasGarage.unity
+    guid: 513dfb7a66903464cbcd105de983beba
   m_configObjects: {}

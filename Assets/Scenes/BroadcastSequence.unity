@@ -202,7 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playbackDelay: 1
   fadeOutMultiplier: 1
-  dialogRunner: {fileID: 245055363}
+  dialogRunner: {fileID: 1804787846}
   weather: {fileID: 2480198943629176163, guid: fa70e9f6a00edbd4f81cb4025029ed94, type: 3}
   schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
 --- !u!1001 &921579504
@@ -569,9 +569,9 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7352193235014356902, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+    - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+      propertyPath: onDialogueStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7352193235014356902, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: m_AnchoredPosition.x

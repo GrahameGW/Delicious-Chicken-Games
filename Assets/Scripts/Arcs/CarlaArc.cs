@@ -3,7 +3,6 @@
 [CreateAssetMenu(menuName = "Arc State/Carla's Arc")]
 public class CarlaArc : Arc
 {
-    [SerializeField] DialogueOrganizer organizer = default;
     [SerializeField] BroadcastItems interviews = default;
     [SerializeField] BroadcastClip[] carlasClips = new BroadcastClip[3];
 

@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguesPerDays:
   - morningDialogue: {fileID: 2480198943629176163, guid: 71e764c2128dc2e44af29b61cceb1096, type: 3}
-    morningLocation: 
-    morningStartNode: 
+    morningLocation: Studio
+    morningStartNode: Start
     eveningDialogue: {fileID: 2480198943629176163, guid: a77941e68a06e3544aaa85837f0e89a6, type: 3}
-    eveningLocation: 
-    eveningStartNode: 
+    eveningLocation: Studio
+    eveningStartNode: Start
     letterDialogue: {fileID: 0}
   - morningDialogue: {fileID: 2480198943629176163, guid: f075c949d9ba9a1439e274f8b838bccd, type: 3}
-    morningLocation: 
-    morningStartNode: 
+    morningLocation: Studio
+    morningStartNode: Start
     eveningDialogue: {fileID: 2480198943629176163, guid: 645a824ae0debc542968688b8808a80e, type: 3}
-    eveningLocation: 
-    eveningStartNode: 
+    eveningLocation: Studio
+    eveningStartNode: Start
     letterDialogue: {fileID: 0}
   - morningDialogue: {fileID: 2480198943629176163, guid: 1fe2438ef1fbe18439ff797d179f22e3, type: 3}
-    morningLocation: 
-    morningStartNode: 
+    morningLocation: Studio
+    morningStartNode: Start
     eveningDialogue: {fileID: 0}
     eveningLocation: 
     eveningStartNode: 
@@ -49,8 +49,8 @@ MonoBehaviour:
     eveningStartNode: 
     letterDialogue: {fileID: 0}
   - morningDialogue: {fileID: 2480198943629176163, guid: 8a5a9b5996b89f54a92782076a6fb0ca, type: 3}
-    morningLocation: 
-    morningStartNode: 
+    morningLocation: Studio
+    morningStartNode: Start
     eveningDialogue: {fileID: 0}
     eveningLocation: 
     eveningStartNode: 

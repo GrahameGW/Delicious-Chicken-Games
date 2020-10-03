@@ -39,6 +39,11 @@ public class StudioManager : MonoBehaviour
             StartCoroutine(PlayDialog(dialogue, globalState.currentTime));
         }
         endDaybtn.SetActive(globalState.currentTime == TimeOfDay.Evening);
+
+        if (dialogOrganizer.dialoguesPerDays[globalState.currentDay].LetterDialogue == null)
+        {
+            state.mailChecked = true;
+        }
     }
 
     private IEnumerator PlayDialog(YarnProgram dialog, TimeOfDay time)

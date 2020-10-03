@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outside.unity
     guid: 6369220a0c27bc948af924abcd2f9f14
+  - enabled: 1
+    path: Assets/Scenes/OverworldMap.unity
+    guid: 59e953d8576173a46b4d58286404e91d
   m_configObjects: {}

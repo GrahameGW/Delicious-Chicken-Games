@@ -30,13 +30,9 @@ public class PlaybackManager : MonoBehaviour
         if  (day != 0) {
             // load weather
             dialogRunner.Add(weather);
-            //ads don't exist on day 1
-            
-            
             dialogRunner.StartDialogue(Random.Range(1, 6).ToString());
             stage++;
-
-
+            
             yield break;
         }
         else {
@@ -58,7 +54,7 @@ public class PlaybackManager : MonoBehaviour
 
                 return;
             }
-            stage++;
+            NextNode();
         }
         if (stage == 3) {
             if (schedule.interviewSlot != null) {
@@ -66,7 +62,7 @@ public class PlaybackManager : MonoBehaviour
                 schedule.interviewSlot.result.OnBroadcast(schedule.interviewSlot, GetComponent<BroadcastPlayer>().globalState.currentDay);
                 return;
             }
-            
+            NextNode();
         }
 
         EndBroadcast();

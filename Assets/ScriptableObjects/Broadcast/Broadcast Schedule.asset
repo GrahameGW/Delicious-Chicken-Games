@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5969ffa6425f723488adb426166ef95f, type: 3}
   m_Name: Broadcast Schedule
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   musicSlot: {fileID: 11400000, guid: 45e59a5949e49fb4e92cd89be2eb5ce2, type: 2}
   interviewSlot: {fileID: 11400000, guid: 830260ad6888c654185ddd6f9190bb86, type: 2}
   advertSlot: {fileID: 11400000, guid: eb33c47bc6635b545ab5b68e5123aec8, type: 2}
+=======
+  musicSlot: {fileID: 11400000, guid: e28390772d234e74dbba7723b399883b, type: 2}
+  interviewSlot: {fileID: 0}
+  advertSlot: {fileID: 0}
+>>>>>>> master

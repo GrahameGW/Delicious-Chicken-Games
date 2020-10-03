@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5969ffa6425f723488adb426166ef95f, type: 3}
-  m_Name: Broadcast Schedule
+  m_Script: {fileID: 11500000, guid: ca4b20d308082154681eabfff8ecf403, type: 3}
+  m_Name: S6_Track
   m_EditorClassIdentifier: 
-  musicSlot: {fileID: 11400000, guid: e28390772d234e74dbba7723b399883b, type: 2}
-  interviewSlot: {fileID: 0}
-  advertSlot: {fileID: 0}
+  name: Airwaves
+  clip: {fileID: 8300000, guid: 9cf00bcce464a8040a4fd43f26f2caf7, type: 3}
+  dialog: 
+  yarn: {fileID: 0}

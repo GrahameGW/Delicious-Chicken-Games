@@ -152,11 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f188e198be114b409d46a76a62dbf7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  schedule: {fileID: 11400000, guid: 4de466d7af33ecf438512c2487620254, type: 2}
+  schedule: {fileID: 11400000, guid: d387dbcb736abe242bb8a37d9cc50c33, type: 2}
   musicList: {fileID: 1114684544}
   interviewList: {fileID: 804669118}
   advertList: {fileID: 554308893}
-  weatherClips: {fileID: 11400000, guid: 281c2f404e345494386007ad81e4707e, type: 2}
   globalState: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
 --- !u!4 &258956166
 Transform:
@@ -848,7 +847,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8779278970476522302, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 128.82635
+      value: 128.82637
       objectReference: {fileID: 0}
     - target: {fileID: 8779278971197791577, guid: b479534c8d660db418947b68f9a22f1b, type: 3}
       propertyPath: m_Sprite

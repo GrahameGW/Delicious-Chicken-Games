@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: fa70e9f6a00edbd4f81cb4025029ed94
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Weather_Reports-1-0
+  - Weather_Reports-1-1
+  - Weather_Reports-2-2
+  - Weather_Reports-2-3
+  - Weather_Reports-3-4
+  - Weather_Reports-3-5
+  - Weather_Reports-4-6
+  - Weather_Reports-4-7
+  - Weather_Reports-5-8
+  - Weather_Reports-5-9
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

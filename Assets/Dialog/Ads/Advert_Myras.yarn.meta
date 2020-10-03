@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c31448546fe67204987f468910eb447e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Advert_Myras-Start-0
+  - Advert_Myras-Start-1
+  - Advert_Myras-Start-2
+  - Advert_Myras-Start-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: c31448546fe67204987f468910eb447e, type: 3}
+  localizations: []

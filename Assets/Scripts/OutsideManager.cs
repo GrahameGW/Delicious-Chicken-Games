@@ -15,8 +15,7 @@ public class OutsideManager : MonoBehaviour
     private int day;
 
     private SpriteRenderer spriteRenderer;
-    [SerializeField] Vector2 startByDoor = default;
-    [SerializeField] Vector2 startByRoad = default;
+
 
     private void Awake()
     {

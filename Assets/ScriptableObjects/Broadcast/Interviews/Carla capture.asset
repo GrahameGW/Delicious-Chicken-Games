@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24bc9dd7c72c9e5478e6234c252bcedf, type: 3}
-  m_Name: Annie 1
+  m_Name: Carla capture
   m_EditorClassIdentifier: 
-  name: Bring back the Harvest Festival
+  name: Missing Food - Another Update
   clip: {fileID: 0}
   dialog: 
-  yarn: {fileID: 2480198943629176163, guid: 75352921625f820458d8bd26d113a622, type: 3}
+  yarn: {fileID: 2480198943629176163, guid: 7e8dbd04c391a934b98cbd5966c3e68e, type: 3}

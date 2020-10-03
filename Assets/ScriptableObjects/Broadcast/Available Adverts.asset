@@ -13,11 +13,16 @@ MonoBehaviour:
   m_Name: Available Adverts
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 11400000, guid: 334ce682c3660f040be8922daadd5f4e, type: 2}
-  - {fileID: 11400000, guid: 64f82142973727649b141b995e777559, type: 2}
-  - {fileID: 11400000, guid: c0a901d0dfb9c4746a1dd6fafc044750, type: 2}
+  - {fileID: 11400000, guid: 615c415972e00d84a9c3faa24bfd5ed0, type: 2}
   - {fileID: 11400000, guid: c7d0b356d96452548a0fed47f3f7334a, type: 2}
+  - {fileID: 11400000, guid: eb33c47bc6635b545ab5b68e5123aec8, type: 2}
+  - {fileID: 11400000, guid: 64f82142973727649b141b995e777559, type: 2}
   usedClips:
   - {fileID: 11400000, guid: b529f14baa4dcf44693672fe11fb6a8d, type: 2}
   - {fileID: 11400000, guid: eb33c47bc6635b545ab5b68e5123aec8, type: 2}
   - {fileID: 11400000, guid: 615c415972e00d84a9c3faa24bfd5ed0, type: 2}
+  - {fileID: 11400000, guid: c7d0b356d96452548a0fed47f3f7334a, type: 2}
+  - {fileID: 11400000, guid: 334ce682c3660f040be8922daadd5f4e, type: 2}
+  - {fileID: 11400000, guid: 334ce682c3660f040be8922daadd5f4e, type: 2}
+  - {fileID: 11400000, guid: c0a901d0dfb9c4746a1dd6fafc044750, type: 2}
+  - {fileID: 11400000, guid: b529f14baa4dcf44693672fe11fb6a8d, type: 2}

@@ -10,6 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24bc9dd7c72c9e5478e6234c252bcedf, type: 3}
-  m_Name: Ruth 1
+  m_Name: Carla intro
   m_EditorClassIdentifier: 
-  name: Ruth 1
+  name: Mystery of the Missing Food
+  clip: {fileID: 0}
+  dialog: 
+  yarn: {fileID: 0}

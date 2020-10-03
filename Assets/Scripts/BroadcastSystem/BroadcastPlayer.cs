@@ -3,12 +3,12 @@ using UnityEditor;
 
 public class BroadcastPlayer : MonoBehaviour
 {
-    [SerializeField] BroadcastSchedule schedule = default;
-    [SerializeField] GlobalState globalState = default;
+    public BroadcastSchedule schedule = default;
+    public GlobalState globalState = default;
     [SerializeField] BroadcastItems musicList = default;
     [SerializeField] BroadcastItems interviewList = default;
     [SerializeField] BroadcastItems advertList = default;
-    [SerializeField] BroadcastItems weatherClips = default;
+    [SerializeField] YarnProgram weatherYarn = default;
 
     private void Start()
     {

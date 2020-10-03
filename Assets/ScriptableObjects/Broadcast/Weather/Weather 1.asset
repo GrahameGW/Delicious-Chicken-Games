@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Weather 1
   clip: {fileID: 0}
-  dialog: "...\rA series of weak low pressure troughs are moving through the valley.
-    These systems will keep a risk of showers\r across the area through the rest
-    of the week, but much of the time\r will be dry. "
+  dialog: 
+  yarn: {fileID: 0}

@@ -4,7 +4,6 @@ using UnityEditor;
 [CreateAssetMenu(menuName = "Scriptable Objects/Broadcast Schedule")]
 public class BroadcastSchedule : ScriptableObject
 {
-    public BroadcastClip weatherSlot = default;
     public BroadcastClip musicSlot = default;
     public BroadcastClip interviewSlot = default;
     public BroadcastClip advertSlot = default;
@@ -14,7 +13,6 @@ public class BroadcastSchedule : ScriptableObject
         interviewSlot = null;
         musicSlot = null;
         advertSlot = null;
-        weatherSlot = null;
 
         EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();

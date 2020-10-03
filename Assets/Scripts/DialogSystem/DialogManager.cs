@@ -10,6 +10,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] List<Sprite> speakerSprites = default;
     [SerializeField] List<string> speakerNames = default;
     [SerializeField] Image speakerPortrait = default;
+    [SerializeField] Image speakerPortrait2 = default;
 
     /// <summary>
     /// These events have been linked to the DialogueUI script to trigger on dialog start and stop.
@@ -35,12 +36,21 @@ public class DialogManager : MonoBehaviour
 
     void SetSpeakerName(string[] parameters)
     {
-        speakerPortrait.gameObject.SetActive(true);
-        if (speakerNames.IndexOf(parameters[0]) == -1)
+        int index = speakerNames.IndexOf(parameters[0]);
+        if (index == -1)
         {
             Debug.LogError("Could not find portrait for " + parameters[0]);
         }
-        speakerPortrait.sprite = speakerSprites[speakerNames.IndexOf(parameters[0])];
+        if (parameters[0] == "Khalid")
+        {
+            speakerPortrait.sprite = speakerSprites[index];
+            speakerPortrait.gameObject.SetActive(true);
+        }
+        else
+        {
+            speakerPortrait2.sprite = speakerSprites[index];
+            speakerPortrait2.gameObject.SetActive(true);
+        }
     }
 
     #endregion

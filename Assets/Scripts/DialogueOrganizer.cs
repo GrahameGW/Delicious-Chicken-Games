@@ -15,6 +15,7 @@ public class DialogueOrganizer : ScriptableObject
         [SerializeField] YarnProgram eveningDialogue;
         [SerializeField] string eveningLocation;
         [SerializeField] string eveningStartNode;
+        [SerializeField] YarnProgram letterDialogue;
 
         public YarnProgram MorningDialogue { get => morningDialogue; set => morningDialogue = value; }
         public string MorningLocation { get => morningLocation; set => morningLocation = value; }
@@ -22,6 +23,7 @@ public class DialogueOrganizer : ScriptableObject
         public string EveningLocation { get => eveningLocation; set => eveningLocation = value; }
         public string MorningStartNode { get => morningStartNode; set => morningStartNode = value; }
         public string EveningStartNode { get => eveningStartNode; set => eveningStartNode = value; }
+        public YarnProgram LetterDialogue { get => letterDialogue; set => letterDialogue = value; }
     }
 
     public void UpdateDialogueForDay(int day, YarnProgram dialogue, string time, string location, string startNode)

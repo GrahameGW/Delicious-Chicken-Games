@@ -371,7 +371,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 700262b2d14999e4e8e846ead42818b9, type: 3}
   activeBackdrop: {fileID: 721222664}
   overlay: {fileID: 1724139920}
-  waitBeforeInput: 1.5
+  waitBeforeInput: 1
   fadeTime: 2
   dialogDelay: 0.5
   clickToContinueText: {fileID: 392470995}
@@ -420,7 +420,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnManager: {fileID: 629546813}
-  waitBeforeInput: 3
+  waitBeforeInput: 2
+  textToContinue: {fileID: 392470995}
 --- !u!212 &721222664
 SpriteRenderer:
   m_ObjectHideFlags: 0

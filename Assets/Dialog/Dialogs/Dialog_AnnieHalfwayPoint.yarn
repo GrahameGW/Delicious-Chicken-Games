@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: -323,-709
 ---
+<< set $money = $money - 535>>
 << SetSpeaker Annie>> 
 Annie: Only three weeks to go.
 << SetSpeaker Khalid>> 
@@ -56,10 +57,7 @@ Annie: The wrong one died.
 Khalid: Sorry to hear it.
 << SetSpeaker Annie>> 
 Annie: It was a long time ago.
-[[  How are the preparations going?|preparationsStatus]]
-[[  How are people feeling?|communityStatus]]
-[[  How are the financials?|financials]]
-[[  Let's get back to work|End]]
+
 ===
 title: preparationsStatus
 tags: 
@@ -77,7 +75,6 @@ Annie: Things are coming along nicely. Nearly everyone will be running a stall o
 Annie: Now I need plenty of visitors and a nice weather report. Make sure you have a good one for me then, okay?
 << SetSpeaker Khalid>> 
 Khalid: *chuckles* I'll do my best.
-[[ AnniesMarriage ]]
 
 Medium:
 <<SetSpeaker Annie>> 
@@ -88,7 +85,6 @@ Khalid: Is it a money issue?
 Annie: More money wouldn't hurt, but really we just need to locate a few things. Mostly tables, chairs, decorations, that sort of thing.
 << SetSpeaker Khalid>> 
 Khalid: If I hear of any extra supplies I'll let you know.
-[[ AnniesMarriage ]]
 
 Bad:
 <<SetSpeaker Annie>> 
@@ -99,7 +95,9 @@ Khalid: Yikes. Any ideas on where to get that stuff?
 Annie: I'm trying everything I can. If I have to, I'll take all the furniture out of the diner. But anything you can find I'll take.
 << SetSpeaker Khalid>> 
 Khalid: Got it. I'll keep an ear out.
-[[ AnniesMarriage ]]
+[[  How are people feeling?|communityStatus]]
+[[  How are the financials?|financials]]
+[[  Let's get back to work|End]]
 ===
 title: communityStatus
 tags: 
@@ -109,12 +107,10 @@ position: -360,190
 << SetSpeaker Khalid>> 
 Khalid: How is everyone feeling?
 
-<< Based on Community Score>> 
 Good:
 <<SetSpeaker Annie>> 
 Annie: Everyone is really excited. People are discussing display ideas, gossiping about dance partners, even trash talking about the competitions.
 Annie: Even more than that though, the whole place is just in a better mood. We've a ways to go, but I can't help but feel optimistic
-[[ AnniesMarriage ]]
 
 Medium:
 <<SetSpeaker Annie>> 
@@ -126,7 +122,6 @@ Annie: It's okay. I worry that if the locals aren't excited, folks won't want to
 Annie: So if you can get people a bit more revved up, that would be wonderful.
 << SetSpeaker Khalid>> 
 Khalid: Okay. I'll do my best.
-[[ AnniesMarriage ]]
 
 Bad:
 <<SetSpeaker Annie>> 
@@ -136,7 +131,9 @@ Khalid: I'm playing plenty of PSAs about it.
 <<SetSpeaker Annie>> 
 Annie: Folks aren't tuning in. Either they don't like your other content or they just don't know about the station.
 Annie: Try and get out and get a feel for what people want. If you can connect with them, they'll be more receptive.
-[[ AnniesMarriage ]]
+[[  How are the preparations going?|preparationsStatus]]
+[[  How are the financials?|financials]]
+[[  Let's get back to work|End]]
 ===
 title: financials
 tags: 
@@ -146,7 +143,7 @@ position: -71,184
 << SetSpeaker Khalid>> 
 Khalid: How are the financials?
 
-Surplus:
+<<if $money > 500>>
 << SetSpeaker Annie>>
 Annie: We're rolling in it. I actually don't have much I can do with the extra money. 
 << SetSpeaker Khalid>> 
@@ -156,17 +153,17 @@ Annie: Definitely not the worst. If you can think of good ways to spend it, you 
 Annie: But we don't need to run up the bank account. Folks might get suspicious if we start a new media company. And given everything...
 << SetSpeaker Khalid>> 
 Khalid: Yeah. I'll try and tone it down a bit.
-[[ AnniesMarriage ]]
 
-Solvent:
+
+<<elseif $money > 0>>
 << SetSpeaker Annie>>
 Annie: We're above board. I'd be lying if I said we couldn't make do with a bit more, but I'm not complaining.
 Annie: If you do manage to get a few more bucks, that's wonderful. But don't do it at expense of outreach.
 << SetSpeaker Khalid>>
 Khalid: All right. Good to hear.
-[[ AnniesMarriage ]]
 
-Deficit:
+
+<<else>>
 << SetSpeaker Annie>>
 Annie: We're underwater. Between keeping the station running and fronting the festival, I'm spending money we don't have.
 << SetSpeaker Khalid>> 
@@ -175,7 +172,10 @@ Khalid: That doesn't sound like a good thing.
 Annie: It's not. While I don't want you to annoy the community, if you don't increase revenue a little bit the Harvest Festival is dead before it even opens.
 << SetSpeaker Khalid>> 
 Khalid: I'll try and be a bit more business minded
-[[ AnniesMarriage ]]
+<<endif>>
+[[  How are the preparations going?|preparationsStatus]]
+[[  How are people feeling?|communityStatus]]
+[[  Let's get back to work|End]]
 ===
 title: End
 tags: 

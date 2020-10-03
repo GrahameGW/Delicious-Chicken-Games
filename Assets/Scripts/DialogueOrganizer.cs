@@ -46,4 +46,15 @@ public class DialogueOrganizer : ScriptableObject
             Debug.LogError("DialogueForDay not updated with proper time");
         }
     }
+
+    public void SetNextEvening(YarnProgram yarn, string scene, int day) {
+        for (int i = day; i < dialoguesPerDays.Count; i++) {
+            if (dialoguesPerDays[i].EveningDialogue == null) {
+                dialoguesPerDays[i].EveningDialogue = yarn;
+                dialoguesPerDays[i].EveningLocation = scene;
+                dialoguesPerDays[i].EveningStartNode = "Start";
+                    return;
+            }
+        }
+    }
 }

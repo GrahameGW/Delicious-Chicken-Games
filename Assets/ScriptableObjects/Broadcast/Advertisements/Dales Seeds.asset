@@ -19,3 +19,4 @@ MonoBehaviour:
     or commercial crops, come on down to Dale's and get the best seeds at even better
     prices!
   yarn: {fileID: 2480198943629176163, guid: 8360d0dc29efe904a8fb9999e9bb727b, type: 3}
+  result: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}

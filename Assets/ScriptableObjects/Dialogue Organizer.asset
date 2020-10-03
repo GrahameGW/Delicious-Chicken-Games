@@ -13,24 +13,73 @@ MonoBehaviour:
   m_Name: Dialogue Organizer
   m_EditorClassIdentifier: 
   dialoguesPerDays:
-  - morningDialogue: {fileID: 2480198943629176163, guid: 8a5a9b5996b89f54a92782076a6fb0ca, type: 3}
-    morningLocation: Studio
-    morningStartNode: Start
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
     eveningDialogue: {fileID: 2480198943629176163, guid: a77941e68a06e3544aaa85837f0e89a6, type: 3}
-    eveningLocation: Studio
-    eveningStartNode: Start
+    eveningLocation: 
+    eveningStartNode: 
     letterDialogue: {fileID: 0}
   - morningDialogue: {fileID: 2480198943629176163, guid: f075c949d9ba9a1439e274f8b838bccd, type: 3}
-    morningLocation: Studio
-    morningStartNode: Start
+    morningLocation: 
+    morningStartNode: 
     eveningDialogue: {fileID: 2480198943629176163, guid: 645a824ae0debc542968688b8808a80e, type: 3}
-    eveningLocation: Studio
-    eveningStartNode: Start
+    eveningLocation: 
+    eveningStartNode: 
     letterDialogue: {fileID: 0}
-  - morningDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 2480198943629176163, guid: 1fe2438ef1fbe18439ff797d179f22e3, type: 3}
     morningLocation: 
     morningStartNode: 
     eveningDialogue: {fileID: 2480198943629176163, guid: 29b26645ddba80a42a5116cc31b605ec, type: 3}
     eveningLocation: Outside
+    eveningStartNode: Start
+    letterDialogue: {fileID: 2480198943629176163, guid: 0a255ea97c2bb814c9648f29e75f77d6, type: 3}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 2480198943629176163, guid: 8a5a9b5996b89f54a92782076a6fb0ca, type: 3}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: 8b6644857644de84d961adc97a97cae1, type: 3}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: 7e51ed9843d1d69408eeb067eecac4eb, type: 3}
+    eveningLocation: Studio
     eveningStartNode: Start
     letterDialogue: {fileID: 0}

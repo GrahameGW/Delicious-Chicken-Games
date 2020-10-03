@@ -1,0 +1,34 @@
+title: Start
+tags: 
+colorID: 0
+position: -569,-802
+---
+<< if $leraScore > 0>> 
+[[ Good ]]
+<< elseif $leraScore < 0>> 
+[[ Bad ]]
+<< endif>>
+===
+title: Good
+tags: 
+colorID: 0
+position: -105,-563
+---
+<< SetSpeaker Khalid >> 
+Khalid: To the DJ, Thank you for the shout-out on yesterday's segment, I appreciate it a lot. Community engagement and support is really important, especially now. 
+Khalid: If you need anything from me, my shop is right next to Annie's and you're free to visit any time.
+Khalid: And if you've got a vehicle on you, I'd be glad to give it a check up!
+
+Khalid: Thanks again. Lera Harley
+===
+title: Bad
+tags: 
+colorID: 0
+position: 115,-563
+---
+<< SetSpeaker Khalid>> 
+Khalid: To the DJ, I don't know where to begin, but I'm insulted by what you said about my reaching out to you.
+Khalid: You could have simply chosen to ignore the letter I sent instead of name-dropping me for no good reason. Khalid: I guess it's good to know I shouldn't be expecting much of anything from you.
+
+Khalid: Lera Harley
+===

@@ -1,0 +1,83 @@
+fileFormatVersion: 2
+guid: 7b35db3e62ac74f4e9575c02fbf991ed
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_LuisFollowup-Good-0
+  - Dialog_LuisFollowup-Good-1
+  - Dialog_LuisFollowup-Good-2
+  - Dialog_LuisFollowup-Good-3
+  - Dialog_LuisFollowup-Good-4
+  - Dialog_LuisFollowup-Good-5
+  - Dialog_LuisFollowup-Good-6
+  - Dialog_LuisFollowup-Good-7
+  - Dialog_LuisFollowup-Good-8
+  - Dialog_LuisFollowup-Good-9
+  - Dialog_LuisFollowup-Good-10
+  - Dialog_LuisFollowup-Good-11
+  - Dialog_LuisFollowup-Good-12
+  - Dialog_LuisFollowup-Good-13
+  - Dialog_LuisFollowup-Good-14
+  - Dialog_LuisFollowup-Good-15
+  - Dialog_LuisFollowup-Good-16
+  - Dialog_LuisFollowup-Good-17
+  - Dialog_LuisFollowup-Good-18
+  - Dialog_LuisFollowup-Good-19
+  - Dialog_LuisFollowup-Good-20
+  - Dialog_LuisFollowup-Good-21
+  - Dialog_LuisFollowup-Good-22
+  - Dialog_LuisFollowup-Good-23
+  - Dialog_LuisFollowup-Good-24
+  - Dialog_LuisFollowup-Good-25
+  - Dialog_LuisFollowup-Good-26
+  - Dialog_LuisFollowup-Good-27
+  - Dialog_LuisFollowup-Good-28
+  - Dialog_LuisFollowup-Good-29
+  - Dialog_LuisFollowup-Good-30
+  - Dialog_LuisFollowup-Good-31
+  - Dialog_LuisFollowup-Good-32
+  - Dialog_LuisFollowup-Bad-33
+  - Dialog_LuisFollowup-Bad-34
+  - Dialog_LuisFollowup-Bad-35
+  - Dialog_LuisFollowup-Bad-36
+  - Dialog_LuisFollowup-Bad-37
+  - Dialog_LuisFollowup-Bad-38
+  - Dialog_LuisFollowup-Bad-39
+  - Dialog_LuisFollowup-Bad-40
+  - Dialog_LuisFollowup-Bad-41
+  - Dialog_LuisFollowup-Bad-42
+  - Dialog_LuisFollowup-Bad-43
+  - Dialog_LuisFollowup-Bad-44
+  - Dialog_LuisFollowup-Bad-45
+  - Dialog_LuisFollowup-Bad-46
+  - Dialog_LuisFollowup-Bad-47
+  - Dialog_LuisFollowup-Bad-48
+  - Dialog_LuisFollowup-Bad-49
+  - Dialog_LuisFollowup-Bad-50
+  - Dialog_LuisFollowup-Bad-51
+  - Dialog_LuisFollowup-Bad-52
+  - Dialog_LuisFollowup-Bad-53
+  - Dialog_LuisFollowup-Bad-54
+  - Dialog_LuisFollowup-Bad-55
+  - Dialog_LuisFollowup-Bad-56
+  - Dialog_LuisFollowup-Bad-57
+  - Dialog_LuisFollowup-Bad-58
+  - Dialog_LuisFollowup-Bad-59
+  - Dialog_LuisFollowup-Bad-60
+  - Dialog_LuisFollowup-Bad-61
+  - Dialog_LuisFollowup-Bad-62
+  - Dialog_LuisFollowup-Bad-63
+  - Dialog_LuisFollowup-Bad-64
+  - Dialog_LuisFollowup-Bad-65
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -9,9 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5969ffa6425f723488adb426166ef95f, type: 3}
-  m_Name: Broadcast Schedule
+  m_Script: {fileID: 11500000, guid: 92fb41eeb30f1104fac49cc66b6d92d6, type: 3}
+  m_Name: Starting Global State
   m_EditorClassIdentifier: 
-  musicSlot: {fileID: 11400000, guid: 77b7644faa833c54a82546e3afd0d579, type: 2}
-  interviewSlot: {fileID: 0}
-  advertSlot: {fileID: 0}
+  currentDay: 0
+  currentTime: 0
+  communityApproval: 0
+  communityReached: 0
+  money: 0
+  playedAMDialog: 0
+  playedPMDialog: 0
+  leraScore: 0
+  luisScore: 0

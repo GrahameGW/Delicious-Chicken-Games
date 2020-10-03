@@ -20,3 +20,4 @@ MonoBehaviour:
     to Roxy's and ride down to Asmodeus on on velvet cushions blitzed out of your
     mind.
   yarn: {fileID: 2480198943629176163, guid: 72cc5d07642dbf143be37b91d9cd443e, type: 3}
+  result: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}

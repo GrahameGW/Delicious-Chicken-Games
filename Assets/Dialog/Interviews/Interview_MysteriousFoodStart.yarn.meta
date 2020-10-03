@@ -8,18 +8,18 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - Interview_MysteriousFoodStart-Start-0
-  - Interview_MysteriousFoodStart-Start-1
-  - Interview_MysteriousFoodStart-Start-2
-  - Interview_MysteriousFoodStart-Start-3
-  - Interview_MysteriousFoodStart-Start-4
-  - Interview_MysteriousFoodStart-Start-5
-  - Interview_MysteriousFoodStart-Start-6
-  - Interview_MysteriousFoodStart-Start-7
+  - Interview_MysteriousFoodStart-StartInterview-0
+  - Interview_MysteriousFoodStart-StartInterview-1
+  - Interview_MysteriousFoodStart-StartInterview-2
+  - Interview_MysteriousFoodStart-StartInterview-3
+  - Interview_MysteriousFoodStart-StartInterview-4
+  - Interview_MysteriousFoodStart-StartInterview-5
+  - Interview_MysteriousFoodStart-StartInterview-6
+  - Interview_MysteriousFoodStart-StartInterview-7
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 6cb350d993c712b4f91331041edabf6b, type: 3}
   localizations: []

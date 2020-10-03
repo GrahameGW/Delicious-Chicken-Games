@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0a255ea97c2bb814c9648f29e75f77d6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Letter_LerasFirstLetter-Start-0
+  - Letter_LerasFirstLetter-Start-1
+  - Letter_LerasFirstLetter-Start-2
+  - Letter_LerasFirstLetter-Start-3
+  - Letter_LerasFirstLetter-Start-4
+  - Letter_LerasFirstLetter-Start-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

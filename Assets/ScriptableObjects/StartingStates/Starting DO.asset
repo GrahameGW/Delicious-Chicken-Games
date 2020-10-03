@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1bf3848b6661b42a4bcd0a0bc13e32, type: 3}
+  m_Name: Starting DO
+  m_EditorClassIdentifier: 
+  dialoguesPerDays:
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: a77941e68a06e3544aaa85837f0e89a6, type: 3}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 2480198943629176163, guid: f075c949d9ba9a1439e274f8b838bccd, type: 3}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: 645a824ae0debc542968688b8808a80e, type: 3}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 2480198943629176163, guid: 1fe2438ef1fbe18439ff797d179f22e3, type: 3}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: 29b26645ddba80a42a5116cc31b605ec, type: 3}
+    eveningLocation: Outside
+    eveningStartNode: Start
+    letterDialogue: {fileID: 2480198943629176163, guid: 0a255ea97c2bb814c9648f29e75f77d6, type: 3}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 2480198943629176163, guid: 8a5a9b5996b89f54a92782076a6fb0ca, type: 3}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 0}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: 8b6644857644de84d961adc97a97cae1, type: 3}
+    eveningLocation: 
+    eveningStartNode: 
+    letterDialogue: {fileID: 0}
+  - morningDialogue: {fileID: 0}
+    morningLocation: 
+    morningStartNode: 
+    eveningDialogue: {fileID: 2480198943629176163, guid: 7e51ed9843d1d69408eeb067eecac4eb, type: 3}
+    eveningLocation: Studio
+    eveningStartNode: Start
+    letterDialogue: {fileID: 0}

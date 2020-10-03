@@ -1229,7 +1229,7 @@ MonoBehaviour:
   startingLuis: {fileID: 11400000, guid: 0bf882c56d7cbeb4a9b6c5fecc2dddca, type: 2}
   luisArc: {fileID: 11400000, guid: 381813ff42beb734984434dd17a0726b, type: 2}
   startingBuck: {fileID: 11400000, guid: c52cffbd588f4e044ae896439adc9415, type: 2}
-  buckArc: {fileID: 0}
+  buckArc: {fileID: 11400000, guid: 7973db3e349470e4a85af417f26fb6fc, type: 2}
   startingInterviews: {fileID: 0}
   interviews: {fileID: 0}
   toFade: {fileID: 64414378}

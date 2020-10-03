@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24bc9dd7c72c9e5478e6234c252bcedf, type: 3}
   m_Name: BuckResult
   m_EditorClassIdentifier: 
-  name: 
+  name: Caller, You're On Air
   clip: {fileID: 0}
   dialog: 
-  yarn: {fileID: 0}
-  result: {fileID: 0}
+  yarn: {fileID: 2480198943629176163, guid: d6a555a6dae01b3418f4647d44387560, type: 3}
+  result: {fileID: 11400000, guid: 7973db3e349470e4a85af417f26fb6fc, type: 2}

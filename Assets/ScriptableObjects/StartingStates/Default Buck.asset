@@ -15,9 +15,9 @@ MonoBehaviour:
   organizer: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
   interviews: {fileID: 11400000, guid: 173d5e2cffcca4f4ea6e59a2fbb95718, type: 2}
   bucksClips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: c31458c59b17bc542842b437f8e048c6, type: 2}
+  - {fileID: 11400000, guid: 34a6d1403036e91419b70bb34bb13134, type: 2}
+  - {fileID: 11400000, guid: ef2af808a69435f439e125d349cef15e, type: 2}
   state: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
   hasMet: 0
   score: 0

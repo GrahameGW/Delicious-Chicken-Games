@@ -5,11 +5,23 @@ using UnityEngine;
 public class ScheduleManager : MonoBehaviour
 {
     [SerializeField] BroadcastSchedule schedule = default;
+    [SerializeField] BroadcastItems availableInterviews = default;
+    [SerializeField] BroadcastClip finalInterview = default;
     [SerializeField] ClipsList musicList = default;
     [SerializeField] ClipsList interviewList = default;
     [SerializeField] ClipsList advertList = default;
     public GlobalState globalState;
 
+
+    private void Awake()
+    {
+
+        if (globalState.currentDay == 9) {
+            availableInterviews.clips.Clear();
+            availableInterviews.clips.Add(finalInterview);
+        }
+
+    }
     private void Start()
     {
         switch(globalState.currentDay) {

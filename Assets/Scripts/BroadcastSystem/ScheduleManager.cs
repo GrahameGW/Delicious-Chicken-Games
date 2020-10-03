@@ -9,7 +9,21 @@ public class ScheduleManager : MonoBehaviour
     [SerializeField] ClipsList interviewList = default;
     [SerializeField] ClipsList advertList = default;
     [SerializeField] BroadcastItems weatherClips = default;
+    public GlobalState globalState;
 
+    private void Start()
+    {
+        switch(globalState.currentDay) {
+            case 0:
+                advertList.gameObject.SetActive(false);
+                interviewList.gameObject.SetActive(false);
+                break;
+            case 1:
+                advertList.gameObject.SetActive(false);
+                break;
+            default: break;
+        }
+    }
     public void Save()
     {
         schedule.interviewSlot = interviewList.selected?.clip;
@@ -21,5 +35,10 @@ public class ScheduleManager : MonoBehaviour
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
         Debug.Log("Saved " + schedule.interviewSlot?.name + " and " + schedule.musicSlot?.name + " and " + schedule.weatherSlot?.name + " and " + schedule.advertSlot?.name);
+    }
+
+    public string GetSaved()
+    {
+        return "Saved " + schedule.interviewSlot?.name + " and " + schedule.musicSlot?.name + " and " + schedule.weatherSlot?.name + " and " + schedule.advertSlot?.name + " for broadcast!";
     }
 }

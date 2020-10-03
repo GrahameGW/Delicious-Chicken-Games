@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using SimpleSceneTransitions;
 using Yarn.Unity;
 
 public class StudioManager : MonoBehaviour
@@ -13,6 +13,8 @@ public class StudioManager : MonoBehaviour
     [SerializeField] float dialogStartDelay = 1.0f;
     [SerializeField] DialogueOrganizer dialogOrganizer = default;
     [SerializeField] DialogueRunner dialogRunner = default;
+
+    [SerializeField] GameObject endDaybtn = default;
     private SpriteRenderer playerSprite;
 
     int day;
@@ -36,6 +38,7 @@ public class StudioManager : MonoBehaviour
         if (GetDialog(globalState, dialogOrganizer, out dialogue)) {
             StartCoroutine(PlayDialog(dialogue, globalState.currentTime));
         }
+        endDaybtn.SetActive(globalState.currentTime == TimeOfDay.Evening);
     }
 
     private IEnumerator PlayDialog(YarnProgram dialog, TimeOfDay time)
@@ -97,5 +100,12 @@ public class StudioManager : MonoBehaviour
     public void TogglePlayerController()
     {
         player.gameObject.SetActive(!player.activeSelf);
+    }
+
+    public void EndDay(float fadespeed)
+    {
+        SaveState();
+        endDaybtn.SetActive(false);
+        Initiate.Fade("EndOfDay", Color.black, fadespeed);
     }
 }

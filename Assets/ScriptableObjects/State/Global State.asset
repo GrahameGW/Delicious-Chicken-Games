@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92fb41eeb30f1104fac49cc66b6d92d6, type: 3}
   m_Name: Global State
   m_EditorClassIdentifier: 
-  currentDay: 2
-  currentTime: 2
+  currentDay: 0
+  currentTime: 0
   communityApproval: 0
   communityReached: 0
   money: 1
   playedAMDialog: 1
-  playedPMDialog: 1
+  playedPMDialog: 0

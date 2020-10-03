@@ -28,3 +28,12 @@ Khalid: It's strange to be back.
 Khalid: Don't think I'll hang around for long.
 <<set $money to 1>>
 ===
+title: InStudio
+tags:
+colorID: 0
+position: 543, 200
+---
+Khalid: Woof. It reeks in here.
+Khalid: Look at this stuff. It's ancient.
+Khalid: Is that a computer? That thing must have been fifty years old when it was new.
+===

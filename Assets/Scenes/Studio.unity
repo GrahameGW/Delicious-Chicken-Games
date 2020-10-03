@@ -1893,6 +1893,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1823573469271334441, guid: 9abc6f6fcda07184e9bcd7aa2070c204, type: 3}
+      propertyPath: broadcastSchedule
+      value: 
+      objectReference: {fileID: 11400000, guid: d387dbcb736abe242bb8a37d9cc50c33, type: 2}
     - target: {fileID: 1823573469271334442, guid: 9abc6f6fcda07184e9bcd7aa2070c204, type: 3}
       propertyPath: m_LocalPosition.x
       value: 406.87625

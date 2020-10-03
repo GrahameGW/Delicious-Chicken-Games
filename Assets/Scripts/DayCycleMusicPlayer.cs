@@ -18,7 +18,7 @@ public class DayCycleMusicPlayer : MonoBehaviour
     private AudioSource audioSource;
     private Scene lastScene;
 
-    private void Start()
+    private void Awake()
     {
         if(instance == null)
         {
@@ -52,6 +52,16 @@ public class DayCycleMusicPlayer : MonoBehaviour
             default:
                 Debug.LogError("Invalid time of day");
                 break;
+        }
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        AudioClip oldClip = audioSource?.clip;
+        SetClipBasedOnTimeOfDay();
+        if (oldClip != audioSource.clip)
+        {
+            audioSource.Play();
         }
     }
 

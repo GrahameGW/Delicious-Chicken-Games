@@ -8,30 +8,33 @@ public class PlaybackManager : MonoBehaviour
     [SerializeField] float playbackDelay = 1.0f;
     [SerializeField]
     float fadeOutMultiplier = 1.0f;
-    [SerializeField] DialogueOrganizer dialogOrganizer = default;
     [SerializeField] DialogueRunner dialogRunner = default;
 
     [SerializeField] YarnProgram weather = default;
 
-    private int stage = 0;
     private int day;
     [SerializeField] BroadcastSchedule schedule = default;
+    private int stage = 0;
     // 0 = weather, 1 = random general clip, 2 = ad, 3 = interview
 
 
     void Start()
     {
         day = GetComponent<BroadcastPlayer>().globalState.currentDay;
-        StartCoroutine(PlayWeather());
+        StartCoroutine(Play());
     }
 
-    IEnumerator PlayWeather()
+    IEnumerator Play()
     {
         yield return new WaitForSeconds(playbackDelay);
         if  (day != 0) {
-            stage++;
+            // load weather
             dialogRunner.Add(weather);
+            dialogRunner.Add(schedule.advertSlot.yarn);
+            dialogRunner.Add(schedule.interviewSlot.yarn);
             dialogRunner.StartDialogue(Random.Range(1, 6).ToString());
+            stage++;
+
 
             yield break;
         }
@@ -40,43 +43,28 @@ public class PlaybackManager : MonoBehaviour
         }
     }
 
-    public void PlayNext()
+    public void NextNode()
     {
-        //dialogRunner.Clear();
-
-        switch(stage) {
-            case 1:
-                // play random clip
-                goto case 2;
-                //break;
-            case 2:
-                // play ad
-                if (schedule.advertSlot != null) {
-                    dialogRunner.Add(schedule.advertSlot.yarn);
-                    dialogRunner.StartDialogue("Start");
-                    break;
-                }
-                else {
-                    goto case 3;
-                }
-            case 3:
-                // play interview if exists
-                if (schedule.interviewSlot != null) {
-                    dialogRunner.Add(schedule.interviewSlot.yarn);
-                    dialogRunner.StartDialogue("Start");
-                }
-                else {
-                    EndBroadcast();
-                }
-                break;
-            default:
-                EndBroadcast();
-                break;
-        }
-
         stage++;
-    }
 
+        if (stage == 1) {
+            stage++;
+        }
+        if (stage == 2) {
+            if (schedule.advertSlot != null) {
+                dialogRunner.StartDialogue("StartAd");
+                return;
+            }
+            stage++;
+        }
+        if (stage == 3) {
+            if (schedule.interviewSlot != null) {
+                dialogRunner.StartDialogue("StartInterview");
+                return;
+            }
+            EndBroadcast();
+        }
+    }
     private void EndBroadcast()
     {
         GetComponent<BroadcastPlayer>().globalState.currentTime = TimeOfDay.Evening;

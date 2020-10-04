@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 359032938340048309}
   - component: {fileID: 638278097157076071}
   m_Layer: 0
-  m_Name: Music Item
+  m_Name: Clip Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,8 +216,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Item
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55f618c1a298f394487b8cb853fa2771, type: 2}
+  m_sharedMaterial: {fileID: 4762889632465565318, guid: 55f618c1a298f394487b8cb853fa2771, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

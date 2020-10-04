@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19aededb907e5a3438577c862fe14ee1, type: 3}
   m_Name: Starting Availalble Interviews
   m_EditorClassIdentifier: 
-  clips: []
+  clips:
+  - {fileID: 11400000, guid: 830260ad6888c654185ddd6f9190bb86, type: 2}
   usedClips: []

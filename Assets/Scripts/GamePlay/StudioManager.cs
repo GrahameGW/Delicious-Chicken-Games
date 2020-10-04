@@ -14,7 +14,7 @@ public class StudioManager : MonoBehaviour
     [SerializeField] DialogueOrganizer dialogOrganizer = default;
     [SerializeField] DialogueRunner dialogRunner = default;
 
-    [SerializeField] GameObject endDaybtn = default;
+    //[SerializeField] GameObject endDaybtn = default;
     private SpriteRenderer playerSprite;
 
     int day;
@@ -38,7 +38,7 @@ public class StudioManager : MonoBehaviour
         if (GetDialog(globalState, dialogOrganizer, out dialogue)) {
             StartCoroutine(PlayDialog(dialogue, globalState.currentTime));
         }
-        endDaybtn.SetActive(globalState.currentTime == TimeOfDay.Evening);
+        //endDaybtn.SetActive(globalState.currentTime == TimeOfDay.Evening);
 
         if (dialogOrganizer.dialoguesPerDays[globalState.currentDay].LetterDialogue == null)
         {
@@ -107,10 +107,10 @@ public class StudioManager : MonoBehaviour
         player.gameObject.SetActive(!player.activeSelf);
     }
 
-    public void EndDay(float fadespeed)
-    {
-        SaveState();
-        endDaybtn.SetActive(false);
-        Initiate.Fade("EndOfDay", Color.black, fadespeed);
-    }
+    //public void EndDay(float fadespeed)
+    //{
+    //    SaveState();
+    //    endDaybtn.SetActive(false);
+    //    Initiate.Fade("EndOfDay", Color.black, fadespeed);
+    //}
 }

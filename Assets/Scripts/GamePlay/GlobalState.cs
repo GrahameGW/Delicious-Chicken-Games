@@ -19,6 +19,12 @@ public class GlobalState : ScriptableObject
     public int buckScore = 0;
     public int carlaScore = 0;
 
+    public float NetScore {
+        get {
+            return leraScore + luisScore + buckScore + carlaScore;
+        }
+    }
+
     public void ChangeMoney(int change)
     {
         money += change;

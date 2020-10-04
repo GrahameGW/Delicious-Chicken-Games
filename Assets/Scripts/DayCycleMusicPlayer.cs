@@ -6,13 +6,14 @@ public class DayCycleMusicPlayer : MonoBehaviour
     public static DayCycleMusicPlayer instance;
 
     [SerializeField]
-    private GlobalState globalState;
+    private GlobalState globalState = default;
 
     [SerializeField]
-    private BroadcastSchedule broadcastSchedule;
+    private BroadcastSchedule broadcastSchedule = default;
 
     [SerializeField]
-    private AudioClip morningClip, eveningClip;
+    private AudioClip morningClip = default;
+    [SerializeField] AudioClip eveningClip = default;
 
     private AudioClip broadCastClip;
     private AudioSource audioSource;

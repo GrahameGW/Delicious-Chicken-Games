@@ -45,10 +45,11 @@ public class ScheduleManager : MonoBehaviour
         schedule.interviewSlot = interviewList.selected?.clip;
         schedule.musicSlot = musicList.selected?.clip;
         schedule.advertSlot = advertList.selected?.clip;
-
+        /*
         EditorUtility.SetDirty(schedule);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+        */
     }
 
     public string GetSaved()

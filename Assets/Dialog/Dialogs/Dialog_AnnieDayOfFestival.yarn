@@ -1,15 +1,19 @@
 title: Start
 tags: 
 colorID: 0
-position: -2408,-401
+position: -2411,-402
 ---
 <<SetSpeaker Annie>>
 Annie: Good pitch.
 <<SetSpeaker Khalid>>
 Khalid: Here's hoping it gets them out to the festival.
- [[AnnieHappy|AnnieHappy]]
- [[AnnieNeutral|AnnieNeutral]]
- [[AnnieUpset|AnnieUpset]]
+<< if $NetScore >= 3 >>
+ [[AnnieHappy]]
+<< elseif $NetScore > 0>>
+ [[AnnieNeutral]]
+<< elseif $NetScore <= 0>>
+ [[AnnieUpset]]
+<<endif>>
 ===
 title: AnnieHappy
 tags: 
@@ -42,10 +46,6 @@ position: -1790,-389
 ---
 Khalid: Ready to go?
 Annie: After you.
- [[BestFestival|BestFestival]]
- [[GoodFestival|GoodFestival]]
- [[BadFestival|BadFestival]]
- [[WorstFestival|WorstFestival]]
 ===
 title: BestFestival
 tags: 

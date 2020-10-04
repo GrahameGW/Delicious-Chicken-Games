@@ -117,11 +117,17 @@ Annie: I don't just own the diner. I'm also the mayor.
 <<SetSpeaker Khalid>>
 Khalid: I see.
 <<SetSpeaker Annie>>
-Annie: The Harvest Festival is in 6 weeks. We were going to cancel...again...but with a radio station we can actually get people excited. Bring everyone together. What do you say?
+Annie: The Harvest Festival is in 10 days. We were going to cancel...again...but with a radio station we can actually get people excited. Bring everyone together. What do you say?
 <<SetSpeaker Khalid>>
 Khalid: ...All right. Just until the Festival.
 <<SetSpeaker Annie>>
 Annie: Wonderful! I can’t wait. 
-<<SetSpeaker Annie>>
-Annie: That’ll help you find your way around. I’m down at the diner. Come find me if you need help or just want a break. I’m sure everyone will be thrilled to meet you.
+Annie: I take it you need a place to stay as well?
+Khalid: ...if it's warmer and less musty than this place.
+Annie: There's a spare bed back behind the kitchen. It's not much, but it's warm.
+Khalid: You mean it?
+Annie: You bet. I've got to head back now and get ready for the dinner rush. Whenever you're ready, just head down.
+Annie: We're on the main street. Big red sign. You can't miss it.
+Khalid: Sounds good. See you soon.
+Annie: See you later.
 ===

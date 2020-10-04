@@ -14,8 +14,6 @@ public class DayCycleMusicPlayer : MonoBehaviour
     [SerializeField]
     private AudioClip morningClip = default;
     [SerializeField] AudioClip eveningClip = default;
-
-    private AudioClip broadCastClip;
     private AudioSource audioSource;
     private Scene lastScene;
 
@@ -32,7 +30,6 @@ public class DayCycleMusicPlayer : MonoBehaviour
         }
         
         audioSource = GetComponent<AudioSource>();
-        broadCastClip = broadcastSchedule.musicSlot?.clip;
         
         SetClipBasedOnTimeOfDay();
 
@@ -46,7 +43,7 @@ public class DayCycleMusicPlayer : MonoBehaviour
         {
             case TimeOfDay.Morning: audioSource.clip = morningClip;
                 break;
-            case TimeOfDay.Broadcast: audioSource.clip = broadCastClip;
+            case TimeOfDay.Broadcast: audioSource.clip = broadcastSchedule.musicSlot?.clip;
                 break;
             case TimeOfDay.Evening: audioSource.clip = eveningClip;
                 break;

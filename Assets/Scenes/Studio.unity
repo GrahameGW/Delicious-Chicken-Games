@@ -1594,7 +1594,7 @@ MonoBehaviour:
   state: {fileID: 11400000, guid: e9d28272dece4e047bca5f196c4cfcd8, type: 2}
   globalState: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
   player: {fileID: 510682181}
-  dialogStartDelay: 2.5
+  dialogStartDelay: 1
   dialogOrganizer: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
   dialogRunner: {fileID: 656674601}
 --- !u!4 &1872038441

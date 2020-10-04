@@ -9,13 +9,13 @@ public class DialogueOrganizer : ScriptableObject
     [System.Serializable]
     public class DialoguePerDay
     {
-        [SerializeField] YarnProgram morningDialogue;
-        [SerializeField] string morningLocation;
-        [SerializeField] string morningStartNode;
-        [SerializeField] YarnProgram eveningDialogue;
-        [SerializeField] string eveningLocation;
-        [SerializeField] string eveningStartNode;
-        [SerializeField] YarnProgram letterDialogue;
+        public YarnProgram morningDialogue;
+        public string morningLocation;
+        public string morningStartNode;
+        public YarnProgram eveningDialogue;
+        public string eveningLocation;
+        public string eveningStartNode;
+        public YarnProgram letterDialogue;
 
         public YarnProgram MorningDialogue { get => morningDialogue; set => morningDialogue = value; }
         public string MorningLocation { get => morningLocation; set => morningLocation = value; }

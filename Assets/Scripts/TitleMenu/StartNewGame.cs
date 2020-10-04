@@ -9,8 +9,8 @@ public class StartNewGame : MonoBehaviour
     [SerializeField] StudioState studioState = default;
     [SerializeField] StudioState defaultStudio = default;
 
-    [SerializeField] DialogueOrganizer dialogOrg = default;
     [SerializeField] DialogueOrganizer defaultDialog = default;
+    [SerializeField] DialogueOrganizer dialogOrg = default;
 
     [SerializeField] LerasArc startingLera = default;
     [SerializeField] LerasArc lerasArc = default;

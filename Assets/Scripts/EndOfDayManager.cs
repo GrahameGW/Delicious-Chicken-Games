@@ -54,11 +54,11 @@ public class EndOfDayManager : MonoBehaviour
 
     IEnumerator ShowUI()
     {
-        for (float ft = 1f; ft >= 0; ft -= 0.1f) {
+        for (float ft = 0f; ft <= 1; ft += 0.1f) {
             toFade.alpha = ft;
             yield return null;
         }
-        toFade.gameObject.SetActive(false);
+        toFade.gameObject.SetActive(true);
     }
 
     public void Next()

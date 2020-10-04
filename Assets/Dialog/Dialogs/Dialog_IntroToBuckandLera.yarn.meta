@@ -1,0 +1,48 @@
+fileFormatVersion: 2
+guid: 27c6716eb1a800e4f898d5c803a6d1ef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dialog_IntroToBuckandLera-Start-0
+  - Dialog_IntroToBuckandLera-Start-1
+  - Dialog_IntroToBuckandLera-Start-2
+  - Dialog_IntroToBuckandLera-Start-3
+  - Dialog_IntroToBuckandLera-Start-4
+  - Dialog_IntroToBuckandLera-Start-5
+  - Dialog_IntroToBuckandLera-Start-6
+  - Dialog_IntroToBuckandLera-Start-7
+  - Dialog_IntroToBuckandLera-Start-8
+  - Dialog_IntroToBuckandLera-Start-9
+  - Dialog_IntroToBuckandLera-Start-10
+  - Dialog_IntroToBuckandLera-Start-11
+  - Dialog_IntroToBuckandLera-Start-12
+  - Dialog_IntroToBuckandLera-Start-13
+  - Dialog_IntroToBuckandLera-Start-14
+  - Dialog_IntroToBuckandLera-Start-15
+  - Dialog_IntroToBuckandLera-Start-16
+  - Dialog_IntroToBuckandLera-Start-17
+  - Dialog_IntroToBuckandLera-Start-18
+  - Dialog_IntroToBuckandLera-Start-19
+  - Dialog_IntroToBuckandLera-Start-20
+  - Dialog_IntroToBuckandLera-Start-21
+  - Dialog_IntroToBuckandLera-Start-22
+  - Dialog_IntroToBuckandLera-Start-23
+  - Dialog_IntroToBuckandLera-Start-24
+  - Dialog_IntroToBuckandLera-Start-25
+  - Dialog_IntroToBuckandLera-Start-26
+  - Dialog_IntroToBuckandLera-Start-27
+  - Dialog_IntroToBuckandLera-Start-28
+  - Dialog_IntroToBuckandLera-Start-29
+  - Dialog_IntroToBuckandLera-Start-30
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

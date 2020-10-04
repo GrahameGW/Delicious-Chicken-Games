@@ -16,10 +16,15 @@ public class RuthArc : Arc
     {
 
         interviews.UseClip(clip);
-        isDone = true;
-        if (carla.isDone && state.carlaScore > 0) {
-            organizer.SetNextEvening(finalYarn, "Outside", state.currentDay);
+        if (clip.Equals(ruthInterview)) {
+            isDone = true;
+            if (carla.isDone && state.carlaScore > 0) {
+                organizer.SetNextEvening(finalYarn, "Outside", state.currentDay);
+            }
         }
+
+        else interviews.clips.Add(ruthInterview);
+
     }
 }
 

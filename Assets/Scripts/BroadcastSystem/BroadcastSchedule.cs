@@ -14,8 +14,10 @@ public class BroadcastSchedule : ScriptableObject
         musicSlot = null;
         advertSlot = null;
 
+        /*
         EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+        */
     }
 }

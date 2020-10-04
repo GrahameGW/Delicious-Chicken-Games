@@ -18,9 +18,10 @@ public class BroadcastPlayer : MonoBehaviour
         */
 
         musicList.ResetClips();
+        /*
         EditorUtility.SetDirty(interviewList);
         EditorUtility.SetDirty(advertList);
-
+        */
         //schedule.Reset();
 
     }

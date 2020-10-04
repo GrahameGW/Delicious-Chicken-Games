@@ -8,6 +8,7 @@ public class RuthArc : Arc
     [SerializeField] CarlaArc carla = default;
     [SerializeField] GlobalState state = default;
     [SerializeField] DialogueOrganizer organizer = default;
+    [SerializeField] BroadcastClip stories = default;
     [SerializeField] YarnProgram finalYarn = default;
 
     public bool isDone = false;
@@ -17,6 +18,7 @@ public class RuthArc : Arc
 
         interviews.UseClip(clip);
         if (clip.Equals(ruthInterview)) {
+            interviews.clips.Add(stories);
             isDone = true;
             if (carla.isDone && state.carlaScore > 0) {
                 organizer.SetNextEvening(finalYarn, "Outside", state.currentDay);

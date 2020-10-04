@@ -13,9 +13,10 @@ public class LerasArc : Arc
 
     public override void OnBroadcast(BroadcastClip clip, int day)
     {
+        interviews.UseClip(clip);
+
         if (clip.name.Equals("Reader Mail - Lera's Letter") && !didBroadcast) {
             didBroadcast = true;
-            interviews.UseClip(clip);
             organizer.dialoguesPerDays[day + 1].LetterDialogue = followupLetter;
         }
     }

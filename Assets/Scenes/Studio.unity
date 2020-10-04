@@ -1308,6 +1308,10 @@ PrefabInstance:
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: StudioManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+      propertyPath: textSpeed
+      value: 0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 8148132622712693997, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

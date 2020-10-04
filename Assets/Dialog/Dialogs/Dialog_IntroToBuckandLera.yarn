@@ -1,0 +1,45 @@
+title: Start
+tags: 
+colorID: 0
+position: -1648,-331
+---
+<< SetSpeaker Khalid>> 
+<< SetSpeaker Buck>> 
+Buck: ...
+Khalid: Hello?
+Buck: ...
+Khalid: ...Oh, sorry. Is this the mechanic's?
+Buck: ...yup.
+Khalid: Are you Lera?
+Buck: Nope.
+Khalid: Oh. Is she here?
+Buck: Yep.
+Khalid: Right.
+Khalid: ...
+Khalid: I'm Khalid.
+Buck: And I'm leaving.
+<< SetSpeaker None>> 
+Khalid: ...good talking to you?
+<< SetSpeaker Lera>> 
+Lera: Oh, don't mind Buck. He's better out in the wilds than in small talk.
+Khalid: I see.
+Lera: New face. You must be the DJ.
+Khalid: You're Lera?
+Lera: You got it.
+Khalid: Nice to meet you
+Lera: You bet it is.
+<< if $leraScore >= 0>> 
+Lera: I'm a big fan of this festival effort you've got going with Annie.
+Lera: If there are things I can do to keep the ball rolling, you come find me, okay?
+Khalid: Sounds good to me.
+<< else>> 
+Lera: ...
+Lera: If you're gonna just stand around, I'm going back to work.
+Khalid: Oh. Okay.
+Lera: ...
+Lera: Right. Don't touch anything.
+<<SetSpeaker None>>
+Khalid: ...
+Khalid: Might as well leave.
+<< endif>>
+===

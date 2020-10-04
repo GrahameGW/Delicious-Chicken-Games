@@ -4,7 +4,7 @@ using Yarn.Unity;
 public class EndingSelector : MonoBehaviour
 {
     [SerializeField] GlobalState globalState = default;
-    [SerializeField] IntroSceneLoader loader = default;
+    [SerializeField] OutroLoader loader = default;
     [SerializeField] IntroManager goodManager = default;
     [SerializeField] IntroManager badManager = default;
     [SerializeField] DialogueUI dialogueUI = default;

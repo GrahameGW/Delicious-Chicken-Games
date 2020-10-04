@@ -258,7 +258,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: da0f398580e055f48a072b7c5bd8c34e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af1e07cc95604d440939ed5aba5ae4e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -292,10 +292,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 367261975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5752cfd36969a6b4e87f8d0169e60d1d, type: 3}
+  m_Script: {fileID: 11500000, guid: d9769180d5d037441947857aa5a05cb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yarnManager: {fileID: 1420763014}
+  yarnManager: {fileID: 0}
   waitBeforeInput: 3
   textToContinue: {fileID: 1871510186}
 --- !u!224 &635024622 stripped
@@ -450,7 +450,7 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeMultiplier: 0.5
   startNodes:
-  - 5
+  - 
   backdrops:
   - {fileID: 21300000, guid: e9de8046bd354bc459a4099daae99923, type: 3}
   activeBackdrop: {fileID: 367261976}
@@ -861,7 +861,7 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeMultiplier: 0.5
   startNodes:
-  - 1
+  - 0
   backdrops:
   - {fileID: 21300000, guid: 32956de132f839d47a48c113833e1017, type: 3}
   activeBackdrop: {fileID: 367261976}

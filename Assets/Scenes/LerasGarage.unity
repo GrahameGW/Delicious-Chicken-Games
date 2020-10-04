@@ -157,7 +157,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bfeb42068b90e0408e168bd16f40b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lera: {fileID: 0}
+  lera: {fileID: 11400000, guid: 76d1cf71764ca3445b6d8ff714eb719f, type: 2}
+  buck: {fileID: 11400000, guid: 7973db3e349470e4a85af417f26fb6fc, type: 2}
+  dialogStartDelay: 1
+  dialogOrganizer: {fileID: 11400000, guid: c17a95d406e595c429c5881d315c3734, type: 2}
+  dialogRunner: {fileID: 894071444}
+  firstMeetingDialog: {fileID: 2480198943629176163, guid: 27c6716eb1a800e4f898d5c803a6d1ef, type: 3}
+  noOneHereDialog: {fileID: 2480198943629176163, guid: 8cca4b6272cc1d043b672620b08757e1, type: 3}
+  globalState: {fileID: 11400000, guid: e989502c275ae9b4c8161523a8baf60a, type: 2}
 --- !u!4 &423652208
 Transform:
   m_ObjectHideFlags: 0
@@ -172,6 +179,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &894071444 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8148132622712694002, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
+  m_PrefabInstance: {fileID: 1988033961}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &921579504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -559,14 +577,14 @@ PrefabInstance:
     - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 423652207}
     - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: NextNode
+      value: LeaveGarage
       objectReference: {fileID: 0}
     - target: {fileID: 8148132622712693996, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: PlaybackManager, Assembly-CSharp
+      value: GarageManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8148132622712693997, guid: 8cf1e1dcf665e3d4885274137738f3f2, type: 3}
       propertyPath: m_LocalPosition.x

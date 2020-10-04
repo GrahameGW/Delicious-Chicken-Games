@@ -19,6 +19,16 @@ public class CustomVariableStorage : Yarn.Unity.VariableStorageBehaviour
                 return new Yarn.Value(globalState.communityReached);
             case "$money":
                 return new Yarn.Value(globalState.money);
+            case "$NetScore":
+                return new Yarn.Value(globalState.NetScore);
+            case "$leraScore":
+                return new Yarn.Value(globalState.leraScore);
+            case "$luisScore":
+                return new Yarn.Value(globalState.luisScore);
+            case "$buckScore":
+                return new Yarn.Value(globalState.buckScore);
+            case "$carlaScore":
+                return new Yarn.Value(globalState.carlaScore);
             default:
                 Debug.LogError("Yarn variable storage tried to access invalid variable " + variableName + ".");
                 break;

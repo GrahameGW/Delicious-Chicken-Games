@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using SimpleSceneTransitions;
 
-public class StudioWaypoint : InteractiveObject
+public class LerasWaypoint : InteractiveObject
 {
     [SerializeField] Sprite daySprite = default;
     [SerializeField] Sprite dayHighlightedSprite = default;
@@ -10,7 +10,7 @@ public class StudioWaypoint : InteractiveObject
 
     public override void Execute()
     {
-        Initiate.Fade("Outside", Color.black, 1.0f);
+        Initiate.Fade("LerasGarage", Color.black, 1.0f);
     }
 
     private void OnEnable()

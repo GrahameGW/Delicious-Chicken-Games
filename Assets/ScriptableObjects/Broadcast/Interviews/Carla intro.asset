@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Mystery of the Missing Food
   clip: {fileID: 0}
   dialog: 
-  yarn: {fileID: 0}
+  yarn: {fileID: 2480198943629176163, guid: 6cb350d993c712b4f91331041edabf6b, type: 3}
   result: {fileID: 11400000, guid: a9d64785985b5714f80028a882c58c1c, type: 2}

@@ -64,11 +64,10 @@ tags:
 colorID: 0
 position: -605,174
 ---
-<< Based on status of preparations>> 
 << SetSpeaker Khalid>> 
 Khalid: How are the preparations going?
 
-Good:
+<<if $NetScore > 2>>
 
 <<SetSpeaker Annie>> 
 Annie: Things are coming along nicely. Nearly everyone will be running a stall or stand. And we've managed to locate plenty of tables, booths, and decorations.
@@ -76,7 +75,7 @@ Annie: Now I need plenty of visitors and a nice weather report. Make sure you ha
 << SetSpeaker Khalid>> 
 Khalid: *chuckles* I'll do my best.
 
-Medium:
+<<elseif $NetScore > 0>>
 <<SetSpeaker Annie>> 
 Annie: We're getting there. A bit short on supplies, but most people have agreed to run a stall or stand.
 << SetSpeaker Khalid>> 
@@ -86,7 +85,7 @@ Annie: More money wouldn't hurt, but really we just need to locate a few things.
 << SetSpeaker Khalid>> 
 Khalid: If I hear of any extra supplies I'll let you know.
 
-Bad:
+<<else>>
 <<SetSpeaker Annie>> 
 Annie: Not well. Short on critical supplies, and everyone seems to know it. Hard to get people to commit if you can't promise them a table or stand.
 << SetSpeaker Khalid>> 
@@ -95,6 +94,7 @@ Khalid: Yikes. Any ideas on where to get that stuff?
 Annie: I'm trying everything I can. If I have to, I'll take all the furniture out of the diner. But anything you can find I'll take.
 << SetSpeaker Khalid>> 
 Khalid: Got it. I'll keep an ear out.
+<<endif>>
 [[  How are people feeling?|communityStatus]]
 [[  How are the financials?|financials]]
 [[  Let's get back to work|End]]
@@ -107,12 +107,12 @@ position: -360,190
 << SetSpeaker Khalid>> 
 Khalid: How is everyone feeling?
 
-Good:
+<<if $NetScore > 2>>
 <<SetSpeaker Annie>> 
 Annie: Everyone is really excited. People are discussing display ideas, gossiping about dance partners, even trash talking about the competitions.
 Annie: Even more than that though, the whole place is just in a better mood. We've a ways to go, but I can't help but feel optimistic
 
-Medium:
+<<elseif $NetScore > 0>>
 <<SetSpeaker Annie>> 
 Annie: I wouldn't say everyone is super excited, but it's a topic of conversation.
 << SetSpeaker Khalid>> 
@@ -123,7 +123,7 @@ Annie: So if you can get people a bit more revved up, that would be wonderful.
 << SetSpeaker Khalid>> 
 Khalid: Okay. I'll do my best.
 
-Bad:
+<<else>>
 <<SetSpeaker Annie>> 
 Annie: We're not gaining any ground. People either aren't hearing the message, or they don't care.
 << SetSpeaker Khalid>> 
@@ -131,6 +131,7 @@ Khalid: I'm playing plenty of PSAs about it.
 <<SetSpeaker Annie>> 
 Annie: Folks aren't tuning in. Either they don't like your other content or they just don't know about the station.
 Annie: Try and get out and get a feel for what people want. If you can connect with them, they'll be more receptive.
+<<endif>>
 [[  How are the preparations going?|preparationsStatus]]
 [[  How are the financials?|financials]]
 [[  Let's get back to work|End]]
